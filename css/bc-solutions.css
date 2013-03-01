@@ -1,0 +1,136 @@
+body{
+	background: url(../images/linen.png);
+}
+
+.top-nav{
+	padding:10px;
+	font-size:9pt;
+	color:#21899f;
+}
+.top-nav a{
+	font-size:9pt;
+	color:#21899f;
+}
+
+.banner-bar{
+	background-color: #fff;
+	padding:10px;
+	padding-bottom:15px;
+}
+
+.ribbon{
+	text-align: right;
+}
+
+.ribbon img{
+	position: relative;
+	left:48px;
+	top:15px;
+}
+
+.orbit-slide-number{
+	display:none;
+}
+
+.orbit-timer{
+	display:none;
+}
+
+.hero{
+	
+}
+
+#tab-box{
+	position: absolute;
+	bottom:15px;
+	right:0;
+}
+
+#tab-bar{
+	position: absolute;
+	bottom:0;
+	right:0;
+	width:100%;
+	height:5px;
+	background-color:rgba(0,175,201,0.6);
+}
+
+.tab{
+	display: inline;
+	height: 18px;
+	padding:12px;
+	background-color:rgba(0,175,201,0.6);	
+}
+
+.tab a{
+	color:#fff;
+}
+
+.tab:hover {
+	background-color:rgba(0,175,201,0.9);
+}
+
+.content{
+	background-color: #fff;
+}
+
+.box{
+	padding:10px;
+}
+
+.sub-box{
+	position: relative;
+	width: 500px;
+	padding-bottom:20px;
+	margin: 0 auto;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+}
+.sub-box:before, .sub-box:after{
+	position: absolute;
+	width: 40%;
+	height: 10px;
+	content: ' ';
+	left: 12px;
+	bottom: 12px;
+	background: transparent;
+	-webkit-transform: skew(-5deg) rotate(-5deg);
+	-moz-transform: skew(-5deg) rotate(-5deg);
+	-ms-transform: skew(-5deg) rotate(-5deg);
+	-o-transform: skew(-5deg) rotate(-5deg);
+	transform: skew(-5deg) rotate(-5deg);
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	z-index: -1;
+}
+
+.sub-box:after{
+	left: auto;
+	right: 12px;
+	-webkit-transform: skew(5deg) rotate(5deg);
+	-moz-transform: skew(5deg) rotate(5deg);
+	-ms-transform: skew(5deg) rotate(5deg);
+	-o-transform: skew(5deg) rotate(5deg);
+	transform: skew(5deg) rotate(5deg);
+}
+
+.sub-box h4{
+	margin-bottom:0;
+}
+.sub-box img{
+	padding-top:12px;
+}
+.body{
+	font-family: arial;
+	color:#aaa;
+	font-size: 10pt;
+}
+
+footer {
+	position: fixed;
+	bottom:0;
+	background:rgba(0, 0, 0, 0.3);
+}
