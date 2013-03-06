@@ -1,5 +1,6 @@
 body{
 	background: url(../images/linen.png);
+	padding-bottom:54px;
 }
 
 .top-nav{
@@ -15,18 +16,24 @@ body{
 .banner-bar{
 	background-color: #fff;
 	padding:10px;
-	padding-bottom:15px;
+	padding-bottom:6px;
 }
 
-.ribbon{
+span.logo img{
+	display:inline;
+}
+
+span.marketing-image{
+	position:relative;
+	bottom:3px;
+	left:6px;
+}
+
+.advertise{
 	text-align: right;
+	margin-top:10px;
 }
 
-.ribbon img{
-	position: relative;
-	left:48px;
-	top:15px;
-}
 
 .orbit-slide-number{
 	display:none;
@@ -131,6 +138,22 @@ body{
 
 footer {
 	position: fixed;
+	width:100%;
 	bottom:0;
-	background:rgba(0, 0, 0, 0.3);
 }
+
+footer p{
+	margin:0;
+}
+
+.bottom-nav{
+		background:rgba(255, 255, 255, 0.5);
+		padding:9px;
+		border-radius: 15px;
+		font-size: 9pt;
+}
+
+.bottom-nav:hover{
+			background:rgba(255, 255, 255, 1.0);
+}
+
