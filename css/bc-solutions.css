@@ -16,7 +16,7 @@ body{
 .banner-bar{
 	background-color: #fff;
 	padding:10px;
-	padding-bottom:6px;
+	padding-bottom:1px;
 }
 
 span.logo img{
@@ -25,7 +25,7 @@ span.logo img{
 
 span.marketing-image{
 	position:relative;
-	bottom:3px;
+	bottom:5px;
 	left:6px;
 }
 
