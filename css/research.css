@@ -2,6 +2,14 @@
     display:inline-block;
 }
 
+.research-report h5{
+    font-size: 11pt;
+}
+
+.download{
+    display: block;
+    padding-top:12px;
+}
 
 .download img{
     display:inline;
