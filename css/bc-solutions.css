@@ -25,13 +25,43 @@ ul.nav li{
 
 .title-area .name{
     background: #fff;
-    padding:6px;
+    padding-top:0;
+}
+
+.mobile-logos{
+    padding-left:6px;
+    padding-top:6px;
+}
+
+.mobile-logos img {
+    display:inline;
+}
+
+.name .marketing-image {
+    vertical-align: bottom;
+    position: relative;
+    bottom: 3px;
 }
 
 .banner-bar {
     background-color: #fff;
     padding: 10px;
     padding-bottom: 1px;
+}
+
+.top-bar .toggle-topbar.menu-icon a span {
+    -webkit-box-shadow: 0 10px 0 1px #26aec2, 0 16px 0 1px #26aec2, 0 22px 0 1px #26aec2;
+    box-shadow: 0 10px 0 1px #26aec2, 0 16px 0 1px #26aec2, 0 22px 0 1px #26aec2;
+}
+
+.top-bar.expanded .toggle-topbar a span {
+    -webkit-box-shadow: 0 10px 0 1px #ccc, 0 16px 0 1px #ccc, 0 22px 0 1px #ccc;
+    box-shadow: 0 10px 0 1px #ccc, 0 16px 0 1px #ccc, 0 22px 0 1px #ccc;
+}
+
+
+.top-bar .toggle-topbar.menu-icon a {
+    color: #26aec2;
 }
 
 span.logo img {
