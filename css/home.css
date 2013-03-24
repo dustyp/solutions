@@ -1,0 +1,22 @@
+.orbit-slide-number {
+    display: none;
+}
+
+.orbit-timer {
+    display: none;
+}
+
+.hero {
+
+}
+
+.home-box {
+    position: relative;
+    height:300px;
+}
+
+
+.home-box img{
+    position: absolute;
+    bottom:6px;
+}

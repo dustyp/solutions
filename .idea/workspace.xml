@@ -2,20 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_settings.scss" afterPath="$PROJECT_DIR$/scss/_settings.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/app.css" afterPath="$PROJECT_DIR$/css/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/home.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bc-solutions.css" afterPath="$PROJECT_DIR$/css/bc-solutions.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/research-and-insights.html" afterPath="$PROJECT_DIR$/research-and-insights.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="solutions.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" time="1363808528939" ignored="false" />
-    <file path="/index.html" changelist="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" time="1363998166431" ignored="false" />
-    <file path="/research-and-insights.html" changelist="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" time="1363998153738" ignored="false" />
+    <file path="/index.html" changelist="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" time="1364104113132" ignored="false" />
+    <file path="/research-and-insights.html" changelist="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" time="1364105167710" ignored="false" />
     <file path="/research.css" changelist="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" time="1363810120767" ignored="false" />
-    <file path="/bc-solutions.css" changelist="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" time="1363991083101" ignored="false" />
+    <file path="/bc-solutions.css" changelist="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" time="1364105178108" ignored="false" />
     <file path="/_settings.scss" changelist="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" time="1363997810212" ignored="false" />
     <file path="/dummy.txt" changelist="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" time="1363890943071" ignored="false" />
+    <file path="/home.css" changelist="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" time="1364102800906" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,7 @@
       <file leaf-file-name="research-and-insights.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/research-and-insights.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="20" selection-start="1576" selection-end="1576" vertical-scroll-proportion="-12.416667">
+            <state line="95" column="20" selection-start="3025" selection-end="3025" vertical-scroll-proportion="-9.375">
               <folding />
             </state>
           </provider>
@@ -55,10 +57,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="41" selection-start="1742" selection-end="1742" vertical-scroll-proportion="0.5978552">
+            <state line="72" column="0" selection-start="704" selection-end="2574" vertical-scroll-proportion="-24.291666">
               <folding />
             </state>
           </provider>
@@ -82,10 +84,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bc-solutions.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="bc-solutions.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/bc-solutions.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="17" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
+            <state line="117" column="16" selection-start="1715" selection-end="1715" vertical-scroll-proportion="0.7645212">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/home.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -133,10 +144,11 @@
         <option value="$PROJECT_DIR$/css/research.css" />
         <option value="$PROJECT_DIR$/css/font-awesome.min.css" />
         <option value="$PROJECT_DIR$/css/page-curl.css" />
-        <option value="$PROJECT_DIR$/css/bc-solutions.css" />
         <option value="$PROJECT_DIR$/scss/_settings.scss" />
-        <option value="$PROJECT_DIR$/research-and-insights.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/home.css" />
+        <option value="$PROJECT_DIR$/research-and-insights.html" />
+        <option value="$PROJECT_DIR$/css/bc-solutions.css" />
       </list>
     </option>
   </component>
@@ -225,8 +237,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="FullScreen" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
@@ -259,7 +275,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32994187" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994187" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994187" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -402,6 +418,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="37" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/foundation/foundation.topbar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="186" column="37" selection-start="5747" selection-end="5747" vertical-scroll-proportion="-9.32">
@@ -411,30 +434,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bc-solutions.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="17" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
+        <state line="72" column="0" selection-start="704" selection-end="2574" vertical-scroll-proportion="-24.291666">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_settings.scss">
+    <entry file="file://$PROJECT_DIR$/css/home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="37" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
+        <state line="11" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/research-and-insights.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="20" selection-start="1576" selection-end="1576" vertical-scroll-proportion="-12.416667">
+        <state line="95" column="20" selection-start="3025" selection-end="3025" vertical-scroll-proportion="-9.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/bc-solutions.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="41" selection-start="1742" selection-end="1742" vertical-scroll-proportion="0.5978552">
+        <state line="117" column="16" selection-start="1715" selection-end="1715" vertical-scroll-proportion="0.7645212">
           <folding />
         </state>
       </provider>
