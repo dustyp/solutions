@@ -1,0 +1,13 @@
+.side-bar{
+	background: #e7e7dc;
+}
+
+.download img{
+    display:inline;
+}
+
+.download-text {
+    position: relative;
+    font-size: 10pt;
+    bottom:3px;
+}
