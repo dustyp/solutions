@@ -1,0 +1,67 @@
+form.custom{
+    margin-top:25px;
+}
+
+.chevron{
+    position:absolute;
+    top:12px;
+    padding-left:150px;
+}
+
+.table-header{
+    background: #26aec2;
+}
+
+.sub-nav{
+    font-size:10pt;
+    color:#26aec2;
+}
+.sub-nav a{
+    padding:10px;
+}
+
+.column-header{
+    color:#eee;
+    font-size:10pt;
+    padding:6px;
+}
+
+h4{
+    margin-left:0;
+    padding-left:0;
+}
+
+.ad-data-row{
+    font-size:10pt;
+    color:#b3b3b3;
+}
+
+.cell-label{
+    padding:6px;
+}
+.cell-data{
+    padding:6px;
+    margin-bottom:18px;
+    color:#666666;
+}
+
+.ad-row-title{
+    color:#000000;
+    font-weight: bold !important;
+}
+
+.guideline-section p{
+    color:#999;
+    font-size:9pt;
+}
+
+
+
+ul.guideline-list{
+    margin-left:18px;
+}
+
+ul.guideline-list li{
+    color:#999;
+    font-size:9pt;
+}
