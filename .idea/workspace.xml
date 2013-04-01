@@ -5,36 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ad-specs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-responsive.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_settings.scss" afterPath="$PROJECT_DIR$/scss/_settings.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/app.css" afterPath="$PROJECT_DIR$/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bc-solutions.css" afterPath="$PROJECT_DIR$/css/bc-solutions.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendor/custom.modernizr.js" afterPath="$PROJECT_DIR$/js/vendor/custom.modernizr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/foundation/foundation.alerts.js" afterPath="$PROJECT_DIR$/js/foundation/foundation.alerts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/foundation/foundation.clearing.js" afterPath="$PROJECT_DIR$/js/foundation/foundation.clearing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/foundation/foundation.cookie.js" afterPath="$PROJECT_DIR$/js/foundation/foundation.cookie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/foundation/foundation.dropdown.js" afterPath="$PROJECT_DIR$/js/foundation/foundation.dropdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/foundation/foundation.forms.js" afterPath="$PROJECT_DIR$/js/foundation/foundation.forms.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/foundation/foundation.joyride.js" afterPath="$PROJECT_DIR$/js/foundation/foundation.joyride.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/foundation/foundation.js" afterPath="$PROJECT_DIR$/js/foundation/foundation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/foundation/foundation.magellan.js" afterPath="$PROJECT_DIR$/js/foundation/foundation.magellan.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/foundation/foundation.orbit.js" afterPath="$PROJECT_DIR$/js/foundation/foundation.orbit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/foundation/foundation.placeholder.js" afterPath="$PROJECT_DIR$/js/foundation/foundation.placeholder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/foundation/foundation.reveal.js" afterPath="$PROJECT_DIR$/js/foundation/foundation.reveal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/foundation/foundation.section.js" afterPath="$PROJECT_DIR$/js/foundation/foundation.section.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/foundation/foundation.topbar.js" afterPath="$PROJECT_DIR$/js/foundation/foundation.topbar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendor/jquery.js" afterPath="$PROJECT_DIR$/js/vendor/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/marketing-solutions.html" afterPath="$PROJECT_DIR$/marketing-solutions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/normalize.css" afterPath="$PROJECT_DIR$/css/normalize.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/research-and-insights.html" afterPath="$PROJECT_DIR$/research-and-insights.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendor/zepto.js" afterPath="$PROJECT_DIR$/js/vendor/zepto.js" />
     </list>
     <ignored path="solutions.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" time="1364341158560" ignored="false" />
-    <file path="/index.html" changelist="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" time="1364178539004" ignored="false" />
+    <file path="/Dummy.txt" changelist="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" time="1364841956332" ignored="false" />
+    <file path="/index.html" changelist="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" time="1364841970849" ignored="false" />
     <file path="/research-and-insights.html" changelist="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" time="1364251463045" ignored="false" />
     <file path="/research.css" changelist="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" time="1364226646048" ignored="false" />
     <file path="/bc-solutions.css" changelist="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" time="1364105178108" ignored="false" />
@@ -65,25 +42,23 @@
     <favorites_list name="solutions" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3437316">
+    <splitter split-orientation="horizontal" split-proportion="0.34373158">
       <split-first>
         <leaf>
           <file leaf-file-name="research-and-insights.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/research-and-insights.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="83" column="16" selection-start="2822" selection-end="2822" vertical-scroll-proportion="-0.625">
+                <state line="83" column="16" selection-start="2822" selection-end="2822" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="foundation.magellan.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="foundation.magellan.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/foundation/foundation.magellan.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="81" column="71" selection-start="2895" selection-end="2895" vertical-scroll-proportion="0.34134007">
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
+                <state line="81" column="71" selection-start="2895" selection-end="2895" vertical-scroll-proportion="0.019035533">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -164,10 +139,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="157" column="31" selection-start="5661" selection-end="5661" vertical-scroll-proportion="0.0">
+                <state line="130" column="65" selection-start="4515" selection-end="4515" vertical-scroll-proportion="0.6911197">
                   <folding />
                 </state>
               </provider>
@@ -200,10 +175,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ad-specs.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="ad-specs.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ad-specs.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="92" column="86" selection-start="3280" selection-end="3280" vertical-scroll-proportion="-4.1538463">
+                <state line="323" column="13" selection-start="15073" selection-end="15073" vertical-scroll-proportion="-0.625">
                   <folding />
                 </state>
               </provider>
@@ -232,7 +207,6 @@
         <option value="$PROJECT_DIR$/css/font-awesome.min.css" />
         <option value="$PROJECT_DIR$/css/page-curl.css" />
         <option value="$PROJECT_DIR$/css/home.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/research.css" />
         <option value="$PROJECT_DIR$/css/marketing-solutions.css" />
         <option value="$PROJECT_DIR$/marketing-solutions.html" />
@@ -245,6 +219,7 @@
         <option value="$PROJECT_DIR$/scss/_settings.scss" />
         <option value="$PROJECT_DIR$/ad-specs.html" />
         <option value="$PROJECT_DIR$/js/foundation/foundation.magellan.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -252,7 +227,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1920" />
-    <option name="height" value="973" />
+    <option name="height" value="970" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -280,7 +255,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -333,6 +307,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,9 +316,9 @@
     <property name="options.lastSelected" value="preferences.keymap" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../mayasmom-trunk" />
     <property name="FullScreen" value="false" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
@@ -365,14 +340,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="973" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="970" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09338314" sideWeight="0.73333335" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12700106" sideWeight="0.73333335" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -509,13 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="31" selection-start="5661" selection-end="5661" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-responsive.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="122" column="0" selection-start="3379" selection-end="4946" vertical-scroll-proportion="0.0">
@@ -539,24 +507,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/research-and-insights.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="16" selection-start="2822" selection-end="2822" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ad-specs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="86" selection-start="3280" selection-end="3280" vertical-scroll-proportion="-4.1538463">
+        <state line="83" column="16" selection-start="2822" selection-end="2822" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/foundation/foundation.magellan.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="71" selection-start="2895" selection-end="2895" vertical-scroll-proportion="0.34134007">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="81" column="71" selection-start="2895" selection-end="2895" vertical-scroll-proportion="0.019035533">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-specs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="323" column="13" selection-start="15073" selection-end="15073" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="65" selection-start="4515" selection-end="4515" vertical-scroll-proportion="0.6911197">
+          <folding />
         </state>
       </provider>
     </entry>
