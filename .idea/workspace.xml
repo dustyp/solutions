@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/page-curl.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_settings.scss" afterPath="$PROJECT_DIR$/scss/_settings.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ad-specs.html" afterPath="$PROJECT_DIR$/ad-specs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/app.css" afterPath="$PROJECT_DIR$/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bc-solutions.css" afterPath="$PROJECT_DIR$/css/bc-solutions.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/marketing-solutions.html" afterPath="$PROJECT_DIR$/marketing-solutions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/research-and-insights.html" afterPath="$PROJECT_DIR$/research-and-insights.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/research.css" afterPath="$PROJECT_DIR$/css/research.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="solutions.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +19,7 @@
     <file path="/home.css" changelist="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" time="1364102800906" ignored="false" />
     <file path="/marketing-solutions.html" changelist="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" time="1365013908706" ignored="false" />
     <file path="/marketing-solutions.css" changelist="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" time="1364226703779" ignored="false" />
-    <file path="/ad-specs.html" changelist="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" time="1365014419173" ignored="false" />
+    <file path="/ad-specs.html" changelist="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" time="1365021789281" ignored="false" />
     <file path="/ad-specs.css" changelist="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" time="1364405873013" ignored="false" />
     <file path="/test-responsive.html" changelist="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" time="1364244989855" ignored="false" />
     <file path="/foundation.magellan.js" changelist="2ecbafc4-5a9b-46f1-9164-73e0aca9a691" time="1364407805384" ignored="false" />
@@ -54,7 +45,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="0" selection-start="4160" selection-end="4160" vertical-scroll-proportion="12.0">
+            <state line="11" column="45" selection-start="355" selection-end="355" vertical-scroll-proportion="-6.875">
               <folding />
             </state>
           </provider>
@@ -81,7 +72,7 @@
       <file leaf-file-name="ad-specs.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ad-specs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="183" column="50" selection-start="7979" selection-end="7979" vertical-scroll-proportion="0.3129103">
+            <state line="11" column="52" selection-start="362" selection-end="362" vertical-scroll-proportion="0.36105034">
               <folding />
             </state>
           </provider>
@@ -464,13 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="0" selection-start="4160" selection-end="4160" vertical-scroll-proportion="12.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/research.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="17" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
@@ -492,9 +476,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="45" selection-start="355" selection-end="355" vertical-scroll-proportion="-6.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ad-specs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="183" column="50" selection-start="7979" selection-end="7979" vertical-scroll-proportion="0.3129103">
+        <state line="11" column="52" selection-start="362" selection-end="362" vertical-scroll-proportion="0.36105034">
           <folding />
         </state>
       </provider>
