@@ -85,14 +85,6 @@ span.marketing-image {
     right: 0;
 }
 
-#tab-bar {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 5px;
-    background-color: rgba(0, 175, 201, 1);
-}
 
 .tab {
     display: inline;
@@ -108,6 +100,16 @@ span.marketing-image {
 .tab:hover {
     background-color: rgba(0, 175, 201, 0.9);
 }
+
+#tab-bar {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 5px;
+    background-color: rgba(0, 175, 201, 1);
+}
+
 
 .spacer{
     height:20px;

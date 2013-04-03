@@ -124,7 +124,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 1000px;
+  max-width: 900px;
   *zoom: 1;
 }
 /* line 184, ../../../.rvm/gems/ruby-2.0.0-p0/gems/zurb-foundation-4.0.9/scss/foundation/_foundation-global.scss */
@@ -3112,7 +3112,7 @@ form.custom .custom.disabled {
 .section-container.auto .section .title a {
   padding: 0.9375em;
   display: inline-block;
-  color: #333333;
+  color: black;
   font-size: 0.875em;
   white-space: nowrap;
   width: 100%;
@@ -3689,7 +3689,7 @@ form.custom .custom.disabled {
 
   /* line 342, ../../../.rvm/gems/ruby-2.0.0-p0/gems/zurb-foundation-4.0.9/scss/foundation/components/_top-bar.scss */
   .contain-to-grid .top-bar {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
   }
 
