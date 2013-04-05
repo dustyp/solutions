@@ -2,6 +2,10 @@ form.custom{
     margin-top:25px;
 }
 
+.top-bar-section ul li > a{
+    font-weight: lighter;
+}
+
 .chevron{
     position:absolute;
     top:12px;
@@ -20,20 +24,31 @@ form.custom{
     padding:10px;
 }
 
+h1{
+    font-weight: lighter;
+}
+
+h3{
+    font-weight: lighter;
+}
+
 .column-header{
     color:#eee;
     font-size:10pt;
     padding:6px;
+    font-weight: lighter;
 }
 
 h4{
     margin-left:0;
     padding-left:0;
+    font-size: 100%;
 }
 
 .ad-data-row{
     font-size:10pt;
     color:#b3b3b3;
+    padding-top:5px;
 }
 
 .cell-label{
@@ -43,6 +58,7 @@ h4{
     padding:6px;
     margin-bottom:18px;
     color:#666666;
+    line-height: 150%;
 }
 
 .ad-row-title{
@@ -55,7 +71,13 @@ h4{
     font-size:9pt;
 }
 
+.spacer-line{
+    border-top: 2px dotted tan; 
+    height: 1px;
+    width: 98%;
+    margin-left: 1%;
 
+}
 
 ul.guideline-list{
     margin-left:18px;
