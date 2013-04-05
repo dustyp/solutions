@@ -157,3 +157,229 @@ footer p {
     background: rgba(255, 255, 255, 1.0);
 }
 
+/*Ale: Footer*/
+
+#Footer a:link, #Footer a:visited, #Footer a:hover, #Footer a:active {
+    color: #40463C;
+}
+
+#Footer{
+    background-color: #fff;
+    font-size: 76%;
+}
+
+.wrapperImg.footerEmailPic {
+    background-position: -108px 0;
+    height: 105px;
+    width: 181px;
+}
+
+.wrapperImg {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url("http://assets.babycenter.com/ims/2012/12dec/wrapperSprite.jpg");
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+}
+
+.wrapperImg.footerMobilePic {
+    background-position: -303px 0;
+    height: 120px;
+    width: 121px;
+    margin-right: 10px;
+}
+
+ul.iconList {
+    font-size: 11px;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    width:49%;
+}
+ 
+ ul.iconList li {
+    margin-bottom: 20px;
+    line-height: 14px;
+    overflow: hidden;
+
+}
+
+ul.iconList li .iconSprite {
+    float: left;
+    margin-right: 10px;
+}
+
+.floatLeft {
+    float: left;
+}
+
+
+.iconSprite {
+    background-image: url("http://www.babycenter.com/assets/6.05.1/images/global/iconSprite.png");
+    display: inline-block;
+}
+ul.footerPromos {
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+
+ul.footerPromos > li + li {
+    border-left: #DEDEDE dotted 1px;
+    padding-left: 20px;
+}
+
+ul.footerPromos li {
+    margin-bottom: 5px;
+}
+
+.iconMyPregToday {
+    background-position: 0 -427px;
+    height: 25px;
+    width: 25px;
+}
+
+.iconMyBabyToday {
+    background-position: 0 -498px;
+    height: 25px;
+    width: 25px;
+}
+
+.iconClass25 {
+    background-position: 0 -212px;
+    height: 25px;
+    width: 25px;
+}
+.iconBlogLg {
+    background-position: 0 -564px;
+    height: 25px;
+    width: 25px;
+}
+.iconFacebookLg {
+    background-position: 0 -283px;
+    height: 26px;
+    width: 26px;
+}
+
+.iconPinterestLg {
+    background-position: 0 -532px;
+    height: 26px;
+    width: 26px;
+}
+
+.iconCommunityLg {
+    background-position: 0 -247px;
+    height: 26px;
+    width: 26px;
+}
+
+.iconTwitterLg {
+    background-position: 0 -462px;
+    height: 26px;
+    width: 26px;
+}
+
+.iconLoveLg {
+    background-position: 0 -319px;
+    height: 26px;
+    width: 26px;
+}
+
+.wrapperImg.webbiePic {
+    background-position: -434px 0;
+    height: 47px;
+    width: 94px;
+}
+
+.wrapperImg.cribsiePic {
+    background-position: -434px -55px;
+    height: 47px;
+    width: 94px;
+}
+
+.finePrint {
+     font-size: 11px;
+}
+
+.footerLinks {
+    border-top-color: #E5E5E5;
+    border-top-style: solid;
+    border-top-width: 1px;
+    font-size: 11px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    padding-bottom: 2px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.footerLinks ul li {
+    list-style-type: none;
+}
+
+.footerLinks h3 {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+ul.footerPromos > li + li {
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: #DEDEDE;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: dotted;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 1px;
+    padding-left: 20px;
+}
+
+@font-face {
+    font-family: "MuseoSlabMedium";
+    src: local("//:"), url("font/MuseoSlab-500.ttf") format("truetype");
+}
+@font-face {
+    font-family: "MuseoSlabLight";
+    src: local("//:"), url("font/MuseoSlab-300.ttf") format("truetype");
+}
+@font-face {
+    font-family: "MuseoSlabHeavy";
+    src: url("font/MuseoSlab-700.ttf") format("truetype");
+}
+
+h1, h2, h3 {
+    font-family: "MuseoSlabHeavy",Georgia,Arial,serif;
+    color: #656565;
+     font-weight: normal;
+}
+}
+
+h4 {
+    font-family: "MuseoSlabHeavy",Georgia,Arial,serif;
+    font-weight: normal;
+}
+
+h2 {
+   font-size: 18px;
+   font-weight: normal;
+}
