@@ -115,6 +115,11 @@ span.marketing-image {
     height:20px;
 }
 
+.spacer-line{
+    border-bottom: 2px dotted tan;
+    width:100%;
+}
+
 
 ul.box{
     list-style: none;
