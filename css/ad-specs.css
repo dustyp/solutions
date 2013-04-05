@@ -89,6 +89,7 @@ h4{
 
 .effectiveness-list{
     color: #000;
+    padding-left: 6px;
 }
 ul.effectiveness-list{
     list-style-type: disc;
@@ -105,4 +106,8 @@ ul.guideline-list{
 ul.guideline-list li{
     color:#999;
     font-size:9pt;
+}
+.backtotop{
+    margin-right: 18px;
+    text-align: right;
 }
