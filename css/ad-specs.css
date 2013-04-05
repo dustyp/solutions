@@ -1,3 +1,4 @@
+
 form.custom{
     margin-top:25px;
 }
@@ -78,6 +79,14 @@ h4{
     margin-left: 1%;
 
 }
+
+.row-spacer{
+    width:100%;
+    background: none;
+    text-align: right;
+}
+
+
 .effectiveness-list{
     color: #000;
 }
