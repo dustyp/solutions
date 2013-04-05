@@ -72,10 +72,20 @@ h4{
 }
 
 .spacer-line{
-    border-top: 2px dotted tan; 
+    border-top: 1px dashed tan; 
     height: 1px;
     width: 98%;
     margin-left: 1%;
+
+}
+.effectiveness-list{
+    color: #000;
+}
+ul.effectiveness-list{
+    list-style-type: disc;
+    padding-left: 40px;
+    color: #000;
+    padding-top: 10px;
 
 }
 
