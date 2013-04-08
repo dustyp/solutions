@@ -156,15 +156,16 @@ footer p {
     background: rgba(255, 255, 255, 1.0);
 }
 
-/*Ale: Footer*/
+/*Ale: footer*/
 
-#Footer a:link, #Footer a:visited, #Footer a:hover, #Footer a:active {
+#footer a:link, #footer a:visited, #footer a:hover, #footer a:active {
     color: #40463C;
 }
 
-#Footer{
-    background-color: #fff;
+#footer{
+    background: none;
     font-size: 76%;
+    margin-top:50px;
 }
 
 .wrapperImg.footerEmailPic {
@@ -316,18 +317,10 @@ ul.footerPromos li {
 }
 
 .footerLinks {
-    border-top-color: #E5E5E5;
-    border-top-style: solid;
-    border-top-width: 1px;
+    border-top: 1px solid #E5E5E5;
     font-size: 11px;
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 20px;
-    padding-bottom: 2px;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 10px;
+    margin: 0px 0 20px;
+    padding: 10px 0 2px;
     text-align: left;
 }
 
