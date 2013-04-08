@@ -161,6 +161,23 @@ footer p {
 .bottom-nav:hover {
     background: rgba(255, 255, 255, 1.0);
 }
+/*Feature*/
+#featured {
+    position: relative;
+}
+
+#featured .content{
+    top: 85px;
+    left: 110px;
+    position: absolute;
+    background-color: transparent;color:#2795BC;
+}
+
+#featured .content h1{
+    color:#2795BC;
+    font-weight: normal;
+
+}
 
 /*Ale: Footer*/
 
