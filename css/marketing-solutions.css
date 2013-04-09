@@ -2,6 +2,11 @@
 	background: #e7e7dc;
 }
 
+h5{
+    font-family: "MuseoSlabHeavy";
+    font-size:.91em;
+}
+
 .download img{
     display:inline;
 }

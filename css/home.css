@@ -15,8 +15,18 @@
     background: url("../images/hero-home-2.png");
 }
 
+#home-hero-2 .hero-copy-right{
+    width:600px;
+    padding-left:75px;
+}
+
 #home-hero-3{
     background: url("../images/hero-home-3.png");
+}
+
+#home-hero-3 .hero-copy{
+    padding-top:100px;
+
 }
 
 

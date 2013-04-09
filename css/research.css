@@ -3,7 +3,8 @@
 }
 
 .research-report h5 {
-    font-size: 11pt;
+    font-size:.91em;
+    font-family: "MuseoSlabHeavy";
 }
 
 #research-hero {
@@ -49,11 +50,17 @@
 }
 
 .download-text {
+    display:inline;
     position: relative;
-    font-size: 10pt;
     bottom: 3px;
+
+}
+
+.download-text a {
+    font-size: 9pt;
 }
 
 .research-report-container {
     margin-bottom: 18px;
 }
+

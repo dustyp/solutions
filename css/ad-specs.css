@@ -40,8 +40,17 @@ h3{
 h4{
     margin-left:0;
     padding-left:0;
-    font-size: 100%;
 }
+
+h5{
+    font-family: MuseoSlabHeavy;
+}
+
+h6{
+    font-family: MuseoSlabHeavy;
+    font-size:.8em;
+}
+
 
 .ad-data-row{
     font-size:10pt;
@@ -65,7 +74,7 @@ h4{
 }
 
 .guideline-section p{
-    color:#999;
+    color:#656565;
     font-size:9pt;
 }
 
@@ -95,8 +104,10 @@ ul.guideline-list{
 }
 
 ul.guideline-list li{
-    color:#999;
+    color:#656565;
     font-size:9pt;
+    line-height: 1.9em;
+    margin-bottom:12px;
 }
 .backtotop{
     margin-right: 18px;
