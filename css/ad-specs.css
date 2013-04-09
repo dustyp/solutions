@@ -1,7 +1,3 @@
-.section-container.auto section.active .title, .section-container.auto .section.active .title{
-    position:absolute;
-    z-index:11;
-}
 
 form.custom{
     margin-top:25px;
