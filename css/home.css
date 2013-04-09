@@ -19,44 +19,6 @@
     background: url("../images/hero-home-3.png");
 }
 
-.hero-copy-left{
-    padding-left:60px;
-    padding-top:70px;
-    padding-bottom:6px;
-    margin-bottom:0;
-    width:500px;
-}
-
-.hero-copy-right{
-    float:right;
-    width:510px;
-    padding-top:70px;
-}
-
-.hero-copy h1{
-    margin-bottom:10px;
-    line-height:1.2em;
-}
-
-.hero-copy .spacer-line{
-    border-top: 2px dotted #656565;
-    width:360px;
-}
-
-.hero-copy h3{
-    margin-top:16px;
-}
-
-.hero-copy h4{
-    margin-top:16px;
-    width:450px;
-}
-
-.hero-copy li{
-    color: #656565;
-    list-style: circle;
-    font-size:11pt;
-}
 
 .home-box {
     position: relative;

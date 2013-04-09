@@ -1,26 +1,59 @@
-.research{
-    display:inline-block;
+.research {
+    display: inline-block;
 }
 
-.research-report h5{
+.research-report h5 {
     font-size: 11pt;
 }
 
-.download{
-    display: block;
-    padding-top:12px;
+#research-hero {
+    background: url(../images/research-hero-1.png);
+    height: 480px;
 }
 
-.download img{
-    display:inline;
+#research-hero .hero-copy {
+
+}
+
+#research-hero h1 {
+    width: 400px;
+    line-height: 1.0em;
+}
+
+#research-hero-list{
+    margin-top:28px;
+    margin-left:0;
+    padding-left:0;
+}
+
+#research-hero-list li{
+    list-style-position: inside;
+}
+
+#research-hero-list li.pdf{
+    list-style-image: url("../images/pdf-icon.png");
+    padding-left:4px;
+}
+
+#research-hero-list li.mail{
+    list-style-image: url("../images/mail-folder.png");
+}
+
+.download {
+    display: block;
+    padding-top: 12px;
+}
+
+.download img {
+    display: inline;
 }
 
 .download-text {
     position: relative;
     font-size: 10pt;
-    bottom:3px;
+    bottom: 3px;
 }
 
-.research-report-container{
-    margin-bottom:18px;
+.research-report-container {
+    margin-bottom: 18px;
 }
