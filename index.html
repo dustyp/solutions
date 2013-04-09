@@ -61,13 +61,30 @@
                 <li class="divider"></li>
             </ul>
             <ul class="right">
-                <li><a href="#">ADVERTISE WITH US <i class="icon-plus-sign"></i></a></li>
+                <li><a href="#" data-reveal-id="advertise-modal">ADVERTISE WITH US <i class="icon-plus-sign"></i></a></li>
             </ul>
         </section>
     </nav>
 </div>
 <!-- End Top Bar -->
 
+<div id="advertise-modal" class="reveal-modal">
+    <p>Select one of the markets you are interested in:</p>
+    <ul id="lead-form-options">
+        <li><a href="#">US</a></li>
+        <li><a href="#">UK</a></li>
+        <li><a href="#">Canada</a></li>
+        <li><a href="#">Other Markets</a></li>
+    </ul>
+</div>
+
+<div id="videoModal" class="reveal-modal large" style="display: none; -webkit-transform-origin: 0px 0px; opacity: 1; -webkit-transform: scale(1, 1); visibility: hidden; top: 19px;">
+    <div class="flex-video" style="-webkit-transform-origin: 0px 0px; opacity: 0; -webkit-transform: scale(1, 1); -webkit-transition: opacity 0.1s linear; transition: opacity 0.1s linear; display: none;">
+        <iframe width="800" height="315" src="about:blank" frameborder="0" allowfullscreen="" data-src="http://www.youtube.com/embed/IkOQw96cfyE"></iframe>
+    </div>
+
+    <a class="close-reveal-modal">×</a>
+</div>
 
 <!-- Content Slider -->
 <div class="row">
@@ -111,7 +128,7 @@
     </ul>
     <div id="tab-box">
         <div class="tab"><a href="research-and-insights.html">Research &amp; Insights</a></div>
-        <div class="tab"><a href="#">The BabyCenter Experience</a></div>
+        <div class="tab"><a href="#" data-reveal-id="videoModal">The BabyCenter Experience</a></div>
     </div>
     <div id="tab-bar"></div>
 
@@ -123,7 +140,7 @@
 <div class="row">
     <div class="large-12 columns show-for-small">
 
-        <img src="http://placehold.it/1200x700&text=Mobile Header">
+        <img src="images/mobile-header-home.png">
 
     </div>
 </div>
@@ -163,6 +180,12 @@
         </ul>
     </div>
     <!-- End Box #2 -->
+
+    <div class="row show-for-small">
+        <div class="small-12 columns">
+            <div class="spacer">&nbsp;</div>
+        </div>
+    </div>
 
     <!-- Box #3 -->
     <div class="large-4 small-12 columns">
