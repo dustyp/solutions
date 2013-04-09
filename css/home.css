@@ -6,8 +6,36 @@
     display: none;
 }
 
-.hero {
+#home-hero-1 {
+    background:url("../images/hero-home-1.png");
+}
 
+#home-hero-1 .hero-copy{
+    padding-left:60px;
+    padding-top:45px;
+    padding-bottom:6px;
+    margin-bottom:0;
+    width:500px;
+}
+
+
+#home-hero-1 h1{
+    margin-bottom:10px;
+    line-height:1.2em;
+}
+
+#home-hero-1 .spacer-line{
+    width:400px;
+}
+
+#home-hero-1 h3{
+    margin-top:16px;
+}
+
+#home-hero-1 li{
+    color: #656565;
+    list-style: circle;
+    font-size:11pt;
 }
 
 .home-box {

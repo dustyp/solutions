@@ -32,6 +32,14 @@ ul.nav li{
     display:inline;
 }
 
+.spacer-line{
+    border-top: 1px dashed tan;
+    height: 1px;
+    width: 98%;
+    margin-left: 1%;
+
+}
+
 .name .marketing-image {
     vertical-align: bottom;
     position: relative;
@@ -377,11 +385,11 @@ ul.footerPromos > li + li {
 }
 
 h1, h2, h3 {
-    font-family: "MuseoSlabHeavy",Georgia,Arial,serif;
+    font-family: "MuseoSlabLight",Georgia,Arial,serif;
     color: #656565;
-     font-weight: normal;
+    font-weight: lighter;
 }
-}
+
 
 h4 {
     font-family: "MuseoSlabHeavy",Georgia,Arial,serif;
