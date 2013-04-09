@@ -18,17 +18,16 @@
     width:500px;
 }
 
-
-#home-hero-1 h1{
+h1{
     margin-bottom:10px;
     line-height:1.2em;
 }
 
-#home-hero-1 .spacer-line{
+.hero-copy .spacer-line{
     width:400px;
 }
 
-#home-hero-1 h3{
+.hero-copy h3{
     margin-top:16px;
 }
 
@@ -37,6 +36,23 @@
     list-style: circle;
     font-size:11pt;
 }
+
+#home-hero-2{
+    background: url("../images/hero-home-2.png");
+}
+
+#home-hero-2 .hero-copy{
+    float:right;
+    width:510px;
+    padding-top:45px;
+}
+
+#home-hero-2 h4{
+    margin-top:16px;
+    width:450px;
+}
+
+
 
 .home-box {
     position: relative;

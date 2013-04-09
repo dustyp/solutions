@@ -392,7 +392,8 @@ h1, h2, h3 {
 
 
 h4 {
-    font-family: "MuseoSlabHeavy",Georgia,Arial,serif;
+    font-family: "MuseoSlabLight",Georgia,Arial,serif;
+    color: #656565;
     font-weight: normal;
 }
 
