@@ -112,13 +112,15 @@ width:50px;
 .top-bar .toggle-topbar.menu-icon a span {
     -webkit-box-shadow: 0 10px 0 1px #26aec2, 0 16px 0 1px #26aec2, 0 22px 0 1px #26aec2;
     box-shadow: 0 10px 0 1px #26aec2, 0 16px 0 1px #26aec2, 0 22px 0 1px #26aec2;
+    width:34px;
     right:8px;
 }
 
 .top-bar.expanded .toggle-topbar a span {
     -webkit-box-shadow: 0 10px 0 1px #ccc, 0 16px 0 1px #ccc, 0 22px 0 1px #ccc;
     box-shadow: 0 10px 0 1px #ccc, 0 16px 0 1px #ccc, 0 22px 0 1px #ccc;
-    right:3px;
+    width:34px;
+    right:8px;
 }
 
 
