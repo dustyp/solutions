@@ -20,10 +20,11 @@
 
     <script src="js/vendor/custom.modernizr.js"></script>
     <script src="js/ad-specs.js"></script>
+
     <script>
         function setSpecs(element){
-            if(element.value == 'International')
-                location.href='ad-specs-intl.html';
+            if(element.value == 'US')
+                location.href='ad-specs.html';
         }
     </script>
 
@@ -86,14 +87,16 @@
             <h1>Ad Specifications &amp; Guidelines</h1>
         </div>
         <div class="right">
-            <form class="custom">
+
+
+            <form class="custom markets">
                 <label>Select Market:</label>
                 <select name="markets" id="markets_select" onchange="setSpecs(this);">
-                    <option selected>US</option>
-                    <option>International</option>
+                    <option>US</option>
+                    <option selected>International</option>
                 </select>
             </form>
-            <a href="docs/BabyCenter_Solutions_US_Ad%20Specs_and_Guidelines_20130326.xls">Download in Excel Format</a>
+            <a href="docs/BabyCenter_Solutions_Intl_Ad_Specs_and_Guidelines_20130326.xls">Download in Excel Format</a>
         </div>
     </div>
 </div>
@@ -118,7 +121,7 @@
                                     <dt><a href="javascript:document.getElementById('mobile').scrollIntoView(true)">Mobile</a></dt>
                                     <dt><a href="javascript:document.getElementById('video').scrollIntoView(true)">Video</a></dt>
                                     <dt><a href="javascript:document.getElementById('text').scrollIntoView(true)">Integrated Text Units</a></dt>
-                                    <dt><a href="javascript:document.getElementById('effectiveness').scrollIntoView(true)">Ad Effectiveness</a></dt>
+
                                 </dl>
                         </div>
 
@@ -143,14 +146,131 @@
                             </div>
                         </div>
                     </div>
+        <!--HALF PAGE-->
+                        <div class="row ad-data-row">
+                            <div class="large-2 small-12 columns">
+                                <h4>Half Page</h4>
+                            </div>
+                            <div class="small-3 columns show-for-small cell-label">Dimensions</div>
+                            <div class="large-2 small-9 columns cell-data" id="HighImpactHalfPageDimensions">Collapsed: 300w x 600h
+                                Expanded: 500w x 600h
+                            </div>
+                            <div class="small-3 columns show-for-small cell-label">Max File Size</div>
+                            <div class="large-1 small-9 columns cell-data" id="HighImpactHalfPageFileSize">Initial 40KB, Secondary 140KB</div>
+                            <div class="small-3 columns show-for-small cell-label">Loop Time</div>
+                            <div class="large-2 small-9 columns cell-data" id="HighImpactHalfPageLoopTIme">15 seconds total animation; no more than 3 loops</div>
+                            <div class="small-3 columns show-for-small cell-label">File Types</div>
+                            <div class="large-2 small-9 columns cell-data" id="HighImpactHalfPageFileTypes">Only 3rd party ad tags</div>
+                            <div class="large-3 small-12 columns cell-data" id="HighImpactHalfPage3rdParty">Yes, Approved 3rd party rich media vendors only</div>
+                        </div>
+
+                        <div class="row">
+                            <div class="large-12">
+                                <div class="spacer-line">
+                                    &nbsp;
+                                </div>
+                            </div>
+                        </div>
+        <!--PUSH DOWN-->
+                        <div class="row ad-data-row">
+                            <div class="large-2 small-12 columns">
+                                <h4>Push Down</h4>
+                            </div>
+                            <div class="small-3 columns show-for-small cell-label">Dimensions</div>
+                            <div class="large-2 small-9 columns cell-data" id="HighImpactPushDownDimensions">Collapsed: 970w x 66h
+                                Expanded: 970w x 418h
+                            </div>
+                            <div class="small-3 columns show-for-small cell-label">Max File Size</div>
+                            <div class="large-1 small-9 columns cell-data" id="HighImpactPushDownFileSize">Initial 40KB, Secondary 140KB</div>
+                            <div class="small-3 columns show-for-small cell-label">Loop Time</div>
+                            <div class="large-2 small-9 columns cell-data" id="HighImpactPushDownLoopTime">15 seconds total animation; no more than 3 loops</div>
+                            <div class="small-3 columns show-for-small cell-label">File Types</div>
+                            <div class="large-2 small-9 columns cell-data" id="HighImpactPushDownFileTypes">3rd party tag</div>
+                            <div class="large-3 small-12 columns cell-data" id="HighImpactPushDown3rdParty">Yes, Approved 3rd party rich media vendors only; Auto-expand for first impression only, auto-retract after 7 seconds </div>
+                        </div>
+
+
+
+                        <div class="row">
+                            <div class="large-12">
+                                <div class="spacer-line">
+                                    &nbsp;
+                                </div>
+                            </div>
+                        </div>
+
+        <!--WALLPAPER-->
+                        <div class="row ad-data-row">
+                            <div class="large-2 small-12 columns">
+                                <h4>Wallpaper</h4>
+                            </div>
+                            <div class="small-3 columns show-for-small cell-label">Dimensions</div>
+                            <div class="large-2 small-9 columns cell-data">1280w with 1100w white space centered in the image</div>
+                            <div class="small-3 columns show-for-small cell-label">Max File Size</div>
+                            <div class="large-1 small-9 columns cell-data">80KB</div>
+                            <div class="small-3 columns show-for-small cell-label">Loop Time</div>
+                            <div class="large-2 small-9 columns cell-data" >N/A</div>
+                            <div class="small-3 columns show-for-small cell-label">File Types</div>
+                            <div class="large-2 small-9 columns cell-data">GIF or JPG plus click-through URL;
+                                Logo must be smaller than BabyCenter logo and 250 pixels down from the top of the page;
+                                BabyCenter does not allow the color black or red as a background color;
+                                Any talent or product packaging imagery must be below the top 250 pixels of the page and cannot be larger than 125 pixels high and 60 pixels wide;
+                                Any direct CTA included in the design must appear in the right rail only and cannot be included in the left rail;
+                                Creative is subject to BabyCenter approval and must be submitted 10 business days prior to launch.</div>
+                            <div class="large-3 small-12 columns cell-data">No</div>
+                        </div>
+
+                        <div class="row">
+                            <div class="large-12">
+                                <div class="spacer-line">
+                                    &nbsp;
+                                </div>
+                            </div>
+                        </div>
+
+        <!--FILMSTRIP-->
+                        <div class="row ad-data-row">
+                            <div class="large-2 small-12 columns">
+                                <h4>Filmstrip</h4>
+                            </div>
+                            <div class="small-3 columns show-for-small cell-label">Dimensions</div>
+                            <div class="large-2 small-9 columns cell-data">300w x 600h</div>
+                            <div class="small-3 columns show-for-small cell-label">Max File Size</div>
+                            <div class="large-1 small-9 columns cell-data" >Initial 40KB, Secondary 140KB</div>
+                            <div class="small-3 columns show-for-small cell-label">Loop Time</div>
+                            <div class="large-2 small-9 columns cell-data" >15 seconds total animation; no more than 3 loops</div>
+                            <div class="small-3 columns show-for-small cell-label">File Types</div>
+                            <div class="large-2 small-9 columns cell-data" >3rd party tag</div>
+                            <div class="large-3 small-12 columns cell-data">BabyCenter web sites support the following 3rd party tags:
+                                Atlas, DFA*, DoubleClick
+                                Studio, Flashtalking, MediaMind, PointRoll, All other vendors must be tested and
+                                approved on a case-by-case basis.
+                                *DFA internal redirect in .txt file
+                                <br>
+                                <br>
+                                <a href="#richmediaguidelines" onClick="backToTop();">See Rich Media Guidelines</a>
+                            </div>
+                        </div>
+
+
+
+                        <div class="row">
+                            <div class="large-12">
+                                <div class="spacer-line">
+                                    &nbsp;
+                                </div>
+                            </div>
+                        </div>
+
+
+        <!--BILLBOARD-->
                     <div class="row ad-data-row">
                         <div class="large-2 small-12 columns">
                             <h4>Billboard</h4>
                         </div>
                         <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data" id="highImpactBillboardDimensions">Collapsed: 62w x 88h or 196w x 31h
-                            Expanded: 970w x 250h
-                        </div>
+                        <div class="large-2 small-9 columns cell-data" id="highImpactBillboardDimensions">*Collapsed: 62w x 88h or 196w x 31h<br/>
+                            *Expanded: 970w x 250h</div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
                         <div class="large-1 small-9 columns cell-data" id="highImpactBillboardFileSize">Initial 40KB, Secondary 140KB</div>
                         <div class="small-3 columns show-for-small cell-label">Loop Time</div>
@@ -166,131 +286,7 @@
                         </div>
                     </div>
 
-                    <div class="row">
-                        <div class="large-12">
-                            <div class="spacer-line">
-                                &nbsp;
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="row ad-data-row">
-                        <div class="large-2 small-12 columns">
-                            <h4>Filmstrip</h4>
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data" id="highImpactFilmstripDimensions">300w x 600h</div>
-                        <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data" id="highImpactFilmstripFileSize">Initial 40KB, Secondary 140KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data" id="highImpactFilmstripLoopTime">15 seconds total animation; limited to 5 frames</div>
-                        <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data" id="highImpactFilmstripFileTypes">3rd party tag</div>
-                        <div class="large-3 small-12 columns cell-data" id="highImpactFilmstrip3rdParty">BabyCenter web sites support the following 3rd party tags:
-                            Atlas, DFA*, DoubleClick
-                            Studio, Flashtalking, MediaMind, PointRoll, All other vendors must be tested and
-                            approved on a case-by-case basis.
-                            *DFA internal redirect in .txt file
-                            <br>
-                            <br>
-                            <a href="#richmediaguidelines" onClick="backToTop();">See Rich Media Guidelines</a>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="large-12">
-                            <div class="spacer-line">
-                                &nbsp;
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row ad-data-row">
-                        <div class="large-2 small-12 columns">
-                            <h4>Half Page</h4>
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data" id="HighImpactHalfPageDimensions">Collapsed: 300w x 600h
-                            Expanded: 500w x 600h
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data" id="HighImpactHalfPageFileSize">Initial 40KB, Secondary 140KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data" id="HighImpactHalfPageLoopTIme">15 seconds total animation; no more than 3 loops</div>
-                        <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data" id="HighImpactHalfPageFileTypes">GIF/JPG/SWF plus click-through URL; 3rd party tag</div>
-                        <div class="large-3 small-12 columns cell-data" id="HighImpactHalfPage3rdParty">BabyCenter web sites support the following 3rd party tags:
-                            Atlas, DFA*, DoubleClick
-                            Studio, Flashtalking, MediaMind, PointRoll, All other vendors must be tested and
-                            approved on a case-by-case basis.
-                            *DFA internal redirect in .txt file
-                            <br>
-                            <br>
-                            <a href="#richmediaguidelines" onClick="backToTop();">See Rich Media Guidelines</a>
-                        </div>
-                    </div>
-
-
-                    <div class="row">
-                        <div class="large-12">
-                            <div class="spacer-line">
-                                &nbsp;
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row ad-data-row">
-                        <div class="large-2 small-12 columns">
-                            <h4>Push Down</h4>
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data" id="HighImpactPushDownDimensions">Collapsed: 970w x 66h
-                            Expanded: 970w x 418h
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data" id="HighImpactPushDownFileSize">Initial 40KB, Secondary 140KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data" id="HighImpactPushDownLoopTime">15 seconds total animation; no more than 3 loops</div>
-                        <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data" id="HighImpactPushDownFileTypes">3rd party tag
-                            Auto-expand permitted 1/user/day with auto-retract after 7 seconds; expansion must be
-                            user-initiated on subsequent impressions
-                        </div>
-                        <div class="large-3 small-12 columns cell-data" id="HighImpactPushDown3rdParty">BabyCenter web sites support the following 3rd party tags:
-                            Atlas, DFA*, DoubleClick
-                            Studio, Flashtalking, MediaMind, PointRoll, All other vendors must be tested and
-                            approved on a case-by-case basis.
-                            *DFA internal redirect in .txt file
-                            <br>
-                            <br>
-                            <a href="#richmediaguidelines" onClick="backToTop();">See Rich Media Guidelines</a>
-                        </div>
-                    </div>
-
-                        <div class="row">
-                            <div class="large-12">
-                                <div class="spacer-line">
-                                    &nbsp;
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row ad-data-row">
-                            <div class="large-2 small-12 columns">
-                                <h4>Wallpaper</h4>
-                            </div>
-                            <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                            <div class="large-2 small-9 columns cell-data" id="HighImpactWallpaperDimensions">1280w with 1026w white space centered in the image</div>
-                            <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                            <div class="large-1 small-9 columns cell-data" id="HighImpactWallpaperFileSize">80KB</div>
-                            <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                            <div class="large-2 small-9 columns cell-data">N/A</div>
-                            <div class="small-3 columns show-for-small cell-label">File Types</div>
-                            <div class="large-2 small-9 columns cell-data">• GIF or JPG plus click-through URL</br>
-                                • Logo must be smaller than BabyCenter logo and 250 pixels down from the top of the page; logo cannot be on left rail<br/>
-                                • Creative is subject to BabyCenter approval and must be submitted 10 business days prior to launch</div>
-                            <div class="large-3 small-12 columns cell-data" >No</div>
-                        </div>
 
 <!-- End High Impact Units -->
 
@@ -317,27 +313,20 @@
                             </div>
                         </div>
                     </div>
-
+    <!--LEADERBOARD-->
                     <div class="row ad-data-row">
                         <div class="large-2 small-12 columns">
                             <h4>Leaderboard</h4>
                         </div>
                         <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data" id="iabLeaderboardDimensions">428w x 90h
-                        </div>
+                        <div class="large-2 small-9 columns cell-data">728w x 90h</div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data" id="iabLeaderboardFileSize">Image: 40KB; 3rd party tag: Initial 40KB, Secondary 140KB</div>
+                        <div class="large-1 small-9 columns cell-data" >Image: 40KB; 3rd party tags: Initial 40KB, Secondary 140KB</div>
                         <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data" id="iabLeaderboardLoopTime">15 seconds total animation; no more than 3 loops</div>
+                        <div class="large-2 small-9 columns cell-data" >15 seconds total animation; no more than 3 loops</div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data" id="iabLeaderboardFileTypes">GIF/JPG/SWF plus click-through URL; 3rd party tag</div>
-                        <div class="large-3 small-12 columns cell-data" id="iabLeaderboard3rdParty">BabyCenter web sites support the following 3rd party tags:
-                            Atlas, DFA*, DoubleClick Studio, Flashtalking, MediaMind, PointRoll, All other vendors must be tested and
-                            approved on a case-by-case basis. *DFA internal redirect in .txt file
-                            <br>
-                            <br>
-                            <a href="#richmediaguidelines" onClick="backToTop();">See Rich Media Guidelines</a>
-                        </div>
+                        <div class="large-2 small-9 columns cell-data" >GIF, JPEG, SWF, 3rd party ad tags; if utilizing DoubleClick for Advertisers ad tags, internal redirects submitted in a *.txt file required</div>
+                        <div class="large-3 small-12 columns cell-data">Yes, Approved 3rd party rich media vendors only</div>
                     </div>
 
                     <div class="row">
@@ -348,27 +337,20 @@
                         </div>
                     </div>
 
+        <!--SKYSCRAPER-->
                     <div class="row ad-data-row">
                         <div class="large-2 small-12 columns">
                             <h4>Skyscraper</h4>
                         </div>
                         <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data" id="iabSkyscraperDimensions">160w x 600h</div>
+                        <div class="large-2 small-9 columns cell-data">160w x 600h</div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data" id="iabSkyscraperFileSize">Image: 40KB; 3rd party tag: Initial 40KB, Secondary 140KB</div>
+                        <div class="large-1 small-9 columns cell-data">Image: 40KB; 3rd party tag: Initial 40KB, Secondary 140KB</div>
                         <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data" id="iabSkyscraperLoopTime">15 seconds total animation; no more than 3 loops</div>
+                        <div class="large-2 small-9 columns cell-data">15 seconds total animation; no more than 3 loops</div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data" id="iabSkyscraperFileTypes">GIF/JPG/SWF plus click-through URL; 3rd party tag</div>
-                        <div class="large-3 small-12 columns cell-data" id="iabSkyscraper3rdParty">BabyCenter web sites support the following 3rd party tags:
-                            Atlas, DFA*, DoubleClick
-                            Studio, Flashtalking, MediaMind, PointRoll, All other vendors must be tested and
-                            approved on a case-by-case basis.
-                            *DFA internal redirect in .txt file
-                            <br>
-                            <br>
-                            <a href="#richmediaguidelines" onClick="backToTop();">See Rich Media Guidelines</a>
-                        </div>
+                        <div class="large-2 small-9 columns cell-data">GIF, JPEG, SWF, 3rd party ad tags; if utilizing DoubleClick for Advertisers ad tags, internal redirects submitted in a *.txt file required</div>
+                        <div class="large-3 small-12 columns cell-data">Yes, Approved 3rd party rich media vendors only</div>
                     </div>
 
                     <div class="row">
@@ -379,28 +361,21 @@
                         </div>
                     </div>
 
+        <!--MEDIUM RECTANGLE-->
                     <div class="row ad-data-row">
                         <div class="large-2 small-12 columns">
                             <h4>Medium Rectangle</h4>
                         </div>
                         <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data" id="iabMediumRectDimensions">300w x 250h
+                        <div class="large-2 small-9 columns cell-data" >300w x 250h
                         </div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data" id="iabMediumRectFileSize">Image: 40KB; 3rd party tag: Initial 40KB, Secondary 140KB</div>
+                        <div class="large-1 small-9 columns cell-data">Image: 40KB; 3rd party tag: Initial 40KB, Secondary 140KB</div>
                         <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data" id="iabMediumRectLoopTime">15 seconds total animation; no more than 3 loops</div>
+                        <div class="large-2 small-9 columns cell-data">15 seconds total animation; no more than 3 loops</div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data" id="iabMediumRectFileTypes">GIF/JPG/SWF plus click-through URL; 3rd party tag</div>
-                        <div class="large-3 small-12 columns cell-data" id="iabMediumRect3rdParty">BabyCenter web sites support the following 3rd party tags:
-                            Atlas, DFA*, DoubleClick
-                            Studio, Flashtalking, MediaMind, PointRoll, All other vendors must be tested and
-                            approved on a case-by-case basis.
-                            *DFA internal redirect in .txt file
-                            <br>
-                            <br>
-                            <a href="#richmediaguidelines" onClick="backToTop();">See Rich Media Guidelines</a>
-                        </div>
+                        <div class="large-2 small-9 columns cell-data">GIF, JPEG, SWF, 3rd party ad tags; if utilizing DoubleClick for Advertisers ad tags, internal redirects submitted in a *.txt file required plus click-through URL; 3rd party tag</div>
+                        <div class="large-3 small-12 columns cell-data">Yes, Approved 3rd party rich media vendors only</div>
                     </div>
 
                     <div class="row">
@@ -411,6 +386,7 @@
                         </div>
                     </div>
 
+        <!--LOGO-->
                     <div class="row ad-data-row">
                         <div class="large-2 small-12 columns">
                             <h4>Logo</h4>
@@ -421,12 +397,10 @@
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
                         <div class="large-1 small-9 columns cell-data">30KB</div>
                         <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data">N/A</div>
+                        <div class="large-2 small-9 columns cell-data">Static</div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">GIF or JPG plus click-through URL
-                        </div>
-                        <div class="large-3 small-12 columns cell-data">No
-                        </div>
+                        <div class="large-2 small-9 columns cell-data">GIF or JPEG only, click command or click through required</div>
+                        <div class="large-3 small-12 columns cell-data">No</div>
                     </div>
 
 <!-- End Standard IAB Units -->
@@ -447,13 +421,15 @@
                                 <div class="large-2 columns column-header">AD TYPE</div>
                                 <div class="large-2 columns column-header">DIMENSIONS</div>
                                 <div class="large-1 columns column-header">MAXIMUM FILE SIZE</div>
-                                <div class="large-2 columns column-header">LOOP TIME</div>
+                                <div class="large-2 columns column-header">RESTRICTIONS</div>
                                 <div class="large-2 columns column-header">FILE TYPES</div>
                                 <div class="large-3 columns column-header">3rd PARTY SERVING</div>
                             </div>
                         </div>
                     </div>
 
+
+        <!--STAGED BASED-->
                     <div class="row ad-data-row">
                         <div class="large-2 small-12 columns">
                             <h4>Stage-Based Newsletter</h4>
@@ -462,13 +438,12 @@
                         <div class="large-2 small-9 columns cell-data">300w x 250h
                         </div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">25KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data">32 characters including spaces</div>
+                        <div class="large-1 small-9 columns cell-data">30KB</div>
+                        <div class="small-3 columns show-for-small cell-label">Restrictions</div>
+                        <div class="large-2 small-9 columns cell-data">N/A</div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">GIF or JPG plus click-through URL</div>
-                        <div class="large-3 small-12 columns cell-data">No
-                        </div>
+                        <div class="large-2 small-9 columns cell-data">GIF or JPG only, no 3rd party ad tags, click command or click through required</div>
+                        <div class="large-3 small-12 columns cell-data">No</div>
                     </div>
 
                     <div class="row">
@@ -486,93 +461,37 @@
                         <div class="small-3 columns show-for-small cell-label">Dimensions</div>
                         <div class="large-2 small-9 columns cell-data">300w x 250h</div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">25KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data">75 characters including spaces</div>
-                        <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">GIF or JPG plus click-through URL</div>
-                        <div class="large-3 small-12 columns cell-data">No
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="large-12">
-                            <div class="spacer-line">
-                                &nbsp;
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row ad-data-row">
-                        <div class="large-2 small-12 columns">
-                            <h4>Daily Digest</h4>
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">160w x 600h
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">25KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
+                        <div class="large-1 small-9 columns cell-data">30KB</div>
+                        <div class="small-3 columns show-for-small cell-label">Restrictions</div>
                         <div class="large-2 small-9 columns cell-data">N/A</div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">GIF or JPG plus click-through URL</div>
-                        <div class="large-3 small-12 columns cell-data">No
-                        </div>
+                        <div class="large-2 small-9 columns cell-data">GIF or JPG only, no 3rd party ad tags, click command or click through required</div>
+                        <div class="large-3 small-12 columns cell-data">No</div>
                     </div>
 
-                    <div class="row">
-                        <div class="large-12">
-                            <div class="spacer-line">
-                                &nbsp;
+                        <div class="row">
+                            <div class="large-12">
+                                <div class="spacer-line">
+                                    &nbsp;
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="row ad-data-row">
-                        <div class="large-2 small-12 columns">
-                            <h4>Mom Answers</h4>
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">300w x 250h
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">25KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data">N/A</div>
-                        <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">GIF or JPG plus click-through URL
-                        </div>
-                        <div class="large-3 small-12 columns cell-data">No
-                        </div>
-                    </div>
 
-                    <div class="row">
-                        <div class="large-12">
-                            <div class="spacer-line">
-                                &nbsp;
-                            </div>
-                        </div>
-                    </div>
-
+        <!--PARTNER 1-->
                     <div class="row ad-data-row">
                         <div class="large-2 small-12 columns">
                             <h4>Partner Standalone Email Option 1: Client-Provided HTML</h4>
                         </div>
                         <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">No more than 700w
-                            <br>
-                            <a href="#richmediaguidelines" onclick="backToTop(850);">See Email Guidelines</a>
-                        </div>
+                        <div class="large-2 small-9 columns cell-data">No more than 600w</div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
                         <div class="large-1 small-9 columns cell-data">250KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data"><b>Subject Line:</b> 50 characters including spaces</div>
+                        <div class="small-3 columns show-for-small cell-label">Restrictions</div>
+                        <div class="large-2 small-9 columns cell-data">Email Subject Line: 35 characters including spaces</div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">•HTML tables only <br>•No external style sheet, Flash, JavaScript, or
-                            other non-HTML code
-                        </div>
-                        <div class="large-3 small-12 columns cell-data">No
-                        </div>
+                        <div class="large-2 small-9 columns cell-data">HTML tables only; no external style sheets; no Flash, JavaScript, or other non-HTML code permitted; any email including a promotion of any kind MUST include a customer service email address and phone number</div>
+                        <div class="large-3 small-12 columns cell-data">No</div>
                     </div>
 
                     <div class="row">
@@ -583,25 +502,24 @@
                         </div>
                     </div>
 
+        <!--Partner 2-->
                     <div class="row ad-data-row">
                         <div class="large-2 small-12 columns">
                             <h4>Partner Standalone Email Option 2: BabyCenter Template</h4>
                         </div>
                         <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">300w x 250h for image
-                        </div>
+                        <div class="large-2 small-9 columns cell-data">300w x 250h for image</div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
                         <div class="large-1 small-9 columns cell-data">30KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data"><b>•Subject Line:</b> 50 characters including spaces <br> <b>
-                            •Headline:</b> 50 characters including spaces <br> <b>•Body:</b> 150 words (text provided in Word or Notepad)
-                        </div>
+                        <div class="small-3 columns show-for-small cell-label">Restrictions</div>
+                        <div class="large-2 small-9 columns cell-data">Email Subject Line: 35 characters including spaces
+
+                            Headline Copy: 50 characters including spaces
+
+                            Body Copy: 150 words (text provided in Word or Notepad; copy should be final version, with hyperlinked text & urls clearly indicated)  </div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">•GIF or JPG plus click-through URL <br>•Up to 3 click-through URLs
-                            for linked text in body copy
-                        </div>
-                        <div class="large-3 small-12 columns cell-data">No
-                        </div>
+                        <div class="large-2 small-9 columns cell-data">Static GIF or JPEG only; no animation or looping permitted; no 3rd party ad tags; for click-through URLS, 1 click-through URL for image and up to 3 click-through URLs for linked text in body copy; any copy including a promotion of any kind MUST include a customer service email address and phone number</div>
+                        <div class="large-3 small-12 columns cell-data">No</div>
                     </div>
 
                     <div class="row">
@@ -621,40 +539,14 @@
                         </div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
                         <div class="large-1 small-9 columns cell-data">30KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
+                        <div class="small-3 columns show-for-small cell-label">Restrictions</div>
                         <div class="large-2 small-9 columns cell-data">50 characters including spaces</div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">GIF or JPG plus click-through URL
-                        </div>
+                        <div class="large-2 small-9 columns cell-data">Static GIF or JPG only; no animation or looping permitted; no 3rd party ad tags</div>
                         <div class="large-3 small-12 columns cell-data">No
                         </div>
                     </div>
 
-                    <div class="row">
-                        <div class="large-12">
-                            <div class="spacer-line">
-                                &nbsp;
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row ad-data-row">
-                        <div class="large-2 small-12 columns">
-                            <h4>Video Milestone</h4>
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">300w x 250h
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">25KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data">N/A</div>
-                        <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">GIF or JPG plus click-through URL
-                        </div>
-                        <div class="large-3 small-12 columns cell-data">No
-                        </div>
-                    </div>
 
 <!-- End Email -->
 
@@ -686,158 +578,17 @@
                             <h4>Mobile Web 300x50</h4>
                         </div>
                         <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">300w x 50h or 320w x 50h
-                        </div>
+                        <div class="large-2 small-9 columns cell-data">300w x 50h</div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">Image: 20KB; 3rd party tag: Initial 20KB, Secondary 80KB</div>
+                        <div class="large-1 small-9 columns cell-data">20KB</div>
                         <div class="small-3 columns show-for-small cell-label">Loop Time</div>
                         <div class="large-2 small-9 columns cell-data">15 seconds total animation; no more than 3 loops</div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">GIF, JPG, 3rd party tag</div>
-                        <div class="large-3 small-12 columns cell-data">BabyCenter mobile web sites support the following 3rd party
-                            tags: Celtra, Crisp, DFA, Medialets, MediaMind, Pointroll, and REVV (Rubicon). All other vendors must be
-                            tested and approved on a case-by-case basis.
-                        </div>
+                        <div class="large-2 small-9 columns cell-data">GIF, JPG only at this time. click command or click through to mobile site/page optimized for mobile </div>
+                        <div class="large-3 small-12 columns cell-data">No</div>
                     </div>
 
-                    <div class="row">
-                        <div class="large-12">
-                            <div class="spacer-line">
-                                &nbsp;
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row ad-data-row">
-                        <div class="large-2 small-12 columns">
-                            <h4>Mobile Web Adhesion</h4>
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">300w x 50h or 320w x 50h</div>
-                        <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">Image: 20KB; 3rd party tag: Initial 20KB, Secondary 80KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data">15 seconds total animation; no more than 3 loops</div>
-                        <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">GIF, JPG, 3rd party tag</div>
-                        <div class="large-3 small-12 columns cell-data">BabyCenter mobile web sites support the following 3rd party
-                            tags: Celtra, Crisp, DFA, Medialets, MediaMind, Pointroll, and REVV (Rubicon). All other vendors must be
-                            tested and approved on a case-by-case basis.
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="large-12">
-                            <div class="spacer-line">
-                                &nbsp;
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row ad-data-row">
-                        <div class="large-2 small-12 columns">
-                            <h4>Mobile Web 300x250</h4>
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">300w x 250h or 320w x 250h
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">Image: 20KB; 3rd party tag: Initial 20KB, Secondary 80KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data">N/A</div>
-                        <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">GIF, JPG, 3rd party tag</div>
-                        <div class="large-3 small-12 columns cell-data">BabyCenter mobile web sites support the following 3rd party
-                            tags: Celtra, Crisp, DFA, Medialets, MediaMind, Pointroll, and REVV (Rubicon). All other vendors must be
-                            tested and approved on a case-by-case basis.
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="large-12">
-                            <div class="spacer-line">
-                                &nbsp;
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row ad-data-row">
-                        <div class="large-2 small-12 columns">
-                            <h4>Mobile Web Peek-a-Boo</h4>
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">300w x 300h or 320w x 480h
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">Image: 30KB; 3rd party tag: Initial 30KB, Secondary 100KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data">15 seconds total animation; no more than 3 loops</div>
-                        <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">GIF, JPG, 3rd party tag
-                        </div>
-                        <div class="large-3 small-12 columns cell-data">BabyCenter mobile web sites support the following 3rd party
-                            tags: Celtra, Crisp, DFA, Medialets, MediaMind, Pointroll, and REVV (Rubicon). All other vendors must be
-                            tested and approved on a case-by-case basis.
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="large-12">
-                            <div class="spacer-line">
-                                &nbsp;
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row ad-data-row">
-                        <div class="large-2 small-12 columns">
-                            <h4>Mobile Web Sideswipe</h4>
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">300w x 250h or 320w x 250h
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">Image: 30KB; <br> 3rd party tag: Initial 30KB, Secondary 100KB
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data">15 seconds total animation; no more than 3 loops</div>
-                        <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">GIF, JPG, 3rd party tag
-                        </div>
-                        <div class="large-3 small-12 columns cell-data">BabyCenter mobile web sites support the following 3rd party
-                            tags: Celtra, Crisp, DFA, Medialets, MediaMind, Pointroll, and REVV (Rubicon). All other vendors must be
-                            tested and approved on a case-by-case basis.
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="large-12">
-                            <div class="spacer-line">
-                                &nbsp;
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row ad-data-row">
-                        <div class="large-2 small-12 columns">
-                            <h4>Mobile App 300x50</h4>
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">300w x 50h or 320w x 50h</div>
-                        <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">Image: 20KB;<br> 3rd party tag: Initial 20KB, Secondary 80KB
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data">15 seconds total animation; no more than 3 loops</div>
-                        <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">GIF, JPG, 3rd party tag
-                        </div>
-                        <div class="large-3 small-12 columns cell-data">BabyCenter mobile web sites support the following 3rd party
-                            tags: Celtra, Crisp, DFA, Medialets, MediaMind, Pointroll, and REVV (Rubicon). All other vendors must be
-                            tested and approved on a case-by-case basis.
-                        </div>
-                    </div>
-<!-- End Email -->
+<!-- End Mobile-->
 
                     <p class="backtotop"><a href="#">Back to top</a>
 
@@ -873,62 +624,12 @@
                         <div class="small-3 columns show-for-small cell-label">Loop Time</div>
                         <div class="large-2 small-9 columns cell-data">15 seconds</div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data"><b>•Video: </b> MOV file using the H.264 codec at 29.97 fps plus
-                            click-through URL <br> <b>•Audio:</b> AAC format in stereo at 44.1 kHz (no higher than 48 kHz); MPEG-4 AAC
-                            LC Encoder Setting: "Normal"; Encoding Strategy: "Average Bit Rate"; Target Bit Rate: "195 kbps"
-                        </div>
-                        <div class="large-3 small-12 columns cell-data">BabyCenter videos support the following VAST 2.0 (wrapper and
-                            inline) and VPAID 3rd party tags: Innovid, Vindico. All other vendors must be tested and approved on a
-                            case-by-case basis.
-                        </div>
+                        <div class="large-2 small-9 columns cell-data">Video: 300k (no lower than 200k) .MOV  file using the H.264 codec at 29.97 fps; click command or click through required
+
+                            Audio: AAC format in stereo at 44.1 kHz (no higher than 48 kHz); MPEG-4 AAC LC Encoder Setting: "Normal"; Encoding Strategy: "Average Bit Rate"; Target Bit Rate: "195kbps"</div>
+                        <div class="large-3 small-12 columns cell-data">Yes, VAST 2.0 Wrapper and Inline</div>
                     </div>
 
-                    <div class="row">
-                        <div class="large-12">
-                            <div class="spacer-line">
-                                &nbsp;
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row ad-data-row">
-                        <div class="large-2 small-12 columns">
-                            <h4>Companion Ad</h4>
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">300w x 250h</div>
-                        <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">40KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data">N/A</div>
-                        <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">GIF/JPG/SWF</div>
-                        <div class="large-3 small-12 columns cell-data">No</div>
-                    </div>
-
-                    <div class="row">
-                        <div class="large-12">
-                            <div class="spacer-line">
-                                &nbsp;
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row ad-data-row">
-                        <div class="large-2 small-12 columns">
-                            <h4>Logo</h4>
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">88w x 31h or 468w x 60h
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">30KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data">N/A</div>
-                        <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">GIF or JPG only</div>
-                        <div class="large-3 small-12 columns cell-data">No</div>
-                    </div>
 
                     <div class="row">
                         <div class="large-12">
@@ -947,16 +648,15 @@
                         </div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
                         <div class="large-1 small-9 columns cell-data">2GB</div>
-                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data">Title: 50 characters including spaces (preferred format: "Video
-                            title, by Sponsor")<br>Description: 50 characters including spaces
+                        <div class="small-3 columns show-for-small cell-label">Restrictions</div>
+                        <div class="large-2 small-9 columns cell-data">Title: 50 characters including spaces (preferred format: "Video title, by Sponsor")
+
+                            Description: 50 characters including spaces
                         </div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data"><b>•Video:</b> Uncompressed MOV master file or 2000k (Apple
-                            proprietary codec such as Apple ProRes not permitted) <br><b>•Audio:</b> AAC format in stereo at 44.1 kHz
-                            (no higher than 48 kHz); MPEG-4 AAC LC Encoder Setting: "Normal"; Encoding Strategy: "Average Bit Rate";
-                            Target Bit Rate: "195 kbps"
-                        </div>
+                        <div class="large-2 small-9 columns cell-data">Video: Uncompressed .MOV master file or 2000k .MOV file (must not use Apple proprietary codec such as Apple ProRes)
+
+                            Audio: AAC format in stereo at 44.1 kHz (no higher than 48 kHz); MPEG-4 AAC LC Encoder Setting: "Normal"; Encoding Strategy: "Average Bit Rate"; Target Bit Rate: "195kbps"</div>
                         <div class="large-3 small-12 columns cell-data">No</div>
                     </div>
 
@@ -978,60 +678,9 @@
                                 <div class="large-2 columns column-header">AD TYPE</div>
                                 <div class="large-2 columns column-header">DIMENSIONS</div>
                                 <div class="large-1 columns column-header">MAXIMUM FILE SIZE</div>
-                                <div class="large-2 columns column-header">LOOP TIME</div>
+                                <div class="large-2 columns column-header">RESTRICTIONS</div>
                                 <div class="large-2 columns column-header">FILE TYPES</div>
                                 <div class="large-3 columns column-header">3rd PARTY SERVING</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row ad-data-row">
-                        <div class="large-2 small-12 columns">
-                            <h4>BabyCenter Blog</h4>
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">88w x 31h or 125w x 125h</div>
-                        <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">30KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data">Headline: 36 characters, including spaces <br> Body: 144 characters,
-                            including spaces <br>Link: 48 characters, including spaces
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">Text plus GIF/JPG and click-through URL</div>
-                        <div class="large-3 small-12 columns cell-data">No
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="large-12">
-                            <div class="spacer-line">
-                                &nbsp;
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row ad-data-row">
-                        <div class="large-2 small-12 columns">
-                            <h4>Expert Answers</h4>
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">88w x 31h</div>
-                        <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">30KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data">Question: 100 characters including spaces <br> Answer: 150 characters
-                            including spaces
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">Text plus GIF/JPG and click-through URL</div>
-                        <div class="large-3 small-12 columns cell-data">No</div>
-                    </div>
-
-                    <div class="row">
-                        <div class="large-12">
-                            <div class="spacer-line">
-                                &nbsp;
                             </div>
                         </div>
                     </div>
@@ -1041,105 +690,36 @@
                             <h4>Free Stuff & Great Deals</h4>
                         </div>
                         <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">300w x 250h</div>
+                        <div class="large-2 small-9 columns cell-data">120w x 90h</div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">40KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
+                        <div class="large-1 small-9 columns cell-data">30KB</div>
+                        <div class="small-3 columns show-for-small cell-label">Restrictions</div>
+                        <div class="large-2 small-9 columns cell-data">60 characters including space</div>
+                        <div class="small-3 columns show-for-small cell-label">File Types</div>
+                        <div class="large-2 small-9 columns cell-data">Text only, or GIF or JPG only, no 3rd party ad tags, click command or click through required</div>
+                        <div class="large-3 small-12 columns cell-data">No</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="large-12">
+                            <div class="spacer-line">
+                                &nbsp;
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row ad-data-row">
+                        <div class="large-2 small-12 columns">
+                            <h4>Targeted Text Link</h4>
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
+                        <div class="large-2 small-9 columns cell-data">logo: 88w x 31h; plus optional 65w x 65h (recommended: 65x65  image should not be a logo)</div>
+                        <div class="small-3 columns show-for-small cell-label">Max File Size</div>
+                        <div class="large-1 small-9 columns cell-data">30KB</div>
+                        <div class="small-3 columns show-for-small cell-label">Restritions</div>
                         <div class="large-2 small-9 columns cell-data">60 characters including spaces</div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">Text plus GIF/JPG and click-through URL</div>
-                        <div class="large-3 small-12 columns cell-data">No</div>
-                    </div>
-
-                    <div class="row">
-                        <div class="large-12">
-                            <div class="spacer-line">
-                                &nbsp;
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row ad-data-row">
-                        <div class="large-2 small-12 columns">
-                            <h4>Integrated Textlink</h4>
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">88w x 31h</div>
-                        <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">30KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data">100 characters including spaces</div>
-                        <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">Text plus GIF/JPG and click-through URL</div>
-                        <div class="large-3 small-12 columns cell-data">No</div>
-                    </div>
-
-                    <div class="row">
-                        <div class="large-12">
-                            <div class="spacer-line">
-                                &nbsp;
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row ad-data-row">
-                        <div class="large-2 small-12 columns">
-                            <h4>Milestones</h4>
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">88w x 31h</div>
-                        <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">30KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data">100 characters including spaces</div>
-                        <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">Text plus GIF/JPG and click-through URL</div>
-                        <div class="large-3 small-12 columns cell-data">No</div>
-                    </div>
-
-                    <div class="row">
-                        <div class="large-12">
-                            <div class="spacer-line">
-                                &nbsp;
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row ad-data-row">
-                        <div class="large-2 small-12 columns">
-                            <h4>Mom Answers</h4>
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">88w x 31h</div>
-                        <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">30KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data">60 characters including spaces</div>
-                        <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">Text plus GIF/JPG and click-through URL</div>
-                        <div class="large-3 small-12 columns cell-data">No</div>
-                    </div>
-
-                    <div class="row">
-                        <div class="large-12">
-                            <div class="spacer-line">
-                                &nbsp;
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row ad-data-row">
-                        <div class="large-2 small-12 columns">
-                            <h4>My Family Module</h4>
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">88w x 31h</div>
-                        <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">30KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data">60 characters including spaces</div>
-                        <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">Text plus GIF/JPG and click-through URL</div>
+                        <div class="large-2 small-9 columns cell-data">Text only, or GIF or JPG only, no 3rd party ad tags, click command or click through required</div>
                         <div class="large-3 small-12 columns cell-data">No</div>
                     </div>
 
@@ -1159,10 +739,10 @@
                         <div class="large-2 small-9 columns cell-data">N/A</div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
                         <div class="large-1 small-9 columns cell-data">N/A</div>
-                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
+                        <div class="small-3 columns show-for-small cell-label">Restrictions</div>
                         <div class="large-2 small-9 columns cell-data">60 characters including spaces</div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">Text</div>
+                        <div class="large-2 small-9 columns cell-data">Text only, click command or click through required</div>
                         <div class="large-3 small-12 columns cell-data">No</div>
                     </div>
 
@@ -1170,30 +750,6 @@
 
                     <p class="backtotop"><a href="#">Back to top</a>
 
-<!-- Start Ad Effectiveness -->
-                    <div class="row">
-                        <div class="small-12 columns">
-                            <a id="effectiveness" name="effectiveness"></a>
-
-                            <h3>Ad Effectiveness</h3>
-                        </div>
-                    </div>
-
-                    <div class="row ad-data-row">
-                        <div class="effectiveness-list">For campaigns including ad effectiveness recruitment, we can apply one exposed
-                            tag per campaign to the following site served creatives:
-                            <br>
-                            <ul class="effectiveness-list">
-                                <li>Bulletin Newsletter Email</li>
-                                <li>Partner Standalone Email</li>
-                                <li>Integrated Text Units (excluding Free Stuff & Great Deals)</li>
-                                <li>Logo</li>
-                                <li>Video Preroll</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <p class="backtotop"><a href="#">Back to top</a>
                 </div>
             </section>
 <!-- END AD SPECS -->
