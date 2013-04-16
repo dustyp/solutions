@@ -1,6 +1,12 @@
 .side-bar{
 	background: #e7e7dc;
+    padding:12px;
 }
+
+.side-bar p{
+    font-size:.8em;
+}
+
 
 h5{
     font-family: "MuseoSlabHeavy";
@@ -21,6 +27,7 @@ h5{
     font-size: 10pt;
 }
 
-.side-bar{
-    padding:6px;
+
+.case-logo{
+    text-align: center;
 }

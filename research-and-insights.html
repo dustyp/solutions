@@ -90,7 +90,7 @@
                         <a href="#">Download the latest 2013 Social Mom Report</a>
                     </li>
                     <li class="mail">
-                        <a href="#">Subscribe to our free Mom Trends & Insights Newsletter</a>
+                        <a href="#" data-reveal-id="newsletter-form-modal">Subscribe to our free Mom Trends & Insights Newsletter</a>
                     </li>
                 </ul>
             </div>
@@ -496,5 +496,26 @@
 
 <!-- End Footer -->
 
+<div id="newsletter-form-modal" class="reveal-modal" data-css-top="13">
+<div id="wufoo-s7x1s7">
+    Fill out my <a href="http://babycenter.wufoo.com/forms/s7x1s7">online form</a>.
+</div>
+<script type="text/javascript">var s7x1s7;(function(d, t) {
+    var s = d.createElement(t), options = {
+        'userName':'babycenter',
+        'formHash':'s7x1s7',
+        'autoResize':false,
+        'height':'400',
+        'async':true,
+        'header':'show',
+        'ssl':true};
+    s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+    s.onload = s.onreadystatechange = function() {
+        var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+        try { s7x1s7 = new WufooForm();s7x1s7.initialize(options);s7x1s7.display(); } catch (e) {}};
+    var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
+    <a class="close-reveal-modal">×</a>
+    </div>
 </body>
 </html>

@@ -7,7 +7,7 @@
 }
 
 #home-hero-1 {
-    background:url("../images/hero-home-1.png");
+    background:url("../images/hero-home-1.jpeg");
     height:470px;
 }
 
@@ -41,13 +41,4 @@
     bottom:6px;
 }
 
-#lead-form-options li{
-    display:inline;
-    list-style: none;
-    font-size:28px;
-    padding-left:12px;
-    padding-right:12px;
-    margin-left:6px;
-    margin-left:6px;
-    background: #eee;
-}
+
