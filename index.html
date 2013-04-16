@@ -141,8 +141,40 @@
 
         <!--<img src="images/mobile-header-home.png">-->
         <div class="flex-video widescreen">
-            <iframe width="800" height="315" src="http://www.youtube.com/embed/IkOQw96cfyE" frameborder="0"
-                    allowfullscreen></iframe>
+            <!-- Start of Brightcove Player -->
+
+            <div style="display:none">
+
+            </div>
+
+            <!--
+            By use of this code snippet, I agree to the Brightcove Publisher T and C
+            found at https://accounts.brightcove.com/en/terms-and-conditions/.
+            -->
+
+            <script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+
+            <object id="myExperience2305433372001" class="BrightcoveExperience">
+                <param name="bgcolor" value="#FFFFFF" />
+                <param name="width" value="480" />
+                <param name="height" value="270" />
+                <param name="playerID" value="2296641617001" />
+                <param name="playerKey" value="AQ~~,AAAAAFwqW98~,-OCIO8uI7qQaIwLU0VayeGWz5atVZO4o" />
+                <param name="isVid" value="true" />
+                <param name="isUI" value="true" />
+                <param name="dynamicStreaming" value="true" />
+
+                <param name="@videoPlayer" value="2305433372001" />
+            </object>
+
+            <!--
+            This script tag will cause the Brightcove Players defined above it to be created as soon
+            as the line is read by the browser. If you wish to have the player instantiated only after
+            the rest of the HTML is processed and the page load is complete, remove the line.
+            -->
+            <script type="text/javascript">brightcove.createExperiences();</script>
+
+            <!-- End of Brightcove Player -->                
         </div>
     </div>
 </div>
@@ -453,9 +485,40 @@
      style="display: none; -webkit-transform-origin: 0px 0px; opacity: 1; -webkit-transform: scale(1, 1); visibility: hidden; top: 19px;">
     <div class="flex-video"
          style="-webkit-transform-origin: 0px 0px; opacity: 0; -webkit-transform: scale(1, 1); -webkit-transition: opacity 0.1s linear; transition: opacity 0.1s linear; display: none;">
-        <iframe width="800" height="315" src="about:blank" frameborder="0" allowfullscreen=""
-                data-src="http://www.youtube.com/embed/IkOQw96cfyE"></iframe>
-    </div>
+        <!-- Start of Brightcove Player -->
+
+        <div style="display:none">
+
+        </div>
+
+        <!--
+        By use of this code snippet, I agree to the Brightcove Publisher T and C
+        found at https://accounts.brightcove.com/en/terms-and-conditions/.
+        -->
+
+        <script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+
+        <object id="myExperience2305433372001" class="BrightcoveExperience">
+            <param name="bgcolor" value="#FFFFFF" />
+            <param name="width" value="480" />
+            <param name="height" value="270" />
+            <param name="playerID" value="2296641617001" />
+            <param name="playerKey" value="AQ~~,AAAAAFwqW98~,-OCIO8uI7qQaIwLU0VayeGWz5atVZO4o" />
+            <param name="isVid" value="true" />
+            <param name="isUI" value="true" />
+            <param name="dynamicStreaming" value="true" />
+
+            <param name="@videoPlayer" value="2305433372001" />
+        </object>
+
+        <!--
+        This script tag will cause the Brightcove Players defined above it to be created as soon
+        as the line is read by the browser. If you wish to have the player instantiated only after
+        the rest of the HTML is processed and the page load is complete, remove the line.
+        -->
+        <script type="text/javascript">brightcove.createExperiences();</script>
+
+        <!-- End of Brightcove Player -->    </div>
 
     <a class="close-reveal-modal">×</a>
 </div>
