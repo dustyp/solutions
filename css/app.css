@@ -5,6 +5,7 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  *behavior: url(/js/boxsizing.htc);
 }
 
 /* line 9, ../../../.rvm/gems/ruby-2.0.0-p0/gems/zurb-foundation-4.1.1/scss/foundation/components/_global.scss */
