@@ -152,9 +152,9 @@
             found at https://accounts.brightcove.com/en/terms-and-conditions/.
             -->
 
+            <script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
 
-
-            <object id="myExperience2305433372001" class="BrightcoveExperience">
+            <object id="myExperience2305433372002" class="BrightcoveExperience">
                 <param name="bgcolor" value="#FFFFFF" />
                 <param name="width" value="480" />
                 <param name="height" value="270" />
@@ -174,7 +174,7 @@
             -->
 
 
-            <!-- End of Brightcove Player -->                
+            <!-- End of Brightcove Player -->
         </div>
     </div>
 </div>
@@ -347,6 +347,8 @@
         </ul>
     </div>
 </div>
+
+
 </div>
 
 <div id="advertise-modal" class="reveal-modal" data-css-top="13">
@@ -373,12 +375,12 @@
         found at https://accounts.brightcove.com/en/terms-and-conditions/.
         -->
 
-
+        <script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
 
         <object id="myExperience2305433372001" class="BrightcoveExperience">
             <param name="bgcolor" value="#FFFFFF" />
-            <param name="width" value="900" />
-            <param name="height" value="506" />
+            <param name="width" value="480" />
+            <param name="height" value="270" />
             <param name="playerID" value="2296641617001" />
             <param name="playerKey" value="AQ~~,AAAAAFwqW98~,-OCIO8uI7qQaIwLU0VayeGWz5atVZO4o" />
             <param name="isVid" value="true" />
@@ -393,7 +395,7 @@
         as the line is read by the browser. If you wish to have the player instantiated only after
         the rest of the HTML is processed and the page load is complete, remove the line.
         -->
-
+        <script type="text/javascript">brightcove.createExperiences();</script>
 
         <!-- End of Brightcove Player -->
     </div>
@@ -403,19 +405,22 @@
 
 <div id="us-form-modal" class="reveal-modal" data-css-top="13">
     <iframe height="777" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://babycenter.wufoo.com/embed/z7x3p3/"><a href="https://babycenter.wufoo.com/forms/z7x3p3/">Fill out my Wufoo form!</a></iframe>
-    <a class="close-reveal-modal">?</a>
+    <a class="close-reveal-modal">X</a>
 </div>
 
 <div id="uk-form-modal" class="reveal-modal" data-css-top="13">
     <iframe height="657" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://babycenter.wufoo.com/embed/m7x3z9/"><a href="https://babycenter.wufoo.com/forms/m7x3z9/">Fill out my Wufoo form!</a></iframe>    <a class="close-reveal-modal">?</a>
+    <a class="close-reveal-modal">X</a>
 </div>
 
 <div id="canada-form-modal" class="reveal-modal" data-css-top="13">
     <iframe height="597" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://babycenter.wufoo.com/embed/q7x2w5/"><a href="https://babycenter.wufoo.com/forms/q7x2w5/">Fill out my Wufoo form!</a></iframe>    <a class="close-reveal-modal">?</a>
+    <a class="close-reveal-modal">X</a>
 </div>
 
 <div id="other-form-modal" class="reveal-modal" data-css-top="13">
     <iframe height="597" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://babycenter.wufoo.com/embed/r7x2z1/"><a href="https://babycenter.wufoo.com/forms/r7x2z1/">Fill out my Wufoo form!</a></iframe>    <a class="close-reveal-modal">?</a>
+    <a class="close-reveal-modal">X</a>
 </div>
 
 
@@ -425,13 +430,14 @@
 <script src="js/foundation/foundation.orbit.js"></script>
 <script src="js/foundation/foundation.reveal.js"></script>
 <!--[if !IE]><script src="js/foundation/foundation.topbar.js"></script><![endif]-->
-<script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+
 <!-- Application Javascript, safe to override -->
 
 
 <script>
     $(document).ready(function(){
         $(document).foundation();
+
     });
 
 </script>

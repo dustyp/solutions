@@ -195,4 +195,6 @@
     background:#26aec2;
 }
 
-
+.orbit-container .orbit-prev, .orbit-container .orbit-next{
+    background:none;
+}
