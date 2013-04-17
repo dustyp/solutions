@@ -362,48 +362,27 @@
 </div>
 </div>
 <!-- Included JS Files -->
-<script src="js/vendor/zepto.js"></script>
+<script src="js/vendor/jquery.js"></script>
 <script src="js/foundation/foundation.js"></script>
-<script src="js/foundation/foundation.cookie.js"></script>
-<script src="js/foundation/foundation.alerts.js"></script>
-<script src="js/foundation/foundation.clearing.js"></script>
-<script src="js/foundation/foundation.dropdown.js"></script>
-<script src="js/foundation/foundation.forms.js"></script>
-<script src="js/foundation/foundation.joyride.js"></script>
-<script src="js/foundation/foundation.magellan.js"></script>
 <script src="js/foundation/foundation.orbit.js"></script>
-<script src="js/foundation/foundation.placeholder.js"></script>
 <script src="js/foundation/foundation.reveal.js"></script>
-<script src="js/foundation/foundation.section.js"></script>
-<script src="js/foundation/foundation.tooltips.js"></script>
-<script src="js/foundation/foundation.topbar.js"></script>
-<!-- Application Javascript, safe to override -->
-<script>
-    $(document).foundation();
-</script>
+<!--[if !IE]><script src="js/foundation/foundation.topbar.js"></script><![endif]-->
 
+<!-- Application Javascript, safe to override -->
+
+
+<script>
+    $(document).ready(function(){
+        $(document).foundation();
+
+    });
+
+</script>
 <!-- End Footer -->
 
 <div id="newsletter-form-modal" class="reveal-modal" data-css-top="13">
-<div id="wufoo-s7x1s7">
-    Fill out my <a href="http://babycenter.wufoo.com/forms/s7x1s7">online form</a>.
-</div>
-<script type="text/javascript">var s7x1s7;(function(d, t) {
-    var s = d.createElement(t), options = {
-        'userName':'babycenter',
-        'formHash':'s7x1s7',
-        'autoResize':false,
-        'height':'400',
-        'async':true,
-        'header':'show',
-        'ssl':true};
-    s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
-    s.onload = s.onreadystatechange = function() {
-        var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-        try { s7x1s7 = new WufooForm();s7x1s7.initialize(options);s7x1s7.display(); } catch (e) {}};
-    var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-})(document, 'script');</script>
-    <a class="close-reveal-modal">×</a>
+    <iframe height="400" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://babycenter.wufoo.com/embed/s7x1s7/"><a href="https://babycenter.wufoo.com/forms/s7x1s7/">Fill out my Wufoo form!</a></iframe>
+    <a class="close-reveal-modal">X</a>
     </div>
 
 <div id="advertise-modal" class="reveal-modal" >
@@ -414,130 +393,27 @@
         <li><a href="#" data-reveal-id="canada-form-modal">Canada</a></li>
         <li><a href="#" data-reveal-id="other-form-modal">Other Markets</a></li>
     </ul>
-    <a class="close-reveal-modal">×</a>
+    <a class="close-reveal-modal">X</a>
 </div>
 
 <div id="us-form-modal" class="reveal-modal" data-css-top="13">
-    <div id="wufoo-z7x3p3">
-        Fill out my <a href="http://babycenter.wufoo.com/forms/z7x3p3">online form</a>.
-    </div>
-    <script type="text/javascript">var z7x3p3;
-    (function (d, t) {
-        var s = d.createElement(t), options = {
-            'userName': 'babycenter',
-            'formHash': 'z7x3p3',
-            'autoResize': false,
-            'height': '609',
-            'async': true,
-            'header': 'show'};
-        s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
-        s.onload = s.onreadystatechange = function () {
-            var rs = this.readyState;
-            if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-            try {
-                z7x3p3 = new WufooForm();
-                z7x3p3.initialize(options);
-                z7x3p3.display();
-            } catch (e) {
-            }
-        };
-        var scr = d.getElementsByTagName(t)[0], par = scr.parentNode;
-        par.insertBefore(s, scr);
-    })(document, 'script');</script>
-    <a class="close-reveal-modal">×</a>
+    <iframe height="777" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://babycenter.wufoo.com/embed/z7x3p3/"><a href="https://babycenter.wufoo.com/forms/z7x3p3/">Fill out my Wufoo form!</a></iframe>
+    <a class="close-reveal-modal">X</a>
 </div>
 
 <div id="uk-form-modal" class="reveal-modal" data-css-top="13">
-    <div id="wufoo-m7x3z9">
-        Fill out my <a href="http://babycenter.wufoo.com/forms/m7x3z9">online form</a>.
-    </div>
-    <script type="text/javascript">var m7x3z9;
-    (function (d, t) {
-        var s = d.createElement(t), options = {
-            'userName': 'babycenter',
-            'formHash': 'm7x3z9',
-            'autoResize': false,
-            'height': '657',
-            'async': true,
-            'header': 'show',
-            'ssl': true};
-        s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
-        s.onload = s.onreadystatechange = function () {
-            var rs = this.readyState;
-            if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-            try {
-                m7x3z9 = new WufooForm();
-                m7x3z9.initialize(options);
-                m7x3z9.display();
-            } catch (e) {
-            }
-        };
-        var scr = d.getElementsByTagName(t)[0], par = scr.parentNode;
-        par.insertBefore(s, scr);
-    })(document, 'script');</script>
-    <a class="close-reveal-modal">×</a>
+    <iframe height="657" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://babycenter.wufoo.com/embed/m7x3z9/"><a href="https://babycenter.wufoo.com/forms/m7x3z9/">Fill out my Wufoo form!</a></iframe>    <a class="close-reveal-modal">?</a>
+    <a class="close-reveal-modal">X</a>
 </div>
 
 <div id="canada-form-modal" class="reveal-modal" data-css-top="13">
-    <div id="wufoo-q7x2w5">
-        Fill out my <a href="http://babycenter.wufoo.com/forms/q7x2w5">online form</a>.
-    </div>
-    <script type="text/javascript">var q7x2w5;
-    (function (d, t) {
-        var s = d.createElement(t), options = {
-            'userName': 'babycenter',
-            'formHash': 'q7x2w5',
-            'autoResize': false,
-            'height': '597',
-            'async': true,
-            'header': 'show',
-            'ssl': true};
-        s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
-        s.onload = s.onreadystatechange = function () {
-            var rs = this.readyState;
-            if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-            try {
-                q7x2w5 = new WufooForm();
-                q7x2w5.initialize(options);
-                q7x2w5.display();
-            } catch (e) {
-            }
-        };
-        var scr = d.getElementsByTagName(t)[0], par = scr.parentNode;
-        par.insertBefore(s, scr);
-    })(document, 'script');</script>
-    <a class="close-reveal-modal">×</a>
+    <iframe height="597" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://babycenter.wufoo.com/embed/q7x2w5/"><a href="https://babycenter.wufoo.com/forms/q7x2w5/">Fill out my Wufoo form!</a></iframe>    <a class="close-reveal-modal">?</a>
+    <a class="close-reveal-modal">X</a>
 </div>
 
 <div id="other-form-modal" class="reveal-modal" data-css-top="13">
-    <div id="wufoo-r7x2z1">
-        Fill out my <a href="http://babycenter.wufoo.com/forms/r7x2z1">online form</a>.
-    </div>
-    <script type="text/javascript">var r7x2z1;
-    (function (d, t) {
-        var s = d.createElement(t), options = {
-            'userName': 'babycenter',
-            'formHash': 'r7x2z1',
-            'autoResize': false,
-            'height': '597',
-            'async': true,
-            'header': 'show',
-            'ssl': true};
-        s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
-        s.onload = s.onreadystatechange = function () {
-            var rs = this.readyState;
-            if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-            try {
-                r7x2z1 = new WufooForm();
-                r7x2z1.initialize(options);
-                r7x2z1.display();
-            } catch (e) {
-            }
-        };
-        var scr = d.getElementsByTagName(t)[0], par = scr.parentNode;
-        par.insertBefore(s, scr);
-    })(document, 'script');</script>
-    <a class="close-reveal-modal">×</a>
+    <iframe height="597" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://babycenter.wufoo.com/embed/r7x2z1/"><a href="https://babycenter.wufoo.com/forms/r7x2z1/">Fill out my Wufoo form!</a></iframe>    <a class="close-reveal-modal">?</a>
+    <a class="close-reveal-modal">X</a>
 </div>
 
 </body>
