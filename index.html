@@ -154,7 +154,7 @@
 
             <script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
 
-            <object id="myExperience2305433372002" class="BrightcoveExperience">
+            <object id="myExperience2305433372001" class="BrightcoveExperience">
                 <param name="bgcolor" value="#FFFFFF" />
                 <param name="width" value="480" />
                 <param name="height" value="270" />
@@ -172,9 +172,10 @@
             as the line is read by the browser. If you wish to have the player instantiated only after
             the rest of the HTML is processed and the page load is complete, remove the line.
             -->
-
+            <script type="text/javascript">brightcove.createExperiences();</script>
 
             <!-- End of Brightcove Player -->
+
         </div>
     </div>
 </div>
@@ -199,6 +200,12 @@
         </ul>
     </div>
     <!-- End Box #1 -->
+
+    <div class="row show-for-small">
+        <div class="small-12 columns">
+            <div class="spacer">&nbsp;</div>
+        </div>
+    </div>
 
     <!-- Box #2 -->
     <div class="large-4 small-12 columns">
@@ -238,118 +245,247 @@
 <!-- End Sub-box Row -->
 
 
+<!--Footer-->
 <div class="row" id="footer">
-<div class="large-12 columns footerLinks">
-    <div class="large-6 small-12 columns">
-        <h3>BabyCenter Shortcuts</h3>
+    <!--Footer Promos-->
+    <ul class="footerPromos large-12 columns">
+        <li class="large-3 small-12 columns">
+            <div>
+                <a fname="FooterBand_SignUp" href="https://www.babycenter.com/register.htm?regLoc=36">
+                    <b>Sign up</b> for our weekly emails that detail your baby's development</a> <br>
+                <a name="FooterBand_SignUpImage" href="https://www.babycenter.com/register.htm?regLoc=36">
+                    <div class="wrapperImg footerEmailPic"></div>
+                    <!--<img src="http://assets.babycenter.com/ims/2011/05may/footer_email_display.jpg" alt="" border="0">-->
+                </a>
+            </div>
+            <div class="show-for-small">
+                <hr>
+            </div>
+        </li>
 
-        <div class="large-6 small-6 columns">
+
+        <li class="large-4 small-12 columns">
+            <div>
+                <a href="http://babycenter.com/mobile-apps" name="FooterBand_AppImage">
+                    <div class="wrapperImg footerMobilePic floatLeft"></div>
+                </a>
+                <a href="http://babycenter.com/mobile-apps" name="FooterBand_FreeApp">Get our FREE Apps</a>
+
+                <div class="spacer"></div>
+                <ul class="iconList floatLeft">
+                    <li>
+                        <a href="http://babycenter.com/my-pregnancy-today-iphone-application" name="FooterBand_MyPregTodayIcon"><span
+                                class="iconSprite iconMyPregToday"></span></a> <a
+                            href="http://babycenter.com/my-pregnancy-today-iphone-application" name="FooterBand_MyPregToday">My Pregnancy
+                        Today</a>
+                    </li>
+                    <li>
+                        <a href="http://babycenter.com/my-baby-today-app" name="BC_FooterBand_BabyiPhoneAppIcon"><span
+                                class="iconSprite iconMyBabyToday"></span></a> <a href="http://babycenter.com/my-baby-today-app"
+                                                                                  name="FooterBand_BabyiPhoneApp">My
+                        Baby<br>Today </a>
+                    </li>
+                    <li>
+                        <a target="new" href="http://itunes.apple.com/us/app/babycenter-birth-class/id419411094?mt=8"
+                           rel="nofollow" name="FooterBand_ClassessAppIcon"><span class="iconSprite iconClass25"></span></a>
+                        <a target="new" href="http://itunes.apple.com/us/app/babycenter-birth-class/id419411094?mt=8"
+                           rel="nofollow" name="FooterBand_ClassessApp">Birth Class App for iPad</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="show-for-small">
+                <hr>
+            </div>
+        </li>
+
+
+        <li class="large-3 small-6 columns">
+            <div>
+                <ul class="iconList floatLeft">
+                    <li>
+                        <a name="FooterBand_MomformationIcon" href="http://blogs.babycenter.com/"><span
+                                class="iconSprite iconBlogLg "></span></a> <a name="FooterBand_Momformation"
+                                                                              href="http://blogs.babycenter.com/">BabyCenter
+                        Blog</a></li>
+                    <li>
+                        <a target="new" rel="nofollow" href="http://www.facebook.com/BabyCenter"
+                           name="FooterBand_FacebookIcon"><span class="iconSprite iconFacebookLg "></span></a> <a
+                            target="new" rel="nofollow" href="http://www.facebook.com/BabyCenter"
+                            name="FooterBand_Facebook">Like us on Facebook</a>
+                    </li>
+                    <li>
+                        <a target="new" rel="nofollow" href="http://www.pinterest.com/BabyCenter"
+                           name="FooterBand_PinterestIcon"> <span class="iconSprite iconPinterestLg"></span></a> <a
+                            target="new" rel="nofollow" href="http://www.pinterest.com/BabyCenter"
+                            name="FooterBand_Pinterest">Follow us on Pinterest</a>
+                    </li>
+                </ul>
+                <ul class="iconList floatLeft">
+                    <li>
+                        <a href="http://community.babycenter.com/" name="FooterBand_BCCIcon"><span
+                                class="iconSprite iconCommunityLg"></span></a>
+                        <a href="http://community.babycenter.com/" name="FooterBand_BCC">BabyCenter Community</a>
+                    </li>
+                    <li>
+                        <a target="new" rel="nofollow" href="http://twitter.com/#!/BabyCenter"
+                           name="FooterBand_TwitterIcon"><span class="iconSprite iconTwitterLg"></span></a>
+                        <a target="new" rel="nofollow" href="http://twitter.com/#!/BabyCenter"
+                           name="FooterBand_Twitter">Follow us on Twitter</a>
+                    </li>
+                    <li>
+                        <a href="http://babycenter.com/love.htm " name="FooterBand_BCLoveIcon"><span
+                                class="iconSprite iconLoveLg"></span></a>
+                        <a href="http://babycenter.com/love.htm " name="FooterBand_BCLove">Love us?</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="show-for-small">
+                <hr>
+            </div>
+        </li>
+
+        <li class="large-2 small-6 columns">
+            <div class="finePrint">
+                <a name="FooterBand_WebbyImage" rel="nofollow" target="new"
+                   href="http://www.webbyawards.com/webbys/current.php#webby_entry_family">
+                    <div class="wrapperImg webbiePic"></div>
+                </a>
+                <a target="new" rel="nofollow" href="http://www.webbyawards.com/webbys/current.php#webby_entry_family"
+                   name="FooterBand_Webby">Best Family &amp; Parenting Site</a>
+
+                <div class="spacer"></div>
+
+                <a href="http://blogs.babycenter.com/mom_stories/a-cribsie-award-were-blushing/"
+                   name="FooterBand_CribsieImage">
+                    <div class="wrapperImg cribsiePic">
+                    </div>
+                </a>
+                <a href="http://blogs.babycenter.com/mom_stories/a-cribsie-award-were-blushing/"
+                   name="FooterBand_Cribsie">Top Go-To Resource for Expecting Moms</a>
+            </div>
+        </li>
+    </ul>
+    <!--End Footer Promos-->
+
+    <!--Footer Links-->
+    <div class="large-12 columns footerLinks">
+        <div class="large-6 small-12 columns">
+            <h3>BabyCenter Shortcuts</h3>
+            <div class="large-6 small-6 columns">
+
+                <ul>
+                    <li><a href="http://babycenter.com/getting-pregnant">Getting Pregnant</a></li>
+                    <li><a href="http://babycenter.com/pregnancy">Pregnancy</a></li>
+                    <li><a href="http://babycenter.com/baby">Baby</a></li>
+                    <li><a href="http://babycenter.com/toddler">Toddler</a></li>
+                    <li><a href="http://babycenter.com/preschoolers">Preschoolers</a></li>
+                    <li><a href="http://babycenter.com/big-kid">Big Kid</a></li>
+                    <li><a name="Breastfeeding" href="http://babycenter.com/breastfeeding">Breastfeeding</a></li>
+                    <li><a href="http://community.babycenter.com">Community</a></li>
+                    <li><a href="http://babycenter.com/baby-names">Baby Names</a></li>
+                    <li><a href="http://babycenter.com/pregnancy-calendar">Pregnancy Calendar</a></li>
+                    <li><a href="http://babycenter.com/0_pregnancy-symptoms-top-ten-signs-you-mig_1146468.bc">Pregnancy Symptoms</a></li>
+                    <li><a href="http://babycenter.com/pregnancy-due-date-calculator">Pregnancy Calculator</a></li>
+                    <li><a href="http://babycenter.com/pregnancy-fetal-development-index">Pregnancy Stages</a></li>
+                    <li><a href="http://babycenter.com/pregnancy-fetal-development-index">Pregnancy Week by Week</a></li>
+                    <li><a href="http://babycenter.com/text4baby">Text4baby</a></li>
+                </ul>
+
+                <h3>Get Help</h3>
+                <ul>
+                    <li><a href="http://babycenter.com/about-us-main">About BabyCenter, L.L.C.</a></li>
+                    <li><a href="http://babycenter.com/help">Help Center</a></li>
+                    <li><a href="http://babycenter.com/presscenter">Press Center</a></li>
+                    <li><a href="http://babycenter.com/help-contactus">Contact Us</a></li>
+                    <li><a href="http://babycenter.com/sitemap">Site Map</a></li>
+                </ul>
+            </div>
+
+            <div class="large-6 small-6 columns">
+                <!-- footer shortcuts - column 2 -->
+                <ul>
+                    <li><a href="http://babycenter.com/ovulation-calculator">Ovulation Calculator</a></li>
+                    <li><a href="http://babycenter.com/childcare-basics">Baby Care</a></li>
+                    <li><a href="http://babycenter.com/baby-milestones">Baby Development</a></li>
+                    <li><a href="http://babycenter.com/baby-solid-feeding-basics">Baby Nutrition</a></li>
+                    <li><a href="http://babycenter.com/0_baby-shower-games_10300277.bc">Baby Shower Games</a></li>
+                    <li><a href="http://babycenter.com/baby-shower-planning">Baby Shower Ideas</a></li>
+                    <li><a href="http://babycenter.com/pregnancy-fetal-development-index">Fetal Development</a></li>
+                    <li><a href="http://babycenter.com/free-baby-stuff">Free Baby Stuff</a></li>
+                    <li><a href="http://babycenter.com/baby-names">Baby Name Meanings</a></li>
+                    <li><a href="http://babycenter.com/horoscopes">Mother-Baby Horoscopes</a></li>
+                    <li><a href="http://babycenter.com/recipes">Food &amp; Recipes</a></li>
+                    <li><a href="http://community.babycenter.com/birth-announcements">Birth Announcements</a></li>
+                    <li><a href="http://babycenter.com/editorialQuestionsLandingPage.htm">Expert Answers</a></li>
+                    <li><a href="http://babycenter.com/get-answers">Mom Answers</a></li>
+                </ul>
+
+                <h3>Membership &amp; Newsletters</h3>
+                <ul>
+                    <li><a href="http://babycenter.com/newsletters">Newsletters</a></li>
+                    <li><a href="http://babycenter.com/register.htm?regLoc=3">Register</a></li>
+                    <li><a href="http://babycenter.com/subscriptionDetails.htm">Manage Email Subscriptions</a></li>
+                    <li><a href="http://babycenter.com/accountDetails.htm">Update Account</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="large-3 columns">
+            <h3>Our U.S. Sites</h3>
             <ul>
-                <li><a href="http://babycenter.com/getting-pregnant">Getting Pregnant</a></li>
-                <li><a href="http://babycenter.com/pregnancy">Pregnancy</a></li>
-                <li><a href="http://babycenter.com/baby">Baby</a></li>
-                <li><a href="http://babycenter.com/toddler">Toddler</a></li>
-                <li><a href="http://babycenter.com/preschoolers">Preschoolers</a></li>
-                <li><a href="http://babycenter.com/big-kid">Big Kid</a></li>
-                <li><a name="Breastfeeding" href="http://babycenter.com/breastfeeding">Breastfeeding</a></li>
-                <li><a href="http://community.babycenter.com">Community</a></li>
-                <li><a href="http://babycenter.com/baby-names">Baby Names</a></li>
-                <li><a href="http://babycenter.com/pregnancy-calendar">Pregnancy Calendar</a></li>
-                <li><a href="http://babycenter.com/0_pregnancy-symptoms-top-ten-signs-you-mig_1146468.bc">Pregnancy Symptoms</a></li>
-                <li><a href="http://babycenter.com/pregnancy-due-date-calculator">Pregnancy Calculator</a></li>
-                <li><a href="http://babycenter.com/pregnancy-fetal-development-index">Pregnancy Stages</a></li>
-                <li><a href="http://babycenter.com/pregnancy-fetal-development-index">Pregnancy Week by Week</a></li>
-                <li><a href="http://babycenter.com/text4baby">Text4baby</a></li>
+                <li><a href="http://www.babycenter.com">BabyCenter</a></li>
+                <li><a href="http://community.babycenter.com">BabyCenter Community</a></li>
+                <li><a href="http://espanol.babycenter.com">BabyCenter en Español</a></li>
+                <li><a href="http://www.baby.com">Baby.com</a></li>
+                <li><a href="http://www.pregnancy.com">Pregnancy.com</a></li>
+                <li><a href="http://blogs.babycenter.com">BabyCenter Blog</a></li>
             </ul>
-            <h3>Get Help</h3>
+
+            <h3>Behind the Scenes</h3>
             <ul>
-                <li><a href="http://babycenter.com/about-us-main">About BabyCenter, L.L.C.</a></li>
-                <li><a href="http://babycenter.com/help">Help Center</a></li>
-                <li><a href="http://babycenter.com/presscenter">Press Center</a></li>
-                <li><a href="http://babycenter.com/help-contactus">Contact Us</a></li>
-                <li><a href="http://babycenter.com/sitemap">Site Map</a></li>
+                <li><a href="http://www.babycentersolutions.com">Marketing &amp; Advertising Solutions</a></li>
+                <li><a href="http://www.babycentersolutions.com/ad-specs-guidelines">Media Kit</a></li>
+                <li><a href="http://www.babycenter.com/100_current-job-openings_10339459.bc">Jobs</a></li>
+            </ul>
+
+            <h3>Shop Diapers.com</h3>
+            <ul>
+                <li><a target="_blank" title="baby registry" href="http://www.diapers.com/baby-registry/Welcome.aspx">Baby
+                    Registry</a><br></li>
+                <li><a target="_blank" title="baby products" href="http://www.diapers.com/">Baby Products</a></li>
+                <li><a target="_blank" title="Britax car seats" href="http://www.diapers.com/Product/Brand/britax.aspx">Britax
+                    Car Seats</a></li>
+            </ul>
+
+            <h3>Legal</h3>
+            <ul>
+                <li><a href="http://babycenter.com/help-privacy">Privacy Policy</a></li>
+                <li><a href="http://babycenter.com/help-aboutus-terms">Terms of Use</a></li>
+                <li><a href="http://babycenter.com/help-privacy#AdChoices"><img
+                        src="http://assets.babycenter.com/ims/2012/06juneb/adchoices2.jpg"></a></li>
             </ul>
         </div>
-        <div class="large-6 small-6 columns">
-            <!-- footer shortcuts - column 2 -->
+        <div class="large-3 columns">
+            <h3>Our International Sites</h3>
             <ul>
-                <li><a href="http://babycenter.com/ovulation-calculator">Ovulation Calculator</a></li>
-                <li><a href="http://babycenter.com/childcare-basics">Baby Care</a></li>
-                <li><a href="http://babycenter.com/baby-milestones">Baby Development</a></li>
-                <li><a href="http://babycenter.com/baby-solid-feeding-basics">Baby Nutrition</a></li>
-                <li><a href="http://babycenter.com/0_baby-shower-games_10300277.bc">Baby Shower Games</a></li>
-                <li><a href="http://babycenter.com/baby-shower-planning">Baby Shower Ideas</a></li>
-                <li><a href="http://babycenter.com/pregnancy-fetal-development-index">Fetal Development</a></li>
-                <li><a href="http://babycenter.com/free-baby-stuff">Free Baby Stuff</a></li>
-                <li><a href="http://babycenter.com/baby-names">Baby Name Meanings</a></li>
-                <li><a href="http://babycenter.com/horoscopes">Mother-Baby Horoscopes</a></li>
-                <li><a href="http://babycenter.com/recipes">Food &amp; Recipes</a></li>
-                <li><a href="http://community.babycenter.com/birth-announcements">Birth Announcements</a></li>
-                <li><a href="http://babycenter.com/editorialQuestionsLandingPage.htm">Expert Answers</a></li>
-                <li><a href="http://babycenter.com/get-answers">Mom Answers</a></li>
-            </ul>
-            <h3>Membership &amp; Newsletters</h3>
-            <ul>
-                <li><a href="http://babycenter.com/newsletters">Newsletters</a></li>
-                <li><a href="http://babycenter.com/register.htm?regLoc=3">Register</a></li>
-                <li><a href="http://babycenter.com/subscriptionDetails.htm">Manage Email Subscriptions</a></li>
-                <li><a href="http://babycenter.com/accountDetails.htm">Update Account</a></li>
+                <li><a href="http://arabia.babycenter.com">Arabia</a></li>
+                <li><a href="http://www.babycenter.com.au">Australia</a></li>
+                <li><a href="http://brasil.babycenter.com/">Brasil</a></li>
+                <li><a href="http://www.babycenter.ca">Canada</a></li>
+                <li><a href="http://cn.babycenter.com">China</a></li>
+                <li><a href="http://www.babycenter.fr">France</a></li>
+                <li><a href="http://www.babycenter.de">Germany</a></li>
+                <li><a href="http://www.babycenter.in">India</a></li>
+                <li><a href="http://www.johnsonsbaby.co.kr/babycenter/">Korea</a></li>
+                <li><a href="http://espanol.babycenter.com">Latin America</a></li>
+                <li><a href="http://www.babycenter.com.my">Malaysia</a></li>
+                <li><a href="http://www.babycenter.ru/">Russia</a></li>
+                <li><a href="http://www.babycentre.co.uk">UK</a></li>
             </ul>
         </div>
-
     </div>
-    <div class="large-3 columns">
-        <h3>Our U.S. Sites</h3>
-        <ul>
-            <li><a href="http://www.babycenter.com">BabyCenter</a></li>
-            <li><a href="http://community.babycenter.com">BabyCenter Community</a></li>
-            <li><a href="http://espanol.babycenter.com">BabyCenter en Español</a></li>
-            <li><a href="http://www.baby.com">Baby.com</a></li>
-            <li><a href="http://www.pregnancy.com">Pregnancy.com</a></li>
-            <li><a href="http://blogs.babycenter.com">BabyCenter Blog</a></li>
-        </ul>
-        <h3>Behind the Scenes</h3>
-        <ul>
-            <li><a href="http://www.babycentersolutions.com">Marketing &amp; Advertising Solutions</a></li>
-            <li><a href="http://www.babycentersolutions.com/ad-specs-guidelines">Media Kit</a></li>
-            <li><a href="http://www.babycenter.com/100_current-job-openings_10339459.bc">Jobs</a></li>
-        </ul>
-        <h3>Shop Diapers.com</h3>
-        <ul>
-            <li><a target="_blank" title="baby registry" href="http://www.diapers.com/baby-registry/Welcome.aspx">Baby
-                Registry</a><br></li>
-            <li><a target="_blank" title="baby products" href="http://www.diapers.com/">Baby Products</a></li>
-            <li><a target="_blank" title="Britax car seats" href="http://www.diapers.com/Product/Brand/britax.aspx">Britax
-                Car Seats</a></li>
-        </ul>
-        <h3>Legal</h3>
-        <ul>
-            <li><a href="http://babycenter.com/help-privacy">Privacy Policy</a></li>
-            <li><a href="http://babycenter.com/help-aboutus-terms">Terms of Use</a></li>
-        </ul>
-    </div>
-    <div class="large-3 columns">
-        <h3>Our International Sites</h3>
-        <ul>
-            <li><a href="http://arabia.babycenter.com">Arabia</a></li>
-            <li><a href="http://www.babycenter.com.au">Australia</a></li>
-            <li><a href="http://brasil.babycenter.com/">Brasil</a></li>
-            <li><a href="http://www.babycenter.ca">Canada</a></li>
-            <li><a href="http://cn.babycenter.com">China</a></li>
-            <li><a href="http://www.babycenter.fr">France</a></li>
-            <li><a href="http://www.babycenter.de">Germany</a></li>
-            <li><a href="http://www.babycenter.in">India</a></li>
-            <li><a href="http://www.johnsonsbaby.co.kr/babycenter/">Korea</a></li>
-            <li><a href="http://espanol.babycenter.com">Latin America</a></li>
-            <li><a href="http://www.babycenter.com.my">Malaysia</a></li>
-            <li><a href="http://www.babycenter.ru/">Russia</a></li>
-            <li><a href="http://www.babycentre.co.uk">UK</a></li>
-        </ul>
-    </div>
+    <!--End Footer Links-->
 </div>
 
-
-</div>
 
 <div id="advertise-modal" class="reveal-modal" data-css-top="13">
     <p>Select one of the markets you are interested in:</p>
