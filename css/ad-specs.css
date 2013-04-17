@@ -1,3 +1,8 @@
+.type-header {
+        background: #26aec2;
+        color:white;
+}
+
 
 form.custom{
     margin-top:8px;
@@ -28,6 +33,7 @@ h1{
 
 h3{
     font-weight: lighter;
+    color:white;
 }
 
 

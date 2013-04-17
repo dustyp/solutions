@@ -1,8 +1,12 @@
 <!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>
-<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js" lang="en"> <!--<![endif]-->
+<html class="no-js"> <!--<![endif]-->
 <head>
     <meta charset="utf-8"/>
 
@@ -18,6 +22,10 @@
     <link rel="stylesheet" href="css/ad-specs.css">
 
 
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" media="all" href="css/ie8.css"/>
+    <![endif]-->
+
     <script src="js/vendor/custom.modernizr.js"></script>
     <script src="js/ad-specs.js"></script>
 
@@ -28,6 +36,9 @@
         }
     </script>
 
+    <!--[if lt IE 9]>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 <body>
@@ -64,17 +75,17 @@
         <section class="top-bar-section">
             <ul class="left">
                 <li class="divider"></li>
-                <li><a href="ad-specs.html">AD SPECS</a></li>
+                <li class="active"><a href="ad-specs.html">AD SPECS</a></li>
                 <li class="divider"></li>
                 <li><a href="research-and-insights.html">RESEARCH &amp; INSIGHTS</a></li>
                 <li class="divider"></li>
-                <li class="active"><a href="marketing-solutions.html">MARKETING SOLUTIONS</a></li>
+                <li><a href="marketing-solutions.html">MARKETING SOLUTIONS</a></li>
                 <li class="divider"></li>
                 <li><a href="http://www.babycenter.com/prkit-pressreleases">PRESS</a></li>
                 <li class="divider"></li>
             </ul>
             <ul class="right">
-                <li><a href="#">ADVERTISE WITH US <i class="icon-plus-sign"></i></a></li>
+                <li><a href="#" data-reveal-id="advertise-modal">ADVERTISE WITH US <i class="icon-plus-sign"></i></a></li>
             </ul>
         </section>
     </nav>
@@ -96,195 +107,198 @@
                     <option selected>Other Markets</option>
                 </select>
             </form>
-            <a href="docs/BabyCenter_Solutions_Intl_Ad_Specs_and_Guidelines_20130326.xls">Download in Excel Format</a>
+            <div class="excel-download">
+                <a href="docs/BabyCenter_Solutions_Intl_Ad_Specs_and_Guidelines_20130326.xls">Download in Excel Format</a>
+            </div>
         </div>
     </div>
 </div>
 
-<!-- Start Ad Specificaions -->
+<!-- Ad Specificaions and Guidelines tabbed content-->
 <div class="row">
     <div class="small-12 columns">
-        <div class="section-container auto" data-section data-options="deep_linking: true">
+        <div class="section-container auto" data-section="auto" data-options="deep_linking: true">
+
+            <!--START AD SPECS PANEL-->
             <section class="section">
                 <p class="title">
                     <a href="#panel1">Ad Specifications</a>
                     <span class="show-for-small chevron">
                     <i class="icon-chevron-down"></i></span>
                 </p>
+
                 <div class="content">
-
-                        <div class="large-12 columns">
-                                <dl class="sub-nav">
-                                    <dt><a href="#high-impact">High Impact Units</a></dt>
-                                    <dt><a href="javascript:document.getElementById('iab').scrollIntoView(true)">Standard IAB Units</a></dt>
-                                    <dt><a href="javascript:document.getElementById('email').scrollIntoView(true)">Email</a></dt>
-                                    <dt><a href="javascript:document.getElementById('mobile').scrollIntoView(true)">Mobile</a></dt>
-                                    <dt><a href="javascript:document.getElementById('video').scrollIntoView(true)">Video</a></dt>
-                                    <dt><a href="javascript:document.getElementById('text').scrollIntoView(true)">Integrated Text Units</a></dt>
-
-                                </dl>
-                        </div>
-
-
-<!-- Start High Impact Units-->
                     <div class="row">
+                        <div class="large-12 columns">
+                            <dl class="sub-nav">
+                                <dt><a href="#high-impact">High Impact Units</a></dt>
+                                <dt><a href="javascript:document.getElementById('iab').scrollIntoView(true)">Standard IAB Units</a></dt>
+                                <dt><a href="javascript:document.getElementById('email').scrollIntoView(true)">Email</a></dt>
+                                <dt><a href="javascript:document.getElementById('mobile').scrollIntoView(true)">Mobile</a></dt>
+                                <dt><a href="javascript:document.getElementById('video').scrollIntoView(true)">Video</a></dt>
+                                <dt><a href="javascript:document.getElementById('text').scrollIntoView(true)">Integrated Text Units</a></dt>
+                            </dl>
+                        </div>
+                     </div>
+
+
+                    <!-- Start High Impact Units-->
+                    <div class="row type-header">
                         <div class="small-12 columns">
                             <a name="high-impact"></a>
-
                             <h3>High Impact Units</h3>
                         </div>
                     </div>
+
                     <div class="row hide-for-small">
-                        <div class="large-12 columns table-header">
-                            <div class="row">
-                                <div class="large-2 columns column-header">AD TYPE</div>
-                                <div class="large-2 columns column-header">DIMENSIONS</div>
-                                <div class="large-1 columns column-header">MAXIMUM FILE SIZE</div>
-                                <div class="large-2 columns column-header">LOOP TIME</div>
-                                <div class="large-2 columns column-header">FILE TYPES</div>
-                                <div class="large-3 columns column-header">3rd PARTY SERVING</div>
+                        <div class="large-2 columns column-header">AD TYPE</div>
+                        <div class="large-2 columns column-header">DIMENSIONS</div>
+                        <div class="large-1 columns column-header">MAXIMUM FILE SIZE</div>
+                        <div class="large-2 columns column-header">LOOP TIME</div>
+                        <div class="large-2 columns column-header">FILE TYPES</div>
+                        <div class="large-3 columns column-header">3rd PARTY SERVING</div>
+                    </div>
+
+                    <!--HALF PAGE-->
+                    <div class="row ad-data-row">
+                        <div class="large-2 small-12 columns">
+                            <h4>Half Page</h4>
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">Size</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            Expanded: 500w x 600h;Collapsed: 300w x 600h
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">Max File Size</div>
+                        <div class="large-1 small-9 columns cell-data">
+                            <br class="show-for-small"/>
+                            Initial 40KB, Secondary 140KB
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            15 seconds total animation; no more than 3 loops
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">File Types</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            Only 3rd party ad tags
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">3rd Party Serving</div>
+                        <div class="large-3 small-9 columns cell-data">
+                            Yes, Approved 3rd party rich media vendors only
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="large-12">
+                            <div class="spacer-line">
+                                &nbsp;
                             </div>
                         </div>
                     </div>
-        <!--HALF PAGE-->
-                        <div class="row ad-data-row">
-                            <div class="large-2 small-12 columns">
-                                <h4>Half Page</h4>
-                            </div>
-                            <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                            <div class="large-2 small-9 columns cell-data" id="HighImpactHalfPageDimensions">Collapsed: 300w x 600h
-                                Expanded: 500w x 600h
-                            </div>
-                            <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                            <div class="large-1 small-9 columns cell-data" id="HighImpactHalfPageFileSize">Initial 40KB, Secondary 140KB</div>
-                            <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                            <div class="large-2 small-9 columns cell-data" id="HighImpactHalfPageLoopTIme">15 seconds total animation; no more than 3 loops</div>
-                            <div class="small-3 columns show-for-small cell-label">File Types</div>
-                            <div class="large-2 small-9 columns cell-data" id="HighImpactHalfPageFileTypes">Only 3rd party ad tags</div>
-                            <div class="small-3 columns show-for-small cell-label">3rd Party Serving</div>
-                            <div class="large-3 small-9 columns cell-data" id="HighImpactHalfPage3rdParty">Yes, Approved 3rd party rich media vendors only</div>
-                        </div>
 
-                        <div class="row">
-                            <div class="large-12">
-                                <div class="spacer-line">
-                                    &nbsp;
-                                </div>
-                            </div>
-                        </div>
-        <!--PUSH DOWN-->
-                        <div class="row ad-data-row">
-                            <div class="large-2 small-12 columns">
-                                <h4>Push Down</h4>
-                            </div>
-                            <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                            <div class="large-2 small-9 columns cell-data" id="HighImpactPushDownDimensions">Collapsed: 970w x 66h
-                                Expanded: 970w x 418h
-                            </div>
-                            <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                            <div class="large-1 small-9 columns cell-data" id="HighImpactPushDownFileSize">Initial 40KB, Secondary 140KB</div>
-                            <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                            <div class="large-2 small-9 columns cell-data" id="HighImpactPushDownLoopTime">15 seconds total animation; no more than 3 loops</div>
-                            <div class="small-3 columns show-for-small cell-label">File Types</div>
-                            <div class="large-2 small-9 columns cell-data" id="HighImpactPushDownFileTypes">3rd party tag</div>
-                            <div class="small-3 columns show-for-small cell-label">3rd Party Serving</div>
-                            <div class="large-3 small-9 columns cell-data" id="HighImpactPushDown3rdParty">Yes, Approved 3rd party rich media vendors only; Auto-expand for first impression only, auto-retract after 7 seconds </div>
-                        </div>
-
-
-
-                        <div class="row">
-                            <div class="large-12">
-                                <div class="spacer-line">
-                                    &nbsp;
-                                </div>
-                            </div>
-                        </div>
-
-        <!--WALLPAPER-->
-                        <div class="row ad-data-row">
-                            <div class="large-2 small-12 columns">
-                                <h4>Wallpaper</h4>
-                            </div>
-                            <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                            <div class="large-2 small-9 columns cell-data">1280w with 1100w white space centered in the image</div>
-                            <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                            <div class="large-1 small-9 columns cell-data">80KB</div>
-                            <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                            <div class="large-2 small-9 columns cell-data" >N/A</div>
-                            <div class="small-3 columns show-for-small cell-label">File Types</div>
-                            <div class="large-2 small-9 columns cell-data">GIF or JPG plus click-through URL;
-                                Logo must be smaller than BabyCenter logo and 250 pixels down from the top of the page;
-                                BabyCenter does not allow the color black or red as a background color;
-                                Any talent or product packaging imagery must be below the top 250 pixels of the page and cannot be larger than 125 pixels high and 60 pixels wide;
-                                Any direct CTA included in the design must appear in the right rail only and cannot be included in the left rail;
-                                Creative is subject to BabyCenter approval and must be submitted 10 business days prior to launch.</div>
-                            <div class="small-3 columns show-for-small cell-label">3rd Party Serving</div>
-                            <div class="large-3 small-9 columns cell-data">No</div>
-                        </div>
-
-                        <div class="row">
-                            <div class="large-12">
-                                <div class="spacer-line">
-                                    &nbsp;
-                                </div>
-                            </div>
-                        </div>
-
-        <!--FILMSTRIP-->
-                        <div class="row ad-data-row">
-                            <div class="large-2 small-12 columns">
-                                <h4>Filmstrip</h4>
-                            </div>
-                            <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                            <div class="large-2 small-9 columns cell-data">300w x 600h</div>
-                            <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                            <div class="large-1 small-9 columns cell-data" >Initial 40KB, Secondary 140KB</div>
-                            <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                            <div class="large-2 small-9 columns cell-data" >15 seconds total animation; no more than 3 loops</div>
-                            <div class="small-3 columns show-for-small cell-label">File Types</div>
-                            <div class="large-2 small-9 columns cell-data" >3rd party tag</div>
-                            <div class="small-3 columns show-for-small cell-label">3rd Party Serving</div>
-                            <div class="large-3 small-9 columns cell-data">BabyCenter web sites support the following 3rd party tags:
-                                Atlas, DFA*, DoubleClick
-                                Studio, Flashtalking, MediaMind, PointRoll, All other vendors must be tested and
-                                approved on a case-by-case basis.
-                                *DFA internal redirect in .txt file
-                                <br>
-                                <br>
-                                <a href="#richmediaguidelines" onClick="backToTop();">See Rich Media Guidelines</a>
-                            </div>
-                        </div>
-
-
-
-                        <div class="row">
-                            <div class="large-12">
-                                <div class="spacer-line">
-                                    &nbsp;
-                                </div>
-                            </div>
-                        </div>
-
-
-        <!--BILLBOARD-->
+                    <!--PUSH DOWN-->
                     <div class="row ad-data-row">
                         <div class="large-2 small-12 columns">
-                            <h4>Billboard</h4>
+                            <h4>Push Down</h4>
                         </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data" id="highImpactBillboardDimensions">Expanded: 970w x 250h; <br/>Collapsed: 62w x 88h or 196w x 31h
-                            </div>
+                        <div class="small-3 columns show-for-small cell-label">Size</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            Expanded: 970w x 418h; Collapsed: 970w x 66h
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data" id="highImpactBillboardFileSize">Initial 40KB, Secondary 140KB</div>
+                        <div class="large-1 small-9 columns cell-data">
+                            <br class="show-for-small"/>
+                            Initial 40KB, Secondary 140KB
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data" id="highImpactBillboardLoopTime">15 seconds total animation; no more than 3 loops</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            15 seconds total animation; no more than 3 loops
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data" id="highImpactBillboardFileTypes">3rd party tag</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            3rd party tag
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">3rd Party Serving</div>
-                        <div class="large-3 small-9 columns cell-data" id="highImpactBillboard3rdParty">BabyCenter web sites support the following 3rd party tags:
+                        <div class="large-3 small-9 columns cell-data">
+                            Yes, Approved 3rd party rich media vendors only; Auto-expand for first impression only, auto-retract after 7 seconds
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="large-12">
+                            <div class="spacer-line">
+                                &nbsp;
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--WALLPAPER-->
+                    <div class="row ad-data-row">
+                        <div class="large-2 small-12 columns">
+                            <h4>Wallpaper</h4>
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">Size</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            1280w with 1100w white space centered in the image
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">Max File Size</div>
+                        <div class="large-1 small-9 columns cell-data">
+                            <br class="show-for-small"/>
+                            80KB
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            N/A
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">File Types</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            GIF or JPG plus click-through URL;
+                            Logo must be smaller than BabyCenter logo and 250 pixels down from the top of the page;
+                            BabyCenter does not allow the color black or red as a background color;
+                            Any talent or product packaging imagery must be below the top 250 pixels of the page and cannot be larger than 125 pixels high and 60 pixels wide;
+                            Any direct CTA included in the design must appear in the right rail only and cannot be included in the left rail;
+                            Creative is subject to BabyCenter approval and must be submitted 10 business days prior to launch.
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">3rd Party Serving</div>
+                        <div class="large-3 small-9 columns cell-data">
+                            No
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="large-12">
+                            <div class="spacer-line">
+                                &nbsp;
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--FILMSTRIP-->
+                    <div class="row ad-data-row">
+                        <div class="large-2 small-12 columns">
+                            <h4>Filmstrip</h4>
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">Size</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            300w x 600h
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">Max File Size</div>
+                        <div class="large-1 small-9 columns cell-data" >
+                            <br class="show-for-small"/>
+                            Initial 40KB, Secondary 140KB
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            15 seconds total animation; no more than 3 loops
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">File Types</div>
+                        <div class="large-2 small-9 columns cell-data" >
+                            3rd party tag
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">3rd Party Serving</div>
+                        <div class="large-3 small-9 columns cell-data">
+                            BabyCenter web sites support the following 3rd party tags:
                             Atlas, DFA*, DoubleClick Studio, Flashtalking, MediaMind, PointRoll, All other vendors must be tested and
-                            approved on a case-by-case basis. *DFA internal redirect in .txt file
+                            approved on a case-by-case basis. (DFA internal redirect in .txt file)
                             <br>
                             <br>
                             <a href="#richmediaguidelines" onClick="backToTop();">See Rich Media Guidelines</a>
@@ -293,46 +307,94 @@
 
 
 
-<!-- End High Impact Units -->
+                    <div class="row">
+                        <div class="large-12">
+                            <div class="spacer-line">
+                                &nbsp;
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--BILLBOARD-->
+                    <div class="row ad-data-row">
+                        <div class="large-2 small-12 columns">
+                            <h4>Billboard</h4>
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">Size</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            Expanded: 970w x 250h; Collapsed: 62w x 88h or 196w x 31h
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">Max File Size</div>
+                        <div class="large-1 small-9 columns cell-data">
+                            <br class="show-for-small"/>
+                            Initial 40KB, Secondary 140KB
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">Loop Time</div>
+                        <div class="large-2 small-9 columns cell-data" >
+                            15 seconds total animation; no more than 3 loops
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">File Types</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            3rd party tag
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">3rd Party Serving</div>
+                        <div class="large-3 small-9 columns cell-data" id="highImpactBillboard3rdParty">
+                            BabyCenter web sites support the following 3rd party tags:
+                            Atlas, DFA*, DoubleClick Studio, Flashtalking, MediaMind, PointRoll, All other vendors must be tested and
+                            approved on a case-by-case basis. (DFA internal redirect in .txt file)
+                            <br/>
+                            <br/>
+                            <a href="#richmediaguidelines" onClick="backToTop();">See Rich Media Guidelines</a>
+                        </div>
+                    </div>
+                    <!-- End High Impact Units -->
 
 
                     <p class="backtotop"><a href="#">Back to top</a>
 
-<!-- Start Standard IAB Units -->
-                    <div class="row">
+                    <!-- Start Standard IAB Units -->
+                    <div class="row type-header">
                         <div class="small-12 columns">
                             <a id="iab" name="iab"></a>
-
                             <h3>Standard IAB Units</h3>
                         </div>
                     </div>
+
                     <div class="row hide-for-small">
-                        <div class="large-12 columns table-header">
-                            <div class="row">
-                                <div class="large-2 columns column-header">AD TYPE</div>
-                                <div class="large-2 columns column-header">DIMENSIONS</div>
-                                <div class="large-1 columns column-header">MAXIMUM FILE SIZE</div>
-                                <div class="large-2 columns column-header">LOOP TIME</div>
-                                <div class="large-2 columns column-header">FILE TYPES</div>
-                                <div class="large-3 columns column-header">3rd PARTY SERVING</div>
-                            </div>
-                        </div>
+                        <div class="large-2 columns column-header">AD TYPE</div>
+                        <div class="large-2 columns column-header">DIMENSIONS</div>
+                        <div class="large-1 columns column-header">MAXIMUM FILE SIZE</div>
+                        <div class="large-2 columns column-header">LOOP TIME</div>
+                        <div class="large-2 columns column-header">FILE TYPES</div>
+                        <div class="large-3 columns column-header">3rd PARTY SERVING</div>
                     </div>
-    <!--LEADERBOARD-->
+
+                    <!--LEADERBOARD-->
                     <div class="row ad-data-row">
                         <div class="large-2 small-12 columns">
                             <h4>Leaderboard</h4>
                         </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">728w x 90h</div>
+                        <div class="small-3 columns show-for-small cell-label">Size</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            728w x 90h
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data" >Image: 40KB; 3rd party tags: Initial 40KB, Secondary 140KB</div>
+                        <div class="large-1 small-9 columns cell-data" >
+                            Image: 40KB; 3rd party tags: Initial 40KB, Secondary 140KB
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data" >15 seconds total animation; no more than 3 loops</div>
+                        <div class="large-2 small-9 columns cell-data" >
+                            15 seconds total animation; no more than 3 loops
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data" >GIF, JPEG, SWF, 3rd party ad tags; if utilizing DoubleClick for Advertisers ad tags, internal redirects submitted in a *.txt file required</div>
+                        <div class="large-2 small-9 columns cell-data" >
+                            GIF, JPEG, SWF, 3rd party ad tags; if utilizing DoubleClick for Advertisers ad tags, internal redirects submitted in a *.txt file required
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">3rd Party Serving</div>
-                        <div class="large-3 small-9 columns cell-data">Yes, Approved 3rd party rich media vendors only</div>
+                        <div class="large-3 small-9 columns cell-data">
+                            Yes, Approved 3rd party rich media vendors only
+                        </div>
                     </div>
 
                     <div class="row">
@@ -343,21 +405,31 @@
                         </div>
                     </div>
 
-        <!--SKYSCRAPER-->
+                    <!--SKYSCRAPER-->
                     <div class="row ad-data-row">
                         <div class="large-2 small-12 columns">
                             <h4>Skyscraper</h4>
                         </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">160w x 600h</div>
+                        <div class="small-3 columns show-for-small cell-label">Size</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            160w x 600h
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">Image: 40KB; 3rd party tag: Initial 40KB, Secondary 140KB</div>
+                        <div class="large-1 small-9 columns cell-data">
+                            Image: 40KB; 3rd party tag: Initial 40KB, Secondary 140KB
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data">15 seconds total animation; no more than 3 loops</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            15 seconds total animation; no more than 3 loops
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">GIF, JPEG, SWF, 3rd party ad tags; if utilizing DoubleClick for Advertisers ad tags, internal redirects submitted in a *.txt file required</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            GIF, JPEG, SWF, 3rd party ad tags; if utilizing DoubleClick for Advertisers ad tags, internal redirects submitted in a *.txt file required
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">3rd Party Serving</div>
-                        <div class="large-3 small-9 columns cell-data">Yes, Approved 3rd party rich media vendors only</div>
+                        <div class="large-3 small-9 columns cell-data">
+                            Yes, Approved 3rd party rich media vendors only
+                        </div>
                     </div>
 
                     <div class="row">
@@ -368,22 +440,31 @@
                         </div>
                     </div>
 
-        <!--MEDIUM RECTANGLE-->
+                    <!--MEDIUM RECTANGLE-->
                     <div class="row ad-data-row">
                         <div class="large-2 small-12 columns">
                             <h4>Medium Rectangle</h4>
                         </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data" >300w x 250h
+                        <div class="small-3 columns show-for-small cell-label">Size</div>
+                        <div class="large-2 small-9 columns cell-data" >
+                            300w x 250h
                         </div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">Image: 40KB; 3rd party tag: Initial 40KB, Secondary 140KB</div>
+                        <div class="large-1 small-9 columns cell-data">
+                            Image: 40KB; 3rd party tag: Initial 40KB, Secondary 140KB
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data">15 seconds total animation; no more than 3 loops</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            15 seconds total animation; no more than 3 loops
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">GIF, JPEG, SWF, 3rd party ad tags; if utilizing DoubleClick for Advertisers ad tags, internal redirects submitted in a *.txt file required plus click-through URL; 3rd party tag</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            GIF, JPEG, SWF, 3rd party ad tags; if utilizing DoubleClick for Advertisers ad tags, internal redirects submitted in a *.txt file required plus click-through URL; 3rd party tag
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">3rd Party Serving</div>
-                        <div class="large-3 small-9 columns cell-data">Yes, Approved 3rd party rich media vendors only</div>
+                        <div class="large-3 small-9 columns cell-data">
+                            Yes, Approved 3rd party rich media vendors only
+                        </div>
                     </div>
 
                     <div class="row">
@@ -394,66 +475,81 @@
                         </div>
                     </div>
 
-        <!--LOGO-->
+                    <!--LOGO-->
                     <div class="row ad-data-row">
                         <div class="large-2 small-12 columns">
                             <h4>Logo</h4>
                         </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">88w x 31h
+                        <div class="small-3 columns show-for-small cell-label">Size</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            88w x 31h
                         </div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">30KB</div>
+                        <div class="large-1 small-9 columns cell-data">
+                            <br class="show-for-small"/>
+                            30KB
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data">Static</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            Static
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">GIF or JPEG only, click command or click through required</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            GIF or JPEG only, click command or click through required
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">3rd Party Serving</div>
-                        <div class="large-3 small-9 columns cell-data">No</div>
+                        <div class="large-3 small-9 columns cell-data">
+                            No
+                        </div>
                     </div>
-
-<!-- End Standard IAB Units -->
+                    <!-- End Standard IAB Units -->
 
                     <p class="backtotop"><a href="#">Back to top</a>
 
-<!-- Start Email -->
-                    <div class="row">
+                    <!-- Start Email -->
+                    <div class="row type-header">
                         <div class="small-12 columns">
                             <a id="email" name="email"></a>
-
                             <h3>Email</h3>
                         </div>
                     </div>
+
                     <div class="row hide-for-small">
-                        <div class="large-12 columns table-header">
-                            <div class="row">
                                 <div class="large-2 columns column-header">AD TYPE</div>
                                 <div class="large-2 columns column-header">DIMENSIONS</div>
                                 <div class="large-1 columns column-header">MAXIMUM FILE SIZE</div>
                                 <div class="large-2 columns column-header">RESTRICTIONS</div>
                                 <div class="large-2 columns column-header">FILE TYPES</div>
                                 <div class="large-3 columns column-header">3rd PARTY SERVING</div>
-                            </div>
-                        </div>
                     </div>
 
 
-        <!--STAGED BASED-->
+                    <!--STAGED BASED-->
                     <div class="row ad-data-row">
                         <div class="large-2 small-12 columns">
                             <h4>Stage-Based Newsletter</h4>
                         </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">300w x 250h
+                        <div class="small-3 columns show-for-small cell-label">Size</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            300w x 250h
                         </div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">30KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Restrictions</div>
-                        <div class="large-2 small-9 columns cell-data">N/A</div>
+                        <div class="large-1 small-9 columns cell-data">
+                            <br class="show-for-small"/>
+                            30KB
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">Limits</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            N/A
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">GIF or JPG only, no 3rd party ad tags, click command or click through required</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            GIF or JPG only, no 3rd party ad tags, click command or click through required
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">3rd Party Serving</div>
-                        <div class="large-3 small-9 columns cell-data">No</div>
+                        <div class="large-3 small-9 columns cell-data">
+                            No
+                        </div>
                     </div>
 
                     <div class="row">
@@ -468,42 +564,27 @@
                         <div class="large-2 small-12 columns">
                             <h4>Bulletin Newsletter</h4>
                         </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">300w x 250h</div>
-                        <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">30KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Restrictions</div>
-                        <div class="large-2 small-9 columns cell-data">N/A</div>
-                        <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">GIF or JPG only, no 3rd party ad tags, click command or click through required</div>
-                        <div class="small-3 columns show-for-small cell-label">3rd Party Serving</div>
-                        <div class="large-3 small-9 columns cell-data">No</div>
-                    </div>
-
-                        <div class="row">
-                            <div class="large-12">
-                                <div class="spacer-line">
-                                    &nbsp;
-                                </div>
-                            </div>
+                        <div class="small-3 columns show-for-small cell-label">Size</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            300w x 250h
                         </div>
-
-
-        <!--PARTNER 1-->
-                    <div class="row ad-data-row">
-                        <div class="large-2 small-12 columns">
-                            <h4>Partner Standalone Email Option 1: Client-Provided HTML</h4>
-                        </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">No more than 600w</div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">250KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Restrictions</div>
-                        <div class="large-2 small-9 columns cell-data">Email Subject Line: 35 characters including spaces</div>
+                        <div class="large-1 small-9 columns cell-data">
+                            <br class="show-for-small"/>
+                            30KB
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">Limits</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            N/A
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">HTML tables only; no external style sheets; no Flash, JavaScript, or other non-HTML code permitted; any email including a promotion of any kind MUST include a customer service email address and phone number</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            GIF or JPG only, no 3rd party ad tags, click command or click through required
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">3rd Party Serving</div>
-                        <div class="large-3 small-9 columns cell-data">No</div>
+                        <div class="large-3 small-9 columns cell-data">
+                            No
+                        </div>
                     </div>
 
                     <div class="row">
@@ -514,25 +595,70 @@
                         </div>
                     </div>
 
-        <!--Partner 2-->
+                    <!--PARTNER 1-->
+                    <div class="row ad-data-row">
+                        <div class="large-2 small-12 columns">
+                            <h4>Partner Standalone Email Option 1: Client-Provided HTML</h4>
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">Size</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            No more than 600w
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">Max File Size</div>
+                        <div class="large-1 small-9 columns cell-data">
+                            <br class="show-for-small"/>
+                            250KB
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">Limits</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            Email Subject Line: 35 characters including spaces
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">File Types</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            HTML tables only; no external style sheets; no Flash, JavaScript, or other non-HTML code permitted; any email including a promotion of any kind MUST include a customer service email address and phone number
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">3rd Party Serving</div>
+                        <div class="large-3 small-9 columns cell-data">
+                            No
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="large-12">
+                            <div class="spacer-line">
+                                &nbsp;
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Partner 2-->
                     <div class="row ad-data-row">
                         <div class="large-2 small-12 columns">
                             <h4>Partner Standalone Email Option 2: BabyCenter Template</h4>
                         </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">300w x 250h for image</div>
+                        <div class="small-3 columns show-for-small cell-label">Size</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            300w x 250h for image
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">30KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Restrictions</div>
-                        <div class="large-2 small-9 columns cell-data">Email Subject Line: 35 characters including spaces
-
-                            Headline Copy: 50 characters including spaces
-
-                            Body Copy: 150 words (text provided in Word or Notepad; copy should be final version, with hyperlinked text & urls clearly indicated)  </div>
+                        <div class="large-1 small-9 columns cell-data">
+                            <br class="show-for-small"/>
+                            30KB
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">Limits</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            Email Subject Line: 35 characters including spaces;<br/>
+                            Headline Copy: 50 characters including spaces;<br/>
+                            Body Copy: 150 words (text provided in Word or Notepad; copy should be final version, with hyperlinked text & urls clearly indicated)
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">Static GIF or JPEG only; no animation or looping permitted; no 3rd party ad tags; for click-through URLS, 1 click-through URL for image and up to 3 click-through URLs for linked text in body copy; any copy including a promotion of any kind MUST include a customer service email address and phone number</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            Static GIF or JPEG only; no animation or looping permitted; no 3rd party ad tags; for click-through URLS, 1 click-through URL for image and up to 3 click-through URLs for linked text in body copy; any copy including a promotion of any kind MUST include a customer service email address and phone number
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">3rd Party Serving</div>
-                        <div class="large-3 small-9 columns cell-data">No</div>
+                        <div class="large-3 small-9 columns cell-data">
+                            No
+                        </div>
                     </div>
 
                     <div class="row">
@@ -547,103 +673,122 @@
                         <div class="large-2 small-12 columns">
                             <h4>Free Stuff Great Deals</h4>
                         </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">300w x 250h
+                        <div class="small-3 columns show-for-small cell-label">Size</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            300w x 250h
                         </div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">30KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Restrictions</div>
-                        <div class="large-2 small-9 columns cell-data">50 characters including spaces</div>
+                        <div class="large-1 small-9 columns cell-data">
+                            <br class="show-for-small"/>
+                            30KB
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">Limits</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            50 characters including spaces
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">Static GIF or JPG only; no animation or looping permitted; no 3rd party ad tags</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            Static GIF or JPG only; no animation or looping permitted; no 3rd party ad tags
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">3rd Party Serving</div>
-                        <div class="large-3 small-9 columns cell-data">No
+                        <div class="large-3 small-9 columns cell-data">
+                            No
                         </div>
                     </div>
-
-
-<!-- End Email -->
+                    <!-- End Email -->
 
                     <p class="backtotop"><a href="#">Back to top</a>
 
-<!-- Start Mobile -->
-                    <div class="row">
+                    <!-- Start Mobile -->
+                    <div class="row type-header">
                         <div class="small-12 columns">
                             <a id="mobile" name="mobile"></a>
-
                             <h3>Mobile</h3>
                         </div>
                     </div>
+
                     <div class="row hide-for-small">
-                        <div class="large-12 columns table-header">
-                            <div class="row">
-                                <div class="large-2 columns column-header">AD TYPE</div>
-                                <div class="large-2 columns column-header">DIMENSIONS</div>
-                                <div class="large-1 columns column-header">MAXIMUM FILE SIZE</div>
-                                <div class="large-2 columns column-header">LOOP TIME</div>
-                                <div class="large-2 columns column-header">FILE TYPES</div>
-                                <div class="large-3 columns column-header">3rd PARTY SERVING</div>
-                            </div>
-                        </div>
+                        <div class="large-2 columns column-header">AD TYPE</div>
+                        <div class="large-2 columns column-header">DIMENSIONS</div>
+                        <div class="large-1 columns column-header">MAXIMUM FILE SIZE</div>
+                        <div class="large-2 columns column-header">LOOP TIME</div>
+                        <div class="large-2 columns column-header">FILE TYPES</div>
+                        <div class="large-3 columns column-header">3rd PARTY SERVING</div>
                     </div>
 
                     <div class="row ad-data-row">
                         <div class="large-2 small-12 columns">
                             <h4>Mobile Web 300x50</h4>
                         </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">300w x 50h</div>
+                        <div class="small-3 columns show-for-small cell-label">Size</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            300w x 50h
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">20KB</div>
+                        <div class="large-1 small-9 columns cell-data">
+                            <br class="show-for-small"/>
+                            20KB
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data">15 seconds total animation; no more than 3 loops</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            15 seconds total animation; no more than 3 loops
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">GIF, JPG only at this time. click command or click through to mobile site/page optimized for mobile </div>
+                        <div class="large-2 small-9 columns cell-data">
+                            GIF, JPG only at this time. click command or click through to mobile site/page optimized for mobile
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">3rd Party Serving</div>
-                        <div class="large-3 small-9 columns cell-data">No</div>
+                        <div class="large-3 small-9 columns cell-data">
+                            No
+                        </div>
                     </div>
-
-<!-- End Mobile-->
+                    <!-- End Mobile-->
 
                     <p class="backtotop"><a href="#">Back to top</a>
 
-<!-- Start Video -->
+                    <!-- Start Video -->
                     <div class="row">
                         <div class="small-12 columns">
                             <a id="video" name="video"></a>
-
                             <h3>Video</h3>
                         </div>
                     </div>
+
                     <div class="row hide-for-small">
-                        <div class="large-12 columns table-header">
-                            <div class="row">
-                                <div class="large-2 columns column-header">AD TYPE</div>
-                                <div class="large-2 columns column-header">DIMENSIONS</div>
-                                <div class="large-1 columns column-header">MAXIMUM FILE SIZE</div>
-                                <div class="large-2 columns column-header">LOOP TIME</div>
-                                <div class="large-2 columns column-header">FILE TYPES</div>
-                                <div class="large-3 columns column-header">3rd PARTY SERVING</div>
-                            </div>
-                        </div>
+                        <div class="large-2 columns column-header">AD TYPE</div>
+                        <div class="large-2 columns column-header">DIMENSIONS</div>
+                        <div class="large-1 columns column-header">MAXIMUM FILE SIZE</div>
+                        <div class="large-2 columns column-header">LOOP TIME</div>
+                        <div class="large-2 columns column-header">FILE TYPES</div>
+                        <div class="large-3 columns column-header">3rd PARTY SERVING</div>
                     </div>
 
                     <div class="row ad-data-row">
                         <div class="large-2 small-12 columns">
                             <h4>Pre-Roll Video</h4>
                         </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">480w x 360h</div>
+                        <div class="small-3 columns show-for-small cell-label">Size</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            480w x 360h
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">5MB</div>
+                        <div class="large-1 small-9 columns cell-data">
+                            <br class="show-for-small"/>
+                            5MB
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">Loop Time</div>
-                        <div class="large-2 small-9 columns cell-data">15 seconds</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            15 seconds
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">Video: 300k (no lower than 200k) .MOV  file using the H.264 codec at 29.97 fps; click command or click through required
-
-                            Audio: AAC format in stereo at 44.1 kHz (no higher than 48 kHz); MPEG-4 AAC LC Encoder Setting: "Normal"; Encoding Strategy: "Average Bit Rate"; Target Bit Rate: "195kbps"</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            Video: 300k (no lower than 200k) .MOV  file using the H.264 codec at 29.97 fps; click command or click through required;<br/>
+                            Audio: AAC format in stereo at 44.1 kHz (no higher than 48 kHz); MPEG-4 AAC LC Encoder Setting: "Normal"; Encoding Strategy: "Average Bit Rate"; Target Bit Rate: "195kbps"
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">3rd Party Serving</div>
-                        <div class="large-3 small-9 columns cell-data">Yes, VAST 2.0 Wrapper and Inline</div>
+                        <div class="large-3 small-9 columns cell-data">
+                            Yes, VAST 2.0 Wrapper and Inline
+                        </div>
                     </div>
 
 
@@ -659,63 +804,76 @@
                         <div class="large-2 small-12 columns">
                             <h4>Partner Video</h4>
                         </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">720w minimum
+                        <div class="small-3 columns show-for-small cell-label">Size</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            720w minimum
                         </div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">2GB</div>
-                        <div class="small-3 columns show-for-small cell-label">Restrictions</div>
-                        <div class="large-2 small-9 columns cell-data">Title: 50 characters including spaces (preferred format: "Video title, by Sponsor")
-
+                        <div class="large-1 small-9 columns cell-data">
+                            <br class="show-for-small"/>
+                            2GB
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">Limits</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            Title: 50 characters including spaces (preferred format: "Video title, by Sponsor");<br/>
                             Description: 50 characters including spaces
                         </div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">Video: Uncompressed .MOV master file or 2000k .MOV file (must not use Apple proprietary codec such as Apple ProRes)
-
-                            Audio: AAC format in stereo at 44.1 kHz (no higher than 48 kHz); MPEG-4 AAC LC Encoder Setting: "Normal"; Encoding Strategy: "Average Bit Rate"; Target Bit Rate: "195kbps"</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            Video: Uncompressed .MOV master file or 2000k .MOV file (must not use Apple proprietary codec such as Apple ProRes);<br/>
+                            Audio: AAC format in stereo at 44.1 kHz (no higher than 48 kHz); MPEG-4 AAC LC Encoder Setting: "Normal"; Encoding Strategy: "Average Bit Rate"; Target Bit Rate: "195kbps"
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">3rd Party Serving</div>
-                        <div class="large-3 small-9 columns cell-data">No</div>
+                        <div class="large-3 small-9 columns cell-data">
+                            No
+                        </div>
                     </div>
-
-<!-- End Video -->
+                    <!-- End Video -->
 
                     <p class="backtotop"><a href="#">Back to top</a>
 
-<!-- Start Integrated Text Units -->
-                    <div class="row">
+                    <!-- Start Integrated Text Units -->
+                    <div class="row type-header">
                         <div class="small-12 columns">
                             <a id="text" name="text"></a>
-
                             <h3>Integrated Text Units</h3>
                         </div>
                     </div>
+
                     <div class="row hide-for-small">
-                        <div class="large-12 columns table-header">
-                            <div class="row">
-                                <div class="large-2 columns column-header">AD TYPE</div>
-                                <div class="large-2 columns column-header">DIMENSIONS</div>
-                                <div class="large-1 columns column-header">MAXIMUM FILE SIZE</div>
-                                <div class="large-2 columns column-header">RESTRICTIONS</div>
-                                <div class="large-2 columns column-header">FILE TYPES</div>
-                                <div class="large-3 columns column-header">3rd PARTY SERVING</div>
-                            </div>
-                        </div>
+                        <div class="large-2 columns column-header">AD TYPE</div>
+                        <div class="large-2 columns column-header">DIMENSIONS</div>
+                        <div class="large-1 columns column-header">MAXIMUM FILE SIZE</div>
+                        <div class="large-2 columns column-header">RESTRICTIONS</div>
+                        <div class="large-2 columns column-header">FILE TYPES</div>
+                        <div class="large-3 columns column-header">3rd PARTY SERVING</div>
                     </div>
 
                     <div class="row ad-data-row">
                         <div class="large-2 small-12 columns">
                             <h4>Free Stuff & Great Deals</h4>
                         </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">120w x 90h</div>
+                        <div class="small-3 columns show-for-small cell-label">Size</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            120w x 90h
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">30KB</div>
-                        <div class="small-3 columns show-for-small cell-label">Restrictions</div>
-                        <div class="large-2 small-9 columns cell-data">60 characters including space</div>
+                        <div class="large-1 small-9 columns cell-data">
+                            <br class="show-for-small"/>
+                            30KB
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">Limits</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            60 characters including space
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">Text only, or GIF or JPG only, no 3rd party ad tags, click command or click through required</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            Text only, or GIF or JPG only, no 3rd party ad tags, click command or click through required
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">3rd Party Serving</div>
-                        <div class="large-3 small-9 columns cell-data">No</div>
+                        <div class="large-3 small-9 columns cell-data">
+                            No
+                        </div>
                     </div>
 
                     <div class="row">
@@ -730,16 +888,27 @@
                         <div class="large-2 small-12 columns">
                             <h4>Targeted Text Link</h4>
                         </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">logo: 88w x 31h; plus optional 65w x 65h (recommended: 65x65  image should not be a logo)</div>
+                        <div class="small-3 columns show-for-small cell-label">Size</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            Logo: 88w x 31h; plus optional 65w x 65h (recommended: 65x65  image should not be a logo)
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">30KB</div>
+                        <div class="large-1 small-9 columns cell-data">
+                            <br class="show-for-small"/>
+                            30KB
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">Restritions</div>
-                        <div class="large-2 small-9 columns cell-data">60 characters including spaces</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            60 characters including spaces
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">Text only, or GIF or JPG only, no 3rd party ad tags, click command or click through required</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            Text only, or GIF or JPG only, no 3rd party ad tags, click command or click through required
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">3rd Party Serving</div>
-                        <div class="large-3 small-9 columns cell-data">No</div>
+                        <div class="large-3 small-9 columns cell-data">
+                            No
+                        </div>
                     </div>
 
                     <div class="row">
@@ -754,248 +923,297 @@
                         <div class="large-2 small-12 columns">
                             <h4>Search</h4>
                         </div>
-                        <div class="small-3 columns show-for-small cell-label">Dimensions</div>
-                        <div class="large-2 small-9 columns cell-data">N/A</div>
+                        <div class="small-3 columns show-for-small cell-label">Size</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            N/A
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
-                        <div class="large-1 small-9 columns cell-data">N/A</div>
-                        <div class="small-3 columns show-for-small cell-label">Restrictions</div>
-                        <div class="large-2 small-9 columns cell-data">60 characters including spaces</div>
+                        <div class="large-1 small-9 columns cell-data">
+                            <br class="show-for-small"/>
+                            N/A
+                        </div>
+                        <div class="small-3 columns show-for-small cell-label">Limits</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            60 characters including spaces
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
-                        <div class="large-2 small-9 columns cell-data">Text only, click command or click through required</div>
+                        <div class="large-2 small-9 columns cell-data">
+                            Text only, click command or click through required
+                        </div>
                         <div class="small-3 columns show-for-small cell-label">3rd Party Serving</div>
-                        <div class="large-3 small-9 columns cell-data">No</div>
+                        <div class="large-3 small-9 columns cell-data">
+                            No
+                        </div>
                     </div>
-
-<!-- End Intergrated Text Units -->
+                    <!-- End Intergrated Text Units -->
 
                     <p class="backtotop"><a href="#">Back to top</a>
-
                 </div>
             </section>
-<!-- END AD SPECS -->
+            <!-- END AD SPECS -->
 
-<!-- Start Guidelines -->
+            <!-- Start Guidelines -->
+            <!--START GUIDELINES PANEL-->
             <section class="section">
-                <p class="title">
-                    <a href="#panel2">Guidelines</a>
+            <p class="title">
+                <a href="#panel2">Guidelines</a>
                     <span class="show-for-small chevron">
                         <i class="icon-chevron-down"></i>
                     </span>
-                </p>
-                <div class="content" data-slug="richmediaguidelines" data-section-content>
-<!-- Start Rich Media Guidelines -->
-                    <div class="row">
-                        <div class="large-6 small-12 columns guideline-section">
-                            <a name="richmediaguidelines"></a>
-                            <h5 >Rich Media Guidelines</h5>
+            </p>
 
-                            <h6><b>Flash Guidelines</b></h6>
-                            <ul class="guideline-list">
-                                <li>Flash Version</li>
-                                <li>Flash 11 Reccomended</li>
-                                <li>Flash best practices: here</li>
-                            </ul>
+            <!-- Start Rich Media Guidelines -->
+            <div class="content" data-slug="richmediaguidelines" data-section-content>
+            <div class="row">
+                <div class="large-6 small-12 columns guideline-section">
+                    <a name="richmediaguidelines"></a>
+                    <h5>Rich Media Guidelines</h5>
+                    <h6><b>Flash Guidelines</b></h6>
+                    <ul class="guideline-list">
+                        <li>Flash Version</li>
+                        <li>Flash 11 Recommended</li>
+                        <li>Flash best practices: here</li>
+                    </ul>
 
-                            <h6><b>Maximum File Size</b></h6>
-                            <ul class="guideline-list">
-                                <li>SWF: 40KB</li>
-                                <li>Backup GIF/JPG: 40KB</li>
-                                <li>3rd Party Tag: Initial 40KB, Secondary 140KB</li>
-                                <li>Z-Index: 499</li>
-                            </ul>
+                    <h6><b>Maximum File Size</b></h6>
+                    <ul class="guideline-list">
+                        <li>SWF: 40KB</li>
+                        <li>Backup GIF/JPG: 40KB</li>
+                        <li>3rd Party Tag: Initial 40KB, Secondary 140KB</li>
+                        <li>Z-Index: 499</li>
+                    </ul>
 
-                            <h6><b>Client Tracking</b></h6>
-                            <ul class="guideline-list">
-                                <li>Do not hardcode URL</li>
-                                <li>Flash clickTag per SWF click-through URL must open a new browser window</li>
-                                <li>3rd Party Tag: Initial 40KB, Secondary 140KB</li>
-                                <li>Z-Index: 499</li>
-                            </ul>
+                    <h6><b>Client Tracking</b></h6>
+                    <ul class="guideline-list">
+                        <li>Do not hardcode URL</li>
+                        <li>Flash clickTag per SWF click-through URL must open a new browser window</li>
+                        <li>3rd Party Tag: Initial 40KB, Secondary 140KB</li>
+                        <li>Z-Index: 499</li>
+                    </ul>
 
-                            <h6><b>Audio/Video</b></h6>
-                            <ul class="guideline-list">
-                                <li>Creative must default to no sound. Sound must be activated by user click -- not mouse-over</li>
-                                <li>Video auto-play without sound permitted</li>
-                                <li>Always present, clearly labeled play, pause and mute buttons required</li>
-                            </ul>
-                        </div>
+                    <h6><b>Audio/Video</b></h6>
+                    <ul class="guideline-list">
+                        <li>Creative must default to no sound. Sound must be activated by user click -- not mouse-over</li>
+                        <li>Video auto-play without sound permitted</li>
+                        <li>Always present, clearly labeled play, pause and mute buttons required</li>
+                    </ul>
+                </div>
 
+                <div class="large-6 small-12 columns guideline-section">
+                    <h5>Expanding Rich Media Execution</h5>
+                    <p>For expanding rich media, consider Flash guidelines as well as the following:</p>
+                    <ul class="guideline-list">
+                        <li>Maximum file size is 40 KB on initial load, plus up to 140 KB on secondary load after
+                            mouse-over or click
+                        </li>
+                        <li>Expansion must be user-initiated by mouse-over or click. Hot spot limited to a maximum of 50% of
+                            the area of the collapsed unit.
+                            We recommend using a call-to-action for the mouse-over or clickable area.
+                        </li>
+                        <li>Prominent and clearly labeled "Close" button must be
+                            visible on expanded panels at all times
+                        </li>
+                        <li>A panel initiated by mouse-over must retract immediately when the user withdraws the mouse.
+                            A panel initiated by click can retract when the user withdraws the mouse or clicks the "Close"
+                            button.
+                        </li>
+                        <li>Expanding rich media must be a 3rd party tag. We do not accept expanding SWFs</li>
+                    </ul>
 
-                        <div class="large-6 small-12 columns guideline-section">
-                            <h5>Expanding Rich Media Execution</h5>
-                            <p>For expanding rich media, consider Flash guidlines as well as the following:</p>
-                            <ul class="guideline-list">
-                                <li>Maximum fiule size is 40 KB on initial load, plus up to 140 KB on secondary load after
-                                    mouse-over or click</li>
-                                <li>Expansion must be user-initiated by mouse-over or click. Hot spot limited to a maximum of 50% of
-                                    the area of the collapsed unit.
-                                    We recommend usin a call-to-action for the mouse-over or clickable area.</li>
-                                <li>Prominent and clearly labeled "Close" button must be visible on expanded panels at all times</li>
-                                <li>A panel intiated by mouse-over must reract immediately when the user withdraws the mouse.
-                                    A panel intiated by click can retract when the user withdraws the mouse or clicks thge "Close"
-                                    button.</li>
-                                <li>Expanding rich media must be a 3rd party tag. We do not accept expanding SWFs</li>
-                            </ul>
+                    <h6><b>Expansion Limits</b></h6>
+                    <ul class="guideline-list">
+                        <li>728x90 can expand to a maximum size of 728x350.</li>
+                        <li>160x600 can expand right to a maximum size of 320x600.</li>
+                        <li>300x250 can expand left, up, or down to a maximum size of 500x250 or 300x500</li>
+                        <li>Z-Index: 499</li>
+                    </ul>
 
-                            <h6><b>Expansion Limits</b></h6>
-                            <ul class="guideline-list">
-                                <li>728x90 can expand down to a maximum size of 728x350.</li>
-                                <li>160x600 can expand right to a maximum size of 320x600.</li>
-                                <li>300x250 can expand left, up, or down to a maximum size of 500x250 or 300x500</li>
-                                <li>Z-Index: 499</li>
-                            </ul>
+                    <h6><b>Video-In Banner</b></h6>
+                    <p>
+                        For video in-banner placements, follow Flash and expanding rich media guidelines as well as the
+                        following:
+                    </p>
+                    <ul class="guideline-list">
+                        <li>Maximum file size is 40KB on initial load, plus up to 2.2MB true streaming or progressive
+                            download after mouse-over or click.
+                        </li>
+                        <li>Maximum video length is 30 seconds.</li>
+                    </ul>
 
-                            <h6><b>Video-In Banner</b></h6>
-                            <p>For video in-banner placements, follow Flash and expanding rich media guidelines as well as the
-                            following:</p>
-                            <ul class="guideline-list">
-                                <li>Maximum file size is 40KB on initial load, plus up to 2.2MB true streaming or progressive
-                                    download after mouse-over or click.</li>
-                                <li>Maximum video length is 30 seconds.</li>
-                            </ul>
+                    <h6><b>Mobile Rich Media</b></h6>
+                    <ul class="guideline-list">
+                        <li>Maximum file size is 20 KB on initial load, plus up to 80 KB on secondary load after tap</li>
+                        <li>Expansion must be user-initiated with a tap. Expanded panel should fill the browser screen
+                            (consult your rich media vendor).
+                            A prominent and clearly labeled "Close" button must be visible on expanded panel at all times.
+                        </li>
+                        <li>Maximum in-banner video file size is 1 MB after user taps to play video</li>
+                    </ul>
+                </div>
+            </div>
 
-                            <h6><b>Mobile Rich Media</b></h6>
-                            <ul class="guideline-list">
-                                <li>Maximum file size is 20 KB on initial load, plus up to 80 KB on secondary load after tap</li>
-                                <li>Expansion must be user-initiated with a tap. Expanded panel should fill the browser screen
-                                (consult your rich media vendor).
-                                A prominent and clearly labeled "Close" button must be visible on expanded panel at all times.</li>
-                                <li>Maximum in-banner video file size is 1 MB after user taps to play video</li>
-                            </ul>
-                        </div>
+            <div class="row">
+                <div class="small-12 columns guideline-section">
+                    <h5>Email Guidelines</h5>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="large-6 small-12 columns">
+                    <div class="guideline-section">
+                        <p>
+                            If you are providing HTML for a standalone email, please keep in mind the
+                            following standards and guidelines.
+                        </p>
+
+                        <p>
+                            The client is responsible for testing to ensure that the email creative works as expected across
+                            platforms and email browsers. Those expectations should include customer-defined handling of your email,
+                            such as image blocking, third-party tracking, and whether the email creative will trigger the message
+                            to be considered "spam," either by the customer's ISP or the recipient.
+                        </p>
                     </div>
 
-                    <div class="row">
-                        <div class="small-12 columns guideline-section">
-                            <h5>Email Guidelines</h5>
-                        </div>
-                    </div>
+                    <h6>HTML Code</h6>
+                    <ul class="guideline-list">
+                        <li>Please provide only the HTML to be included in the body of the message.
+                            We will remove and/or replace the &lt;HTML&gt;, &lt;HEAD&gt;, &lt;TITLE&gt;, &lt;SCRIPT&gt;
+                            and &lt;BODY&gt; tags. Any attributes included in those tags in your file will be stripped out.
+                        </li>
+                        <li>Your HTML file needs to be coded using HTML tables and nested tables only.
+                            They are still the standard for email. Table-less layouts (CSS positioning) are not accepted.
+                        </li>
+                        <li>We add the BabyCenter header and footer to all Standalone email. Our content includes the
+                            BabyCenter unsubscribe links.
+                            Do not include any copy that references unsubscribing to a mailing list,
+                            personalization or other features that refer to either the advertisers or BabyCenter's customer data.
+                        </li>
+                        <li>Your HTML email should be no more than 700 pixels wide. File size maximum of 250K</li>
+                        <li>Cascading Style Sheets (CSS) are not supported by many email clients or are supported with
+                            inconsistent results.
+                            For this reason, we do not support external files, such as CSS style sheets, or &lt;SCRIPT&gt;
+                            blocks in the head of the email. They will be removed.
+                        </li>
+                        <li>All URLs for click-through links must be absolute, not relative, and embedded in the code.
+                            BabyCenter will not populate custom click-through URLs.
+                        </li>
+                        <li>Font styles are defined inline in the nearest tag &lt;td&gt;, &lt;a&gt; or &lt;span&gt;.
+                            Include the full font attributes in each tag that contains HTML text or the font may default to
+                            the browser settings.
+                            Define font size in pixels, not points.
+                        </li>
+                        <li>Do not use Flash, video or any kind of rich media in email. It is not supported by most email
+                            browsers. JavaScript does not work in email. Forms are not supported and are not permitted.
+                        </li>
+                        <li>Tags to avoid: Avoid using paragraph tags &lt;p7gt; as they are not recognized in some email
+                            clients. Use 2 break tags &lt;br&gt; instead.
+                            Avoid the use of list tags &lt;ul&gt;, &lt;ol&gt; or &lt;li&gt; as they do not display in some
+                            browsers. Avoid setting margins in the table tag as they do not render consistently across email
+                            clients.
+                        </li>
+                        <li>Avoid commenting out HTML code as it may display in some browsers.</li>
+                        <li>Validate your HTML code. Make sure there are no nesting errors as an improper tag
+                            closing will cause rendering errors in many email clients. Most HTML editors include a
+                            validation utility. Otherwise, go to <a href="http://validator.w3.org/">http://validator.w3.org/</a>
+                        </li>
+                    </ul>
+                </div>
 
-                    <div class="row">
-                        <div class="large-6 small-12 columns">
-                            <div class="guideline-section">
-                            <p>If you are providing HTML for a standalone email, please keep in mind the following standards and
-                                guidelines.</p>
+                <div class="large-6 small-12 columns">
+                    <h6>Images</h6>
+                    <ul class="guideline-list">
+                        <li>Images may either be hosted on your own or provided to BabyCenter along with your
+                            HTML file. Externally-hosted images must have absolute URLs.
+                            Images provided to BabyCenter should be named in lower-case characters
+                            with no spaces, and contained in only one folder, with no nesting.
+                        </li>
+                        <li>All image tags should include height, width, alt and border attributes.
+                            Borders should be set to zero i.e. border="0". All graphics must have their
+                            correct dimensions in the file properties. Do not rely on HTML-defined
+                            dimensions or resize images in HTML code.
+                        </li>
+                        <li>Background images are not recommended as some email clients will strip them out.
+                            If you chose to use background images, make sure that the email still works if they
+                            do not display. Consider whether font type colors will appear if the background images do not.
+                        </li>
+                        <li>Animated GIFs are not permitted.</li>
+                        <li>Image maps are supported but not recommended.</li>
+                        <li>Consider a mix of plain text and images in your email design.
+                            Keep in mind that if images are blocked in a customer's email browser, alt text may
+                            also not appear. Always consider how the message may appear if images do not render
+                            for the user.
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-                            <p>The client is responsible for testing to ensure that the email creative works as expected across
-                                platforms and email browsers.
-                                Those expectations should include customer-defined handling of your email, such as image blocking,
-                                third-party tracking,
-                                and whether the email creative will trigger the message to be considered "spam," either by the
-                                customer's ISP or the recipient.</p>
-                            </div>
-                            <h6>HTML Code</h6>
-                            <ul class="guideline-list">
-                                <li>Please provide only the HTML to be included in the body of the message.
-                                    We will remove and/or replace the &lt;HTML&gt;, &lt;HEAD&gt;, &lt;TITLE&gt;, &lt;SCRIPT&gt;
-                                    and &lt;BODY&gt; tags. Any attributes included in those tags in your file will be stripped out.</li>
-                                <li>Your HTML file needs to be coded using HTML tables and nested tables only.
-                                    They are still the standard for email. Table-less layouts (CSS positioning) are not accepted.</li>
-                                <li>We add the BabyCenter header and footer to all Standalone email. Our content includes the
-                                    BabyCenter unsubscribe links.
-                                    Do not include any copy that references unsubscribing to a mailing list,
-                                    personalization or other features that refer to either the advertisers or BabyCenter's customer
-                                    data.</li>
-                                <li>Your HTML email should be no more than 700 pixels wide. File size maximum of 250K</li>
-                                <li>Cascading Style Sheets (CSS) are not supported by many email clients or are supported with
-                                    inconsistent results.
-                                    For this reason, we do not support external files, such as CSS style sheets, or &lt;SCRIPT&gt;
-                                    blocks in the head of the email. They will be removed.</li>
-                                <li>All URLs for click-through links must be absolute, not relative, and embedded in the code.
-                                    BabyCenter will not populate custom click-through URLs.</li>
-                                <li>Font styles are defined inline in the nearest tag &lt;td&gt;, &lt;a&gt; or &lt;span&gt;.
-                                    Include the full font attributes in each tag that contains HTML text or the font may default to
-                                    the browser settings.
-                                    Define font size in pixels, not points.</li>
-                                <li>Do not use Flash, video or any kind of rich media in email. It is not supported by most email
-                                    browsers. JavaScript does not work in email. Forms are not supported and are not permitted.</li>
-                                <li>Tags to avoid: Avoid using paragraph tags &lt;p7gt; as they are not recognized in some email
-                                    clients. Use 2 break tags &lt;br&gt; instead.
-                                    Avoid the use of list tags &lt;ul&gt;, &lt;ol&gt; or &lt;li&gt; as they do not display in some
-                                    browsers. Avoid setting margins in the table tag as they do not render consistently across email clients.</li>
-                                <li>Avoid commenting out HTML code as it may display in some browsers.</li>
-                                <li>Validate your HTML code. Make sure there are no nesting errors as an improper tag
-                                    closing will cause rendering errors in many email clients. Most HTML editors include a
-                                    validation utility. Otherwise, go to <a href="http://validator.w3.org/">http://validator.w3.org/</a></li>
-                            </ul>
-                        </div>
-                        <div class="large-6 small-12 columns">
-                            <h6>Images</h6>
-                            <ul class="guideline-list">
-                                <li>Images may either be hosted on your own or provided to BabyCenter along with your
-                                    HTML file. Externally-hosted images must have absolute URLs.
-                                    Images provided to BabyCenter should be named in lower-case characters
-                                    with no spaces, and contained in only one folder, with no nesting.</li>
-                                <li>All image tags should include height, width, alt and border attributes.
-                                    Borders should be set to zero i.e. border="0". All graphics must have their
-                                    correct dimensions in the file properties. Do not rely on HTML-defined
-                                    dimensions or resize images in HTML code.</li>
-                                <li>Background images are not recommended as some email clients will strip them out.
-                                    If you chose to use background images, make sure that the email still works if they
-                                    do not display. Consider whether font type colors will appear if the background images do not.</li>
-                                <li>Animated GIFs are not permitted.</li>
-                                <li>Image maps are supported but not recommended.</li>
-                                <li>Consider a mix of plain text and images in your email design.
-                                    Keep in mind that if images are blocked in a customer's email browser, alt text may
-                                    also not appear. Always consider how the message may appear if images do not render
-                                    for the user.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="small-12 columns">
-                            <h5>Anti-Spam Recommendations</h5>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="large-6 small-12 columns">
-                            <h6>Email Content</h6>
-                            <ul class="guideline-list">
-                                <li>Do not capitalize every word. Be extremely selective in using words with all caps.</li>
-                                <li>Avoid excessive use of $ signs and exclamation points.
-                                    Do not use multiple symbols one after another. For example, the following are not
-                                    recommended: Free!! Now!!! Save$$$$</li>
-                                <li>Include the company's name or abbreviation. This is necessary so readers know which advertiser
-                                    the information is coming from</li>
-                                <li>No trademark signs, copyright signs or special symbols. BabyCenter style is to refrain from
-                                    using trademark or copyright signs with brand/product names—we just leave it out altogether.
-                                    This applies to both special symbols (TM, ©, ®) and plain text (TM, (R), (C)).</li>
-                                <li>Avoid sending emails containing more than 50% HTML tags.</li>
-                                <li>Avoid links without an http:// prefix.</li>
-                                <li>Avoid HTML forms.</li>
-                            </ul>
-                        </div>
-                        <div class="large-6 small-12 columns">
-                            <h6>Email Subject Lines</h6>
-                            <ul class="guideline-list">
-                                <li>Subject lines should generally be no more than 50 characters.</li>
-                                <li>Subject lines should be truthful and relate to the message in the body of the email.</li>
-                                <li>Do not use more than two symbols and do not use the combination ($....!) or multiple symbols in
-                                    a row.</li>
-                                <li>Do not use all caps.</li>
-                                <li>Do not create excessive white space between words (e.g., Free Shipping on shoes).</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="small-6 columns">
-                            <a href="http://www.iab.net/iab_products_and_industry_services/508676/compliance/509534 "><img src="images/iab-rich-media.png"/></a>
-                            <a href="http://www.iab.net/iab_products_and_industry_services/508676/compliance/81617 "><img src="images/iab-universal-ad.png"></a>
-                        </div>
-                        <div class="small-6 columns">
-                            <div class="right">
-                                <a href="http://www.babycentersolutions.com/assets/download/IAB_Terms_and_Conditions_2011.pdf" target="_new">BabyCenter Advertising Terms & Conditions</a>
-                                <br/>
-                                <p class="backtotop"><a href="#">Back to top</a>
-                            </div>
-                        </div>
+            <div class="row">
+                <div class="small-12 columns">
+                    <h5>Anti-Spam Recommendations</h5>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="large-6 small-12 columns">
+                    <h6>Email Content</h6>
+                    <ul class="guideline-list">
+                        <li>Do not capitalize every word. Be extremely selective in using words with all caps.</li>
+                        <li>Avoid excessive use of $ signs and exclamation points.
+                            Do not use multiple symbols one after another. For example, the following are not
+                            recommended: Free!! Now!!! Save$$$$
+                        </li>
+                        <li>Include the company's name or abbreviation. This is necessary so readers know which advertiser
+                            the information is coming from
+                        </li>
+                        <li>No trademark signs, copyright signs or special symbols. BabyCenter style is to refrain from
+                            using trademark or copyright signs with brand/product names—we just leave it out altogether.
+                            This applies to both special symbols (TM, ©, ®) and plain text (TM, (R), (C)).
+                        </li>
+                        <li>Avoid sending emails containing more than 50% HTML tags.</li>
+                        <li>Avoid links without an http:// prefix.</li>
+                        <li>Avoid HTML forms.</li>
+                    </ul>
+                </div>
+
+                <div class="large-6 small-12 columns">
+                    <h6>Email Subject Lines</h6>
+                    <ul class="guideline-list">
+                        <li>Subject lines should generally be no more than 50 characters.</li>
+                        <li>Subject lines should be truthful and relate to the message in the body of the email.</li>
+                        <li>Do not use more than two symbols and do not use the combination ($....!) or multiple symbols in a row.</li>
+                        <li>Do not use all caps.</li>
+                        <li>Do not create excessive white space between words (e.g., Free Shipping on shoes).</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="small-6 columns">
+                    <a href="http://www.iab.net/iab_products_and_industry_services/508676/compliance/509534">
+                        <img src="images/iab-rich-media.png"/>
+                    </a>
+                    <a href="http://www.iab.net/iab_products_and_industry_services/508676/compliance/81617">
+                        <img src="images/iab-universal-ad.png">
+                    </a>
+                </div>
+
+                <div class="small-6 columns">
+                    <div class="right">
+                        <a href="http://www.babycentersolutions.com/assets/download/IAB_Terms_and_Conditions_2011.pdf" target="_new">
+                            BabyCenter Advertising Terms & Conditions
+                        </a>
+
+                        <p class="backtotop"><a href="#">Back to top</a>
                     </div>
                 </div>
+            </div>
+            </div>
             </section>
         </div>
     </div>
 </div>
 
+<!--Footer-->
 <div class="row" id="footer">
 <ul class="footerPromos large-12 columns">
     <li class="large-3 small-12 columns">
@@ -1015,22 +1233,22 @@
 
     <li class="large-4 small-12 columns">
         <div>
-            <a href="/mobile-apps" name="FooterBand_AppImage">
+            <a href="http://babycenter.com/mobile-apps" name="FooterBand_AppImage">
                 <div class="wrapperImg footerMobilePic floatLeft"></div>
             </a>
-            <a href="/mobile-apps" name="FooterBand_FreeApp">Get our FREE Apps</a>
+            <a href="http://babycenter.com/mobile-apps" name="FooterBand_FreeApp">Get our FREE Apps</a>
 
             <div class="spacer"></div>
             <ul class="iconList floatLeft">
                 <li>
-                    <a href="/my-pregnancy-today-iphone-application" name="FooterBand_MyPregTodayIcon"><span
+                    <a href="http://babycenter.com/my-pregnancy-today-iphone-application" name="FooterBand_MyPregTodayIcon"><span
                             class="iconSprite iconMyPregToday"></span></a> <a
-                        href="/my-pregnancy-today-iphone-application" name="FooterBand_MyPregToday">My Pregnancy
+                        href="http://babycenter.com/my-pregnancy-today-iphone-application" name="FooterBand_MyPregToday">My Pregnancy
                     Today</a>
                 </li>
                 <li>
-                    <a href="/my-baby-today-app" name="BC_FooterBand_BabyiPhoneAppIcon"><span
-                            class="iconSprite iconMyBabyToday"></span></a> <a href="/my-baby-today-app"
+                    <a href="http://babycenter.com/my-baby-today-app" name="BC_FooterBand_BabyiPhoneAppIcon"><span
+                            class="iconSprite iconMyBabyToday"></span></a> <a href="http://babycenter.com/my-baby-today-app"
                                                                               name="FooterBand_BabyiPhoneApp">My
                     Baby<br>Today </a>
                 </li>
@@ -1082,9 +1300,9 @@
                        name="FooterBand_Twitter">Follow us on Twitter</a>
                 </li>
                 <li>
-                    <a href="/love.htm " name="FooterBand_BCLoveIcon"><span
+                    <a href="http://babycenter.com/love.htm " name="FooterBand_BCLoveIcon"><span
                             class="iconSprite iconLoveLg"></span></a>
-                    <a href="/love.htm " name="FooterBand_BCLove">Love us?</a>
+                    <a href="http://babycenter.com/love.htm " name="FooterBand_BCLove">Love us?</a>
                 </li>
             </ul>
         </div>
@@ -1115,65 +1333,66 @@
     </li>
 </ul>
 
-
 <div class="large-12 columns footerLinks">
     <div class="large-6 small-12 columns">
         <h3>BabyCenter Shortcuts</h3>
-
         <div class="large-6 small-6 columns">
+
             <ul>
-                <li><a href="/getting-pregnant">Getting Pregnant</a></li>
-                <li><a href="/pregnancy">Pregnancy</a></li>
-                <li><a href="/baby">Baby</a></li>
-                <li><a href="/toddler">Toddler</a></li>
-                <li><a href="/preschoolers">Preschoolers</a></li>
-                <li><a href="/big-kid">Big Kid</a></li>
-                <li><a name="Breastfeeding" href="/breastfeeding">Breastfeeding</a></li>
+                <li><a href="http://babycenter.com/getting-pregnant">Getting Pregnant</a></li>
+                <li><a href="http://babycenter.com/pregnancy">Pregnancy</a></li>
+                <li><a href="http://babycenter.com/baby">Baby</a></li>
+                <li><a href="http://babycenter.com/toddler">Toddler</a></li>
+                <li><a href="http://babycenter.com/preschoolers">Preschoolers</a></li>
+                <li><a href="http://babycenter.com/big-kid">Big Kid</a></li>
+                <li><a name="Breastfeeding" href="http://babycenter.com/breastfeeding">Breastfeeding</a></li>
                 <li><a href="http://community.babycenter.com">Community</a></li>
-                <li><a href="/baby-names">Baby Names</a></li>
-                <li><a href="/pregnancy-calendar">Pregnancy Calendar</a></li>
-                <li><a href="/0_pregnancy-symptoms-top-ten-signs-you-mig_1146468.bc">Pregnancy Symptoms</a></li>
-                <li><a href="/pregnancy-due-date-calculator">Pregnancy Calculator</a></li>
-                <li><a href="/pregnancy-fetal-development-index">Pregnancy Stages</a></li>
-                <li><a href="/pregnancy-fetal-development-index">Pregnancy Week by Week</a></li>
-                <li><a href="/text4baby">Text4baby</a></li>
+                <li><a href="http://babycenter.com/baby-names">Baby Names</a></li>
+                <li><a href="http://babycenter.com/pregnancy-calendar">Pregnancy Calendar</a></li>
+                <li><a href="http://babycenter.com/0_pregnancy-symptoms-top-ten-signs-you-mig_1146468.bc">Pregnancy Symptoms</a></li>
+                <li><a href="http://babycenter.com/pregnancy-due-date-calculator">Pregnancy Calculator</a></li>
+                <li><a href="http://babycenter.com/pregnancy-fetal-development-index">Pregnancy Stages</a></li>
+                <li><a href="http://babycenter.com/pregnancy-fetal-development-index">Pregnancy Week by Week</a></li>
+                <li><a href="http://babycenter.com/text4baby">Text4baby</a></li>
             </ul>
+
             <h3>Get Help</h3>
             <ul>
-                <li><a href="/about-us-main">About BabyCenter, L.L.C.</a></li>
-                <li><a href="/help">Help Center</a></li>
-                <li><a href="/presscenter">Press Center</a></li>
-                <li><a href="/help-contactus">Contact Us</a></li>
-                <li><a href="/sitemap">Site Map</a></li>
+                <li><a href="http://babycenter.com/about-us-main">About BabyCenter, L.L.C.</a></li>
+                <li><a href="http://babycenter.com/help">Help Center</a></li>
+                <li><a href="http://babycenter.com/presscenter">Press Center</a></li>
+                <li><a href="http://babycenter.com/help-contactus">Contact Us</a></li>
+                <li><a href="http://babycenter.com/sitemap">Site Map</a></li>
             </ul>
         </div>
+
         <div class="large-6 small-6 columns">
             <!-- footer shortcuts - column 2 -->
             <ul>
-                <li><a href="/ovulation-calculator">Ovulation Calculator</a></li>
-                <li><a href="/childcare-basics">Baby Care</a></li>
-                <li><a href="/baby-milestones">Baby Development</a></li>
-                <li><a href="/baby-solid-feeding-basics">Baby Nutrition</a></li>
-                <li><a href="/0_baby-shower-games_10300277.bc">Baby Shower Games</a></li>
-                <li><a href="/baby-shower-planning">Baby Shower Ideas</a></li>
-                <li><a href="/pregnancy-fetal-development-index">Fetal Development</a></li>
-                <li><a href="/free-baby-stuff">Free Baby Stuff</a></li>
-                <li><a href="/baby-names">Baby Name Meanings</a></li>
-                <li><a href="/horoscopes">Mother-Baby Horoscopes</a></li>
-                <li><a href="/recipes">Food &amp; Recipes</a></li>
+                <li><a href="http://babycenter.com/ovulation-calculator">Ovulation Calculator</a></li>
+                <li><a href="http://babycenter.com/childcare-basics">Baby Care</a></li>
+                <li><a href="http://babycenter.com/baby-milestones">Baby Development</a></li>
+                <li><a href="http://babycenter.com/baby-solid-feeding-basics">Baby Nutrition</a></li>
+                <li><a href="http://babycenter.com/0_baby-shower-games_10300277.bc">Baby Shower Games</a></li>
+                <li><a href="http://babycenter.com/baby-shower-planning">Baby Shower Ideas</a></li>
+                <li><a href="http://babycenter.com/pregnancy-fetal-development-index">Fetal Development</a></li>
+                <li><a href="http://babycenter.com/free-baby-stuff">Free Baby Stuff</a></li>
+                <li><a href="http://babycenter.com/baby-names">Baby Name Meanings</a></li>
+                <li><a href="http://babycenter.com/horoscopes">Mother-Baby Horoscopes</a></li>
+                <li><a href="http://babycenter.com/recipes">Food &amp; Recipes</a></li>
                 <li><a href="http://community.babycenter.com/birth-announcements">Birth Announcements</a></li>
-                <li><a href="/editorialQuestionsLandingPage.htm">Expert Answers</a></li>
-                <li><a href="/get-answers">Mom Answers</a></li>
+                <li><a href="http://babycenter.com/editorialQuestionsLandingPage.htm">Expert Answers</a></li>
+                <li><a href="http://babycenter.com/get-answers">Mom Answers</a></li>
             </ul>
+
             <h3>Membership &amp; Newsletters</h3>
             <ul>
-                <li><a href="/newsletters">Newsletters</a></li>
-                <li><a href="/register.htm?regLoc=3">Register</a></li>
-                <li><a href="/subscriptionDetails.htm">Manage Email Subscriptions</a></li>
-                <li><a href="/accountDetails.htm">Update Account</a></li>
+                <li><a href="http://babycenter.com/newsletters">Newsletters</a></li>
+                <li><a href="http://babycenter.com/register.htm?regLoc=3">Register</a></li>
+                <li><a href="http://babycenter.com/subscriptionDetails.htm">Manage Email Subscriptions</a></li>
+                <li><a href="http://babycenter.com/accountDetails.htm">Update Account</a></li>
             </ul>
         </div>
-
     </div>
     <div class="large-3 columns">
         <h3>Our U.S. Sites</h3>
@@ -1185,12 +1404,14 @@
             <li><a href="http://www.pregnancy.com">Pregnancy.com</a></li>
             <li><a href="http://blogs.babycenter.com">BabyCenter Blog</a></li>
         </ul>
+
         <h3>Behind the Scenes</h3>
         <ul>
             <li><a href="http://www.babycentersolutions.com">Marketing &amp; Advertising Solutions</a></li>
             <li><a href="http://www.babycentersolutions.com/ad-specs-guidelines">Media Kit</a></li>
             <li><a href="http://www.babycenter.com/100_current-job-openings_10339459.bc">Jobs</a></li>
         </ul>
+
         <h3>Shop Diapers.com</h3>
         <ul>
             <li><a target="_blank" title="baby registry" href="http://www.diapers.com/baby-registry/Welcome.aspx">Baby
@@ -1199,11 +1420,12 @@
             <li><a target="_blank" title="Britax car seats" href="http://www.diapers.com/Product/Brand/britax.aspx">Britax
                 Car Seats</a></li>
         </ul>
+
         <h3>Legal</h3>
         <ul>
-            <li><a href="/help-privacy">Privacy Policy</a></li>
-            <li><a href="/help-aboutus-terms">Terms of Use</a></li>
-            <li><a href="/help-privacy#AdChoices"><img
+            <li><a href="http://babycenter.com/help-privacy">Privacy Policy</a></li>
+            <li><a href="http://babycenter.com/help-aboutus-terms">Terms of Use</a></li>
+            <li><a href="http://babycenter.com/help-privacy#AdChoices"><img
                     src="http://assets.babycenter.com/ims/2012/06juneb/adchoices2.jpg"></a></li>
         </ul>
     </div>
@@ -1227,35 +1449,32 @@
     </div>
 </div>
 </div>
+
 <!-- Included JS Files -->
-<script src="js/vendor/zepto.js"></script>
+<script src="js/vendor/jquery.js"></script>
 <script src="js/foundation/foundation.js"></script>
-<script src="js/foundation/foundation.cookie.js"></script>
-<script src="js/foundation/foundation.alerts.js"></script>
-<script src="js/foundation/foundation.clearing.js"></script>
-<script src="js/foundation/foundation.dropdown.js"></script>
-<script src="js/foundation/foundation.forms.js"></script>
-<script src="js/foundation/foundation.joyride.js"></script>
-<script src="js/foundation/foundation.magellan.js"></script>
-<script src="js/foundation/foundation.orbit.js"></script>
-<script src="js/foundation/foundation.placeholder.js"></script>
 <script src="js/foundation/foundation.reveal.js"></script>
-<script src="js/foundation/foundation.section.js"></script>
-<script src="js/foundation/foundation.tooltips.js"></script>
+<script src="js/foundation/foundation.4.1.1.section.babycenter.js"></script>
 <script src="js/foundation/foundation.topbar.js"></script>
+
+
 <!-- Application Javascript, safe to override -->
+
+
 <script>
-    $(document).foundation();
+    $(document).ready(function () {
+        $(document).foundation();
 
-    function backToTop(y){
-       var height = y || 100;
-       window.scrollTo(0,height);
+    });
+    function backToTop(y) {
+        var height = y || 100;
+        window.scrollTo(0, height);
     }
-</script>
 
+</script>
 <!-- End Footer -->
 
-<div id="advertise-modal" class="reveal-modal" >
+<div id="advertise-modal" class="reveal-modal">
     <p>Select one of the markets you are interested in:</p>
     <ul id="lead-form-options">
         <li><a href="#" data-reveal-id="us-form-modal">US</a></li>
@@ -1263,26 +1482,34 @@
         <li><a href="#" data-reveal-id="canada-form-modal">Canada</a></li>
         <li><a href="#" data-reveal-id="other-form-modal">Other Markets</a></li>
     </ul>
-    <a class="close-reveal-modal">×</a>
+    <a class="close-reveal-modal">X</a>
 </div>
 
 <div id="us-form-modal" class="reveal-modal" data-css-top="13">
-    <iframe height="777" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://babycenter.wufoo.com/embed/z7x3p3/"><a href="https://babycenter.wufoo.com/forms/z7x3p3/">Fill out my Wufoo form!</a></iframe>
+    <iframe height="777" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"
+            src="https://babycenter.wufoo.com/embed/z7x3p3/"><a href="https://babycenter.wufoo.com/forms/z7x3p3/">Fill
+        out my Wufoo form!</a></iframe>
     <a class="close-reveal-modal">X</a>
 </div>
 
 <div id="uk-form-modal" class="reveal-modal" data-css-top="13">
-    <iframe height="657" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://babycenter.wufoo.com/embed/m7x3z9/"><a href="https://babycenter.wufoo.com/forms/m7x3z9/">Fill out my Wufoo form!</a></iframe>    <a class="close-reveal-modal">?</a>
+    <iframe height="657" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"
+            src="https://babycenter.wufoo.com/embed/m7x3z9/"><a href="https://babycenter.wufoo.com/forms/m7x3z9/">Fill
+        out my Wufoo form!</a></iframe>
     <a class="close-reveal-modal">X</a>
 </div>
 
 <div id="canada-form-modal" class="reveal-modal" data-css-top="13">
-    <iframe height="597" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://babycenter.wufoo.com/embed/q7x2w5/"><a href="https://babycenter.wufoo.com/forms/q7x2w5/">Fill out my Wufoo form!</a></iframe>    <a class="close-reveal-modal">?</a>
+    <iframe height="597" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"
+            src="https://babycenter.wufoo.com/embed/q7x2w5/"><a href="https://babycenter.wufoo.com/forms/q7x2w5/">Fill
+        out my Wufoo form!</a></iframe>
     <a class="close-reveal-modal">X</a>
 </div>
 
 <div id="other-form-modal" class="reveal-modal" data-css-top="13">
-    <iframe height="597" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://babycenter.wufoo.com/embed/r7x2z1/"><a href="https://babycenter.wufoo.com/forms/r7x2z1/">Fill out my Wufoo form!</a></iframe>    <a class="close-reveal-modal">?</a>
+    <iframe height="597" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"
+            src="https://babycenter.wufoo.com/embed/r7x2z1/"><a href="https://babycenter.wufoo.com/forms/r7x2z1/">Fill
+        out my Wufoo form!</a></iframe>
     <a class="close-reveal-modal">X</a>
 </div>
 
