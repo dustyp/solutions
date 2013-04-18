@@ -378,7 +378,7 @@
                         </div>
                         <div class="small-3 columns show-for-small cell-label">Size</div>
                         <div class="large-2 small-9 columns cell-data" id="iabLeaderboardSize">
-                            428w x 90h
+                            728w x 90h
                         </div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
                         <div class="large-1 small-9 columns cell-data" id="iabLeaderboardFileSize">
@@ -1490,7 +1490,7 @@
                         </div>
                         <div class="small-3 columns show-for-small cell-label">Size</div>
                         <div class="large-2 small-9 columns cell-data">
-                            N/A
+                            88w x 31h
                         </div>
                         <div class="small-3 columns show-for-small cell-label">Max File Size</div>
                         <div class="large-1 small-9 columns cell-data">
@@ -1503,7 +1503,7 @@
                         </div>
                         <div class="small-3 columns show-for-small cell-label">File Types</div>
                         <div class="large-2 small-9 columns cell-data">
-                            Text
+                            Text plus GIF/JPG and click-through URL
                         </div>
                         <div class="small-3 columns show-for-small cell-label">3rd Party Serving</div>
                         <div class="large-3 small-9 columns cell-data">
@@ -1564,9 +1564,9 @@
                             <h5>Rich Media Guidelines</h5>
                             <h6><b>Flash Guidelines</b></h6>
                             <ul class="guideline-list">
-                                <li>Flash Version</li>
+                                <li>Flash 7,8,9 or 10 required</li>
                                 <li>Flash 11 Recommended</li>
-                                <li>Flash best practices: here</li>
+                                <li>Flash best practices: <a href="http://www.adobe.com/accessibility/products/flash/best_practices.html">here</a></li>
                             </ul>
 
                             <h6><b>Maximum File Size</b></h6>
@@ -1577,12 +1577,14 @@
                                 <li>Z-Index: 499</li>
                             </ul>
 
-                            <h6><b>Client Tracking</b></h6>
+                            <h6><b>Click Tracking</b></h6>
                             <ul class="guideline-list">
                                 <li>Do not hardcode URL</li>
-                                <li>Flash clickTag per SWF click-through URL must open a new browser window</li>
-                                <li>3rd Party Tag: Initial 40KB, Secondary 140KB</li>
-                                <li>Z-Index: 499</li>
+                                <li>Flash clickTag required: getURL(clickTag, “_blank”)</li>
+                                <li>One clickTag per SWF</li>
+                                <li>Click-through URL must open a new browser window</li>
+                                <li>Entire area and all frames of SWF must be clickable</li>
+                                <li>Additional clickTag information:<a href="http://www.adobe.com/resources/richmedia/tracking/designers_guide/">http://www.adobe.com/resources/richmedia/tracking/designers_guide/</a></li>
                             </ul>
 
                             <h6><b>Audio/Video</b></h6>
@@ -1699,7 +1701,7 @@
                                 <li>Do not use Flash, video or any kind of rich media in email. It is not supported by most email
                                     browsers. JavaScript does not work in email. Forms are not supported and are not permitted.
                                 </li>
-                                <li>Tags to avoid: Avoid using paragraph tags &lt;p7gt; as they are not recognized in some email
+                                <li>Tags to avoid: Avoid using paragraph tags &lt;p&gt; as they are not recognized in some email
                                     clients. Use 2 break tags &lt;br&gt; instead.
                                     Avoid the use of list tags &lt;ul&gt;, &lt;ol&gt; or &lt;li&gt; as they do not display in some
                                     browsers. Avoid setting margins in the table tag as they do not render consistently across email
