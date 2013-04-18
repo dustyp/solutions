@@ -1,3 +1,7 @@
 h1#logo{
     padding:12px;
 }
+
+form.wufoo {
+    margin-top: 0;
+}
